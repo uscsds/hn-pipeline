@@ -3,5 +3,5 @@ provider "aws" {
 }
 
 module "hn_lambda" {
-  source = "./"  # Reference this directory/module
+  source = "./lambda"  # Reference this directory/module
 }
