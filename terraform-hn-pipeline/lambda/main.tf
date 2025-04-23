@@ -26,6 +26,7 @@ resource "aws_iam_role_policy_attachment" "lambda_s3_write" {
 resource "null_resource" "build_lambda" {
   provisioner "local-exec" {
     command = "${path.module}/build.sh"
+    working_dir = path.module
   }
 
   triggers = {
@@ -35,7 +36,6 @@ resource "null_resource" "build_lambda" {
 
 data "local_file" "lambda_zip" {
   filename   = "${path.module}/lambda.zip"
-  depends_on = [null_resource.build_lambda]
 }
 
 resource "aws_lambda_function" "hn_fetch" {

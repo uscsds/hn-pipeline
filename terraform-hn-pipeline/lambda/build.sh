@@ -1,23 +1,20 @@
 #!/bin/bash
 
-set -e
-
 echo "Packaging Lambda..."
 
-LAMBDA_DIR=$(dirname "$0")
-cd "$LAMBDA_DIR"
+# Remove old build
+rm -rf lambda/venv lambda/package lambda/lambda.zip
+python3 -m venv lambda/venv
+source lambda/venv/bin/activate
 
-rm -f lambda.zip
-rm -rf python
+# Create build directory
+mkdir -p lambda/package
+cp lambda/lambda_function.py lambda/package/
 
-# Install dependencies
-python3 -m venv venv
-source venv/bin/activate
-mkdir -p python
-pip install -r requirements.txt -t python/
+# Install dependencies into build folder
+pip install --target lambda/package/ -r requirements.txt
 
-# Zip the code
-zip -r lambda.zip lambda_function.py python/
-deactivate
-
-echo "Lambda packaged: lambda.zip"
+# Zip everything
+cd lambda/package
+zip -r9 ../lambda.zip .
+cd ..
