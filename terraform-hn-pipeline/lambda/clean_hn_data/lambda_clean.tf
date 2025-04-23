@@ -20,29 +20,19 @@ variable "clean_lambda_zip_key" {
   type        = string
 }
 
-resource "aws_iam_role" "lambda_exec" {
-  name = "lambda-hn-exec-role"
-
-  assume_role_policy = jsonencode({
-    Version = "2012-10-17",
-    Statement = [{
-      Action = "sts:AssumeRole",
-      Principal = {
-        Service = "lambda.amazonaws.com"
-      },
-      Effect = "Allow",
-    }]
-  })
+data "aws_iam_role" "existing_lambda_exec_role" {
+  name = "lambda-hn-exec-role"  # The name of the existing IAM role
 }
 
 resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
-  role       = aws_iam_role.lambda_exec.name
+  role       = data.aws_iam_role.existing_lambda_exec_role.arn  # Reference the existing role ARN
+
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
 resource "aws_iam_role_policy" "lambda_s3_inline" {
   name = "lambda-s3-inline-policy"
-  role = aws_iam_role.lambda_exec.id
+  role = data.aws_iam_role.existing_lambda_exec_role.id  # Reference the existing role id
 
   policy = jsonencode({
     Version = "2012-10-17",
@@ -61,7 +51,7 @@ resource "aws_lambda_function" "clean_hn_data" {
   function_name = "clean_hn_data"
   handler       = "lambda_function.lambda_handler"
   runtime       = "python3.11"
-  role          = aws_iam_role.lambda_exec.arn
+  role          = data.aws_iam_role.existing_lambda_exec_role.arn  # Reference the existing role ARN
 
   s3_bucket = var.lambda_artifact_bucket
   s3_key    = var.clean_lambda_zip_key
@@ -74,14 +64,6 @@ resource "aws_lambda_function" "clean_hn_data" {
       CLEAN_KEY    = "cleaned/hn_cleaned.json"
     }
   }
-}
-
-resource "aws_lambda_permission" "allow_cloudwatch_clean" {
-  statement_id  = "AllowExecutionFromCloudWatchClean"
-  action        = "lambda:InvokeFunction"
-  function_name = aws_lambda_function.clean_hn_data.function_name
-  principal     = "events.amazonaws.com"
-  source_arn    = aws_s3_bucket_notification.trigger_clean_lambda
 }
 
 resource "aws_s3_bucket_notification" "trigger_clean_lambda" {
@@ -98,11 +80,18 @@ resource "aws_s3_bucket_notification" "trigger_clean_lambda" {
   ]
 }
 
+resource "aws_lambda_permission" "allow_cloudwatch_clean" {
+  statement_id  = "AllowExecutionFromCloudWatchClean"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.clean_hn_data.function_name
+  principal     = "events.amazonaws.com"
+  source_arn    = "arn:aws:s3:::${var.raw_data_bucket_name}"  # Correct ARN for S3 bucket
+}
+
 resource "aws_lambda_permission" "allow_s3_trigger_clean" {
   statement_id  = "AllowS3InvokeClean"
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.clean_hn_data.function_name
   principal     = "s3.amazonaws.com"
-  source_arn    = "arn:aws:s3:::${var.raw_data_bucket_name}"
+  source_arn    = "arn:aws:s3:::${var.raw_data_bucket_name}"  # Correct ARN for S3 bucket
 }
-

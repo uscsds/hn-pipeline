@@ -9,11 +9,6 @@ module "hn_lambda" {
 module "hn_lambda_clean" {
   source = "./lambda/clean_hn_data"  # Reference this directory/module
 
-  lambda_artifact_bucket = aws_s3_bucket.lambda_artifacts.bucket
+  lambda_artifact_bucket = "my-hn-lambda-artifacts-123456"
   clean_lambda_zip_key   = "lambda/clean_hn_data/lambda.zip"
-}
-
-resource "aws_s3_bucket" "lambda_artifacts" {
-  bucket = "my-hn-lambda-artifacts-123456"
-  force_destroy = true  # Optional: allows full cleanup
 }
