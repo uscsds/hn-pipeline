@@ -10,3 +10,5 @@ pip install --target package/ -r requirements.txt
 cp lambda_function.py package/
 cd package
 zip -r ../lambda.zip .
+
+aws s3 cp lambda.zip s3://my-lambda-artifacts-123456/lambda/clean_hn_data/lambda.zip

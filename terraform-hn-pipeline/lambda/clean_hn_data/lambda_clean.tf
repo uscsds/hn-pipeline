@@ -10,6 +10,16 @@ variable "clean_data_bucket_name" {
   default     = "hn-cleaned-data-123456"
 }
 
+variable "lambda_artifact_bucket" {
+  description = "S3 bucket where lambda zip artifacts are stored"
+  type        = string
+}
+
+variable "clean_lambda_zip_key" {
+  description = "S3 key (path) for the clean lambda zip"
+  type        = string
+}
+
 resource "aws_iam_role" "lambda_exec" {
   name = "lambda-hn-exec-role"
 
@@ -53,8 +63,8 @@ resource "aws_lambda_function" "clean_hn_data" {
   runtime       = "python3.11"
   role          = aws_iam_role.lambda_exec.arn
 
-  filename         = "${path.module}/clean_hn_data/lambda.zip"
-  source_code_hash = filebase64sha256("${path.module}/lambda.zip")
+  s3_bucket = var.lambda_artifact_bucket
+  s3_key    = var.clean_lambda_zip_key
 
   environment {
     variables = {
@@ -66,16 +76,12 @@ resource "aws_lambda_function" "clean_hn_data" {
   }
 }
 
-data "local_file" "lambda_zip" {
-  filename = "${path.module}/lambda.zip"
-}
-
 resource "aws_lambda_permission" "allow_cloudwatch_clean" {
   statement_id  = "AllowExecutionFromCloudWatchClean"
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.clean_hn_data.function_name
   principal     = "events.amazonaws.com"
-  source_arn    = aws_s3_bucket_notification.trigger_clean_lambda.arn
+  source_arn    = aws_s3_bucket_notification.trigger_clean_lambda
 }
 
 resource "aws_s3_bucket_notification" "trigger_clean_lambda" {
