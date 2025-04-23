@@ -1,6 +1,8 @@
+
 variable "raw_data_bucket_name" {
   description = "Name of the raw data S3 bucket"
   type        = string
+  default     = "hn-raw-data-123456"
 }
 
 resource "aws_iam_role" "lambda_exec" {

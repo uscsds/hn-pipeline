@@ -3,3 +3,4 @@ variable "bucket_name" {
   type        = string
   default     = "my-hn-data-bucket"  # replace or override via CLI
 }
+

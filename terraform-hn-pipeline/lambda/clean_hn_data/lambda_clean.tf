@@ -1,3 +1,52 @@
+variable "raw_data_bucket_name" {
+  description = "Name of the raw data S3 bucket"
+  type        = string
+  default     = "hn-raw-data-123456"
+}
+
+variable "clean_data_bucket_name" {
+  description = "Name of the raw data S3 bucket"
+  type        = string
+  default     = "hn-cleaned-data-123456"
+}
+
+resource "aws_iam_role" "lambda_exec" {
+  name = "lambda-hn-exec-role"
+
+  assume_role_policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [{
+      Action = "sts:AssumeRole",
+      Principal = {
+        Service = "lambda.amazonaws.com"
+      },
+      Effect = "Allow",
+    }]
+  })
+}
+
+resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
+  role       = aws_iam_role.lambda_exec.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
+}
+
+resource "aws_iam_role_policy" "lambda_s3_inline" {
+  name = "lambda-s3-inline-policy"
+  role = aws_iam_role.lambda_exec.id
+
+  policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [
+      {
+        Effect = "Allow",
+        Action = ["s3:PutObject"],
+        Resource = ["arn:aws:s3:::${var.raw_data_bucket_name}/*","arn:aws:s3:::${var.clean_data_bucket_name}/*"]
+      }
+    ]
+  })
+}
+
+
 resource "aws_lambda_function" "clean_hn_data" {
   function_name = "clean_hn_data"
   handler       = "lambda_function.lambda_handler"
@@ -5,12 +54,12 @@ resource "aws_lambda_function" "clean_hn_data" {
   role          = aws_iam_role.lambda_exec.arn
 
   filename         = "${path.module}/clean_hn_data/lambda.zip"
-  source_code_hash = filebase64sha256("${path.module}/clean_hn_data/lambda.zip")
+  source_code_hash = filebase64sha256("${path.module}/lambda.zip")
 
   environment {
     variables = {
-      RAW_BUCKET   = var.raw_bucket
-      CLEAN_BUCKET = var.cleaned_bucket
+      RAW_BUCKET   = var.raw_data_bucket_name
+      CLEAN_BUCKET = var.clean_data_bucket_name
       RAW_KEY      = "raw/hn_dump.json"
       CLEAN_KEY    = "cleaned/hn_cleaned.json"
     }
@@ -18,7 +67,7 @@ resource "aws_lambda_function" "clean_hn_data" {
 }
 
 data "local_file" "lambda_zip" {
-  filename = "${path.module}/clean_hn_data/lambda.zip"
+  filename = "${path.module}/lambda.zip"
 }
 
 resource "aws_lambda_permission" "allow_cloudwatch_clean" {
@@ -26,5 +75,28 @@ resource "aws_lambda_permission" "allow_cloudwatch_clean" {
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.clean_hn_data.function_name
   principal     = "events.amazonaws.com"
-  source_arn    = aws_cloudwatch_event_rule.fetch_rule.arn
+  source_arn    = aws_s3_bucket_notification.trigger_clean_lambda.arn
 }
+
+resource "aws_s3_bucket_notification" "trigger_clean_lambda" {
+  bucket = var.raw_data_bucket_name
+
+  lambda_function {
+    lambda_function_arn = aws_lambda_function.clean_hn_data.arn
+    events              = ["s3:ObjectCreated:*"]
+    filter_prefix       = "raw/hn_dump.json"
+  }
+
+  depends_on = [
+    aws_lambda_permission.allow_s3_trigger_clean
+  ]
+}
+
+resource "aws_lambda_permission" "allow_s3_trigger_clean" {
+  statement_id  = "AllowS3InvokeClean"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.clean_hn_data.function_name
+  principal     = "s3.amazonaws.com"
+  source_arn    = "arn:aws:s3:::${var.raw_data_bucket_name}"
+}
+

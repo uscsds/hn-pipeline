@@ -4,6 +4,8 @@ provider "aws" {
 
 module "hn_lambda" {
   source = "./lambda"  # Reference this directory/module
+}
 
-  raw_data_bucket_name = aws_s3_bucket.hn_raw.bucket
+module "hn_lambda_clean" {
+  source = "./lambda/clean_hn_data"  # Reference this directory/module
 }
