@@ -3,7 +3,7 @@
 echo "Packaging Lambda..."
 
 # Remove old build
-rm -rf lambda/venv lambda/package lambda/lambda.zip
+rm -rf venv package lambda.zip
 python3 -m venv venv
 source venv/bin/activate
 
