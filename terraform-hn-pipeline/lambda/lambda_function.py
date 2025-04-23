@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     item_url = "https://hacker-news.firebaseio.com/v0/item/{}.json"
 
     response = requests.get(top_stories_url)
-    story_ids = response.json()[:10]  # Fetch top 10 stories
+    story_ids = response.json()[:10]  # Fetch top 10 stories 
 
     stories = []
     for sid in story_ids:
