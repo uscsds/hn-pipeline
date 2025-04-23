@@ -23,14 +23,29 @@ resource "aws_iam_role_policy_attachment" "lambda_s3_write" {
   policy_arn = "arn:aws:iam::aws:policy/AmazonS3FullAccess"
 }
 
+resource "null_resource" "build_lambda" {
+  provisioner "local-exec" {
+    command = "${path.module}/build.sh"
+  }
+
+  triggers = {
+    always_run = timestamp()
+  }
+}
+
+data "local_file" "lambda_zip" {
+  filename   = "${path.module}/lambda.zip"
+  depends_on = [null_resource.build_lambda]
+}
+
 resource "aws_lambda_function" "hn_fetch" {
-  filename         = "${path.module}/lambda.zip"
-  function_name    = "fetch_hn_data"
+  function_name    = "fetch_hn-fetch"
   role             = aws_iam_role.lambda_exec.arn
   handler          = "lambda_function.lambda_handler"
   runtime          = "python3.11"
+  filename         = data.local_file.lambda_zip.filename
+  source_code_hash = filebase64sha256(data.local_file.lambda_zip.filename)
   timeout          = 60
-  source_code_hash = filebase64sha256("${path.module}/lambda.zip")
 }
 
 resource "aws_cloudwatch_event_rule" "every_hour" {
@@ -51,3 +66,4 @@ resource "aws_lambda_permission" "allow_cloudwatch" {
   principal     = "events.amazonaws.com"
   source_arn    = aws_cloudwatch_event_rule.every_hour.arn
 }
+
