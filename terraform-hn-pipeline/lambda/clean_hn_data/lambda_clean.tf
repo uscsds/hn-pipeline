@@ -20,19 +20,24 @@ variable "clean_lambda_zip_key" {
   type        = string
 }
 
-data "aws_iam_role" "existing_lambda_exec_role" {
-  name = "lambda-hn-exec-role"  # The name of the existing IAM role
+variable "lambda_role_name" {
+  type        = string
+  description = "IAM role name for the Lambda function"
+}
+variable "lambda_role_arn" {
+  type        = string
+  description = "IAM role arn for the Lambda function"
 }
 
 resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
-  role       = data.aws_iam_role.existing_lambda_exec_role.arn  # Reference the existing role ARN
+  role       = var.lambda_role_arn  # Reference the existing role ARN
 
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
 resource "aws_iam_role_policy" "lambda_s3_inline" {
   name = "lambda-s3-inline-policy"
-  role = data.aws_iam_role.existing_lambda_exec_role.id  # Reference the existing role id
+  role = var.lambda_role_name
 
   policy = jsonencode({
     Version = "2012-10-17",
@@ -51,10 +56,11 @@ resource "aws_lambda_function" "clean_hn_data" {
   function_name = "clean_hn_data"
   handler       = "lambda_function.lambda_handler"
   runtime       = "python3.11"
-  role          = data.aws_iam_role.existing_lambda_exec_role.arn  # Reference the existing role ARN
+  role          = var.lambda_role_arn
 
-  s3_bucket = var.lambda_artifact_bucket
-  s3_key    = var.clean_lambda_zip_key
+  filename         = "${path.module}/lambda.zip"  # local path
+  # s3_bucket = var.lambda_artifact_bucket
+  # s3_key    = var.clean_lambda_zip_key
 
   environment {
     variables = {

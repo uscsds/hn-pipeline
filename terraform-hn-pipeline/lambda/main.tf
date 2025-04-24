@@ -4,30 +4,20 @@ variable "raw_data_bucket_name" {
   type        = string
   default     = "hn-raw-data-123456"
 }
-
-resource "aws_iam_role" "lambda_exec" {
-  name = "lambda-hn-exec-role"
-
-  assume_role_policy = jsonencode({
-    Version = "2012-10-17",
-    Statement = [{
-      Action = "sts:AssumeRole",
-      Principal = {
-        Service = "lambda.amazonaws.com"
-      },
-      Effect = "Allow",
-    }]
-  })
+variable "lambda_role_name" {
+  type        = string
+  description = "IAM role name for the Lambda function"
+}
+variable "lambda_role_arn" {
+  type        = string
+  description = "IAM role arn for the Lambda function"
 }
 
-resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
-  role       = aws_iam_role.lambda_exec.name
-  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
-}
+
 
 resource "aws_iam_role_policy" "lambda_s3_inline" {
   name = "lambda-s3-inline-policy"
-  role = aws_iam_role.lambda_exec.id
+  role = var.lambda_role_name
 
   policy = jsonencode({
     Version = "2012-10-17",
@@ -51,7 +41,7 @@ data "local_file" "lambda_zip" {
 
 resource "aws_lambda_function" "hn_fetch" {
   function_name    = "fetch_hn-fetch"
-  role             = aws_iam_role.lambda_exec.arn
+  role             = var.lambda_role_arn
   handler          = "lambda_function.lambda_handler"
   runtime          = "python3.11"
   filename         = data.local_file.lambda_zip.filename

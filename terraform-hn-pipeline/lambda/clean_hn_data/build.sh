@@ -11,4 +11,4 @@ cp lambda_function.py package/
 cd package
 zip -r ../lambda.zip .
 cd ..
-aws s3 cp lambda.zip s3://my-hn-lambda-artifacts-123456/lambda/clean_hn_data/lambda.zip
+#aws s3 cp lambda.zip s3://my-hn-lambda-artifacts-123456/lambda/clean_hn_data/lambda.zip
