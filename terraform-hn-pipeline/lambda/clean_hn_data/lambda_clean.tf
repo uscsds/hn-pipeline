@@ -30,7 +30,7 @@ variable "lambda_role_arn" {
 }
 
 resource "aws_iam_role_policy_attachment" "lambda_basic_execution" {
-  role       = var.lambda_role_arn  # Reference the existing role ARN
+  role       = var.lambda_role_name
 
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }

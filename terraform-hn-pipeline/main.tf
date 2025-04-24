@@ -21,5 +21,5 @@ module "hn_lambda_clean" {
 
 module "shared_lambda_role" {
   source    = "./shared/iam_role_lambda"
-  role_name = "shared-lambda-role"
+  role_name = "lambda-hn-exec-role"
 }
