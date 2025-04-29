@@ -1,2 +1,6 @@
 requests
 boto3
+textblob
+nltk
+s3transfer
+spacy==3.7.2

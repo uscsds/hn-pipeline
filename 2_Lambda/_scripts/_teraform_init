@@ -1,0 +1,72 @@
+#install Terraform on Ubuntu server -> copy to User-data when launching EC2 instance
+
+#!/bin/bash
+apt-get update -y
+apt-get install -y gnupg software-properties-common curl unzip git
+curl -fsSL https://apt.releases.hashicorp.com/gpg | gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | tee /etc/apt/sources.list.d/hashicorp.list
+apt-get update -y
+apt-get install -y terraform
+# Install Python 3.11 and venv
+apt-get update -y
+apt-get install -y python3-pip zip
+sudo apt update
+sudo apt install -y software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa -y
+sudo apt update
+sudo apt install -y python3.11 python3.11-venv python3.11-distutils
+# Optional: make python3.11 the default python3
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 2
+sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip3.11 1
+
+###########################################################################################
+
+# copy keys from local machine to EC2 - change EC2 domain name appropriately
+cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-54-237-216-143.compute-1.amazonaws.com "cat >> .ssh/identity"
+scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-54-237-216-143.compute-1.amazonaws.com:~/.ssh/id_rsa
+ssh -i "ec2-key.pem"  ubuntu@ec2-54-237-216-143.compute-1.amazonaws.com
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/id_rsa
+#eval "$(ssh-agent -s)"
+#ssh-add ~/.ssh/gitaccess
+# Clone source of terraform to apply on EC2
+cd ~  # cd /home/ubuntu/
+git clone git@github.com:uscsds/hn-pipeline.git
+cd hn-pipeline/terraform-hn-pipeline
+
+
+# Run build lambda source
+#sudo yum update -y   # for Amazon Linux
+#sudo yum install aws-cli -y   # for Amazon Linux
+sudo apt-get update
+sudo apt-get install unzip curl -y
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+##############################################################################################
+####### This is by passed for now => (CREARE S3 BUCKET "my-hn-lambda-artifacts-123456" BEFORE BELOW STEP) ###################
+chmod +x lambda/build.sh
+chmod +x lambda/clean_hn_data/build.sh
+cd lambda
+./build.sh
+cd clean_hn_data
+./build.sh
+cd ../..
+
+
+# Apply terraform lambda
+terraform -v
+terraform init
+terraform validate
+# run each time need to apply updated setup
+terraform plan -out=tfplan
+terraform apply tfplan
+
+
+
+##########################################################################################
+#Create SSH key on local machine to connect to git repository. Save the key to the default directory, ~/.ssh
+ssh-keygen -t rsa -b 4096 -C git_acount_email_address_to_clone_source_code
+chmod 600 ~/.ssh/id_rsa
+ssh-add -k ~/.ssh/id_rsa

@@ -67,7 +67,7 @@ resource "aws_lambda_function" "clean_hn_data" {
       RAW_BUCKET   = var.raw_data_bucket_name
       CLEAN_BUCKET = var.clean_data_bucket_name
       RAW_KEY      = "raw/hn_dump.json"
-      CLEAN_KEY    = "cleaned/hn_cleaned.json"
+      CLEAN_KEY_PREFIX    = "cleaned/hn_top_cleaned"
     }
   }
 }

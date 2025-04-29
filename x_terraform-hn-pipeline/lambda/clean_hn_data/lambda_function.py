@@ -35,7 +35,7 @@ def lambda_handler(event, context):
     raw_bucket = os.environ['RAW_BUCKET']
     clean_bucket = os.environ['CLEAN_BUCKET']
     raw_key = os.environ['RAW_KEY']  # e.g., raw/hn_dump.json
-    clean_key = os.environ['CLEAN_KEY']  # e.g., cleaned/hn_cleaned.json
+    clean_key = os.environ['CLEAN_KEY']  # e.g., cleaned/hn_top_cleaned
 
     obj = s3.get_object(Bucket=raw_bucket, Key=raw_key)
     raw_data = json.loads(obj['Body'].read())

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 43800472,
+    "title": "still standing",
+    "score": 61,
+    "time": 1745635794,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 16,
+    "url": "https://blog.4chan.org/post/781845918774394880/still-standing"
+  },
+  {
+    "id": 43816582,
+    "title": "major offshore wind developer has stopped activities in united states",
+    "score": 4,
+    "time": 1745802698,
+    "text": "",
+    "sentiment": 0.06,
+    "kidsSize": 0,
+    "url": "https://finance.yahoo.com/news/rwe-stopped-offshore-wind-activities-064323305.html"
+  },
+  {
+    "id": 43815673,
+    "title": "jpmc: an open letter to third-party suppliers",
+    "score": 14,
+    "time": 1745793169,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 0,
+    "url": "https://www.jpmorgan.com/technology/technology-blog/open-letter-to-our-suppliers"
+  },
+  {
+    "id": 43815033,
+    "title": "ai coding assistants provide little value because a programmer's job is to think",
+    "score": 88,
+    "time": 1745787080,
+    "text": "",
+    "sentiment": -0.19,
+    "kidsSize": 50,
+    "url": "https://www.doliver.org/articles/programming-is-a-thinkers-game"
+  },
+  {
+    "id": 43815247,
+    "title": "why \"learn to code\" failed [polymatter] [video]",
+    "score": 14,
+    "time": 1745788910,
+    "text": "",
+    "sentiment": -0.5,
+    "kidsSize": 5,
+    "url": "https://www.youtube.com/watch?v=bThPluSzlDU"
+  },
+  {
+    "id": 43814155,
+    "title": "your.org ftp server",
+    "score": 6,
+    "time": 1745779440,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 3,
+    "url": "https://163.237.219.7"
+  },
+  {
+    "id": 43814000,
+    "title": "show hn: i made a one-click ai ad creator for products",
+    "score": 3,
+    "time": 1745778064,
+    "text": "hi hn!i recently built admuseai \u2014 a simple ai tool that generates product ad creatives using just one main product image (plus optional reference styles). built in 24 hours thanks to vibe-coding!why i made it:\ni noticed that creating good-looking ad creatives often needs a designer or a lot of time. i wanted a faster way to turn product photos into polished ads \u2014 no editing skills required.how it works:\n- upload a product image- (optional) upload a few reference images for style inspiration- write a short prompt- generate \u2192 download your ad creatives!~~ free for limited time ~~no account&#x2f;signup needed \u2014 you can just use it directly!link: https:&#x2f;&#x2f;admuseai.comwould love any feedback \u2014 ui&#x2f;ux thoughts, feature ideas, or anything else! \nthanks for checking it out.",
+    "sentiment": 0.13,
+    "kidsSize": 1,
+    "url": "https://admuseai.com"
+  },
+  {
+    "id": 43814724,
+    "title": "we need more optimistic science fiction",
+    "score": 11,
+    "time": 1745784676,
+    "text": "",
+    "sentiment": 0.5,
+    "kidsSize": 1,
+    "url": "https://craig-russell.co.uk/blog/2024-10-24-optimistic-sci-fi/"
+  },
+  {
+    "id": 43815760,
+    "title": "microsoft says it will buy 8m tons of carbon offsets (2024)",
+    "score": 4,
+    "time": 1745793975,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 0,
+    "url": "https://www.wsj.com/articles/turning-brazilian-farmland-back-into-forest-gains-some-traction-9965350c"
+  },
+  {
+    "id": 43814942,
+    "title": "bssg: a simple static site generator written in bash",
+    "score": 13,
+    "time": 1745786467,
+    "text": "",
+    "sentiment": 0.25,
+    "kidsSize": 0,
+    "url": "https://bssg.dragas.net/"
+  },
+  {
+    "id": 43815344,
+    "title": "astronomers find earth-like exoplanets common across the cosmos",
+    "score": 6,
+    "time": 1745789888,
+    "text": "",
+    "sentiment": -0.3,
+    "kidsSize": 1,
+    "url": "https://news.osu.edu/astronomers-find-earth-like-exoplanets-common-across-the-cosmos/"
+  }
+]

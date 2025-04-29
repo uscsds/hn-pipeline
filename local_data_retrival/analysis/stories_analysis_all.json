@@ -1,0 +1,5477 @@
+{
+  "score_summary": {
+    "total_stories": 316,
+    "total_score": 38034,
+    "average_score": 120.36075949367088,
+    "top_stories": [
+      {
+        "id": 43815523,
+        "title": "ask hn: what are you working on? (april 2025)",
+        "score": 170,
+        "time": 1745791701,
+        "text": "what are you working on? any new ideas that you&#x27;re thinking about?",
+        "sentiment": 0.14,
+        "kidsSize": 289,
+        "url": [],
+        "textLength": 71,
+        "hour": "22",
+        "keywords": [
+          "hn",
+          "(april"
+        ]
+      },
+      {
+        "id": 43794284,
+        "title": "a $20k american-made electric pickup with no paint, no stereo, no screen",
+        "score": 1394,
+        "time": 1745593297,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 200,
+        "url": "https://www.theverge.com/electric-cars/655527/slate-electric-truck-price-paint-radio-bezos",
+        "textLength": 0,
+        "hour": "15",
+        "keywords": [
+          "a $20k american-made electric pickup",
+          "no paint",
+          "no screen"
+        ]
+      },
+      {
+        "id": 43782299,
+        "title": "ask hn: share your ai prompt that stumps every model",
+        "score": 389,
+        "time": 1745500282,
+        "text": "i had an idea for creating a crowdsourced database of ai prompts that no ai model could yet crack (wanted to use some of them as we&#x27;re adding new models to kilo code).i&#x27;ve seen a bunch of those prompts scattered across hn, so thought to open a thread here so we can maybe have a centralied location for this.share your prompt that stumps every ai model here.",
+        "sentiment": 0.07,
+        "kidsSize": 171,
+        "url": [],
+        "textLength": 368,
+        "hour": "13",
+        "keywords": [
+          "every model",
+          "hn"
+        ]
+      },
+      {
+        "id": 43780377,
+        "title": "mark zuckerberg says social media is over",
+        "score": 515,
+        "time": 1745482763,
+        "text": "",
+        "sentiment": 0.03,
+        "kidsSize": 145,
+        "url": "https://www.newyorker.com/culture/infinite-scroll/mark-zuckerberg-says-social-media-is-over",
+        "textLength": 0,
+        "hour": "08",
+        "keywords": [
+          "mark zuckerberg",
+          "social media"
+        ]
+      },
+      {
+        "id": 43773813,
+        "title": "ai horseless carriages",
+        "score": 815,
+        "time": 1745425196,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 103,
+        "url": "https://koomen.dev/essays/horseless-carriages/",
+        "textLength": 0,
+        "hour": "16",
+        "keywords": [
+          "horseless carriages"
+        ]
+      },
+      {
+        "id": 43780815,
+        "title": "on loyalty to your employer (2018)",
+        "score": 409,
+        "time": 1745487828,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 79,
+        "url": "https://medium.com/hackernoon/on-loyalty-to-your-employer-c674c4b06b3a",
+        "textLength": 0,
+        "hour": "09",
+        "keywords": [
+          "loyalty",
+          "your employer"
+        ]
+      },
+      {
+        "id": 43803243,
+        "title": "watching o3 guess a photo's location is surreal, dystopian and entertaining",
+        "score": 926,
+        "time": 1745672648,
+        "text": "",
+        "sentiment": 0.38,
+        "kidsSize": 75,
+        "url": "https://simonwillison.net/2025/Apr/26/o3-photo-locations/",
+        "textLength": 0,
+        "hour": "13",
+        "keywords": [
+          "a photo's location",
+          "o3"
+        ]
+      },
+      {
+        "id": 43799302,
+        "title": "wikipedia\u2019s nonprofit status questioned by d.c. u.s. attorney",
+        "score": 896,
+        "time": 1745622235,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 73,
+        "url": "https://www.washingtonpost.com/technology/2025/04/25/wikipedia-nonprofit-ed-martin-letter/",
+        "textLength": 0,
+        "hour": "23",
+        "keywords": [
+          "wikipedia\u2019s nonprofit status",
+          "u.s. attorney",
+          "d.c"
+        ]
+      },
+      {
+        "id": 43794576,
+        "title": "fbi arrests judge accused of helping man evade immigration authorities",
+        "score": 867,
+        "time": 1745594735,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 72,
+        "url": "https://apnews.com/article/immigration-judge-arrested-7997186bbca5730e70a25f2347e631f6",
+        "textLength": 0,
+        "hour": "15",
+        "keywords": [
+          "fbi arrests judge",
+          "man",
+          "immigration authorities"
+        ]
+      },
+      {
+        "id": 43793526,
+        "title": "writing \"/etc/hosts\" breaks the substack editor",
+        "score": 628,
+        "time": 1745588910,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 63,
+        "url": "https://scalewithlee.substack.com/p/when-etchsts-breaks-your-substack",
+        "textLength": 0,
+        "hour": "13",
+        "keywords": [
+          "the substack editor",
+          "/etc/hosts"
+        ]
+      },
+      {
+        "id": 43775926,
+        "title": "you wouldn't steal a font",
+        "score": 1350,
+        "time": 1745437356,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 43,
+        "url": "https://fedi.rib.gay/notes/a6xqityngfubsz0f",
+        "textLength": 0,
+        "hour": "19",
+        "keywords": [
+          "a font"
+        ]
+      },
+      {
+        "id": 43780363,
+        "title": "careless people",
+        "score": 1028,
+        "time": 1745482631,
+        "text": "",
+        "sentiment": -0.5,
+        "kidsSize": 43,
+        "url": "https://pluralistic.net/2025/04/23/zuckerstreisand/#zdgaf",
+        "textLength": 0,
+        "hour": "08",
+        "keywords": [
+          "careless people"
+        ]
+      },
+      {
+        "id": 43781888,
+        "title": "i wrote to the address in the gplv2 license notice (2022)",
+        "score": 784,
+        "time": 1745497598,
+        "text": "",
+        "sentiment": 0.0,
+        "kidsSize": 39,
+        "url": "https://code.mendhak.com/gpl-v2-address-letter/",
+        "textLength": 0,
+        "hour": "12",
+        "keywords": [
+          "the gplv2 license notice",
+          "the address"
+        ]
+      },
+      {
+        "id": 43801906,
+        "title": "an end to all this prostate trouble?",
+        "score": 747,
+        "time": 1745656769,
+        "text": "",
+        "sentiment": -0.2,
+        "kidsSize": 38,
+        "url": "https://yarchive.net/blog/prostate/",
+        "textLength": 0,
+        "hour": "08",
+        "keywords": [
+          "all this prostate trouble",
+          "an end"
+        ]
+      }
+    ]
+  },
+  "sentiment_summary": {
+    "neutral": 207,
+    "negative": 25,
+    "positive": 84
+  },
+  "top_keywords": [
+    [
+      "schema-agnostic log viewer",
+      19
+    ],
+    [
+      "hn",
+      16
+    ],
+    [
+      "logchef",
+      14
+    ],
+    [
+      "a transformer model",
+      14
+    ],
+    [
+      "colanode, open-source and local-first slack",
+      14
+    ],
+    [
+      "qr codes' error correction",
+      14
+    ],
+    [
+      "computer-use agents",
+      12
+    ],
+    [
+      ": empty enter expander",
+      11
+    ],
+    [
+      "a video call",
+      11
+    ],
+    [
+      "large language models",
+      9
+    ]
+  ],
+  "stories": [
+    {
+      "id": 43813175,
+      "title": "read the obits",
+      "score": 147,
+      "time": 1745772030,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 15,
+      "url": "https://thereader.mitpress.mit.edu/the-creativity-hack-no-one-told-you-about-read-the-obits/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "the obits"
+      ]
+    },
+    {
+      "id": 43814433,
+      "title": "internet in a box",
+      "score": 42,
+      "time": 1745781994,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://internet-in-a-box.org/",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "internet",
+        "a box"
+      ]
+    },
+    {
+      "id": 43814360,
+      "title": "how a single line of code could brick your iphone",
+      "score": 42,
+      "time": 1745781163,
+      "text": "",
+      "sentiment": -0.07,
+      "kidsSize": 4,
+      "url": "https://rambo.codes/posts/2025-04-24-how-a-single-line-of-code-could-brick-your-iphone",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "a single line",
+        "code",
+        "your iphone"
+      ]
+    },
+    {
+      "id": 43813083,
+      "title": "did 5g kill the imsi catcher?",
+      "score": 121,
+      "time": 1745771277,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://zetier.com/5g-imsi-catcher/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "the imsi catcher",
+        "g"
+      ]
+    },
+    {
+      "id": 43812323,
+      "title": "reverse geocoding is hard",
+      "score": 141,
+      "time": 1745765136,
+      "text": "",
+      "sentiment": -0.29,
+      "kidsSize": 23,
+      "url": "https://shkspr.mobi/blog/2025/04/reverse-geocoding-is-hard/",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "reverse geocoding"
+      ]
+    },
+    {
+      "id": 43812995,
+      "title": "libogc (wii homebrew library) discovered to contain code stolen from rtems",
+      "score": 116,
+      "time": 1745770729,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 16,
+      "url": "https://github.com/fail0verflow/hbc/blob/80a80251f83f1993c272c58e471d040f3eb1dee9/README.md",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "wii homebrew library",
+        "libogc",
+        "code",
+        "rtems"
+      ]
+    },
+    {
+      "id": 43814080,
+      "title": "show hn: daily jailbreak \u2013 prompt engineer's wordle",
+      "score": 45,
+      "time": 1745778773,
+      "text": "i created a daily challenge for prompt engineers to build the shortest prompt to break a system prompt.you are provided the system prompt and a forbidden method the llm was told not to invoke. your task is to trick the model into calling the function. shortest successful attempts will show up in the leaderboard.give it a shot! you never know what could break an llm.",
+      "sentiment": 0.31,
+      "kidsSize": 10,
+      "url": "https://www.vaultbreak.ai/daily-jailbreak",
+      "textLength": 368,
+      "hour": "18",
+      "keywords": [
+        "prompt engineer's wordle",
+        "daily jailbreak",
+        "hn"
+      ]
+    },
+    {
+      "id": 43814497,
+      "title": "business co-founders in tech startups are less valuable than they think",
+      "score": 83,
+      "time": 1745782555,
+      "text": "",
+      "sentiment": -0.17,
+      "kidsSize": 18,
+      "url": "https://verdikapuku.com/posts/business-founders-are-less-valuable-than-they-think/",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "business co",
+        "tech startups",
+        "founders"
+      ]
+    },
+    {
+      "id": 43811400,
+      "title": "shardines: sqlite3 database-per-tenant with activerecord",
+      "score": 180,
+      "time": 1745756219,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 18,
+      "url": "https://blog.julik.nl/2025/04/a-can-of-shardines",
+      "textLength": 0,
+      "hour": "12",
+      "keywords": [
+        "sqlite3 database",
+        "shardines",
+        "tenant",
+        "activerecord"
+      ]
+    },
+    {
+      "id": 43812459,
+      "title": "the coming knowledge-work supply-chain crisis",
+      "score": 64,
+      "time": 1745766606,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 12,
+      "url": "https://worksonmymachine.substack.com/p/the-coming-knowledge-work-supply",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "the coming knowledge-work supply-chain crisis"
+      ]
+    },
+    {
+      "id": 43813330,
+      "title": "show hn: i created snapdom to capture dom nodes as images with exceptional speed",
+      "score": 67,
+      "time": 1745773229,
+      "text": "",
+      "sentiment": 0.67,
+      "kidsSize": 12,
+      "url": "https://github.com/zumerlab/snapdom",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "dom nodes",
+        "exceptional speed",
+        "hn",
+        "images"
+      ]
+    },
+    {
+      "id": 43812658,
+      "title": "unlocking ractors: object_id",
+      "score": 38,
+      "time": 1745768227,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://byroot.github.io/ruby/performance/2025/04/26/unlocking-ractors-object-id.html",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "unlocking ractors",
+        "object_id"
+      ]
+    },
+    {
+      "id": 43812646,
+      "title": "tmuxai: ai-powered, non-intrusive terminal assistant",
+      "score": 87,
+      "time": 1745768132,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 11,
+      "url": "https://tmuxai.dev/",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "ai-powered, non-intrusive terminal assistant",
+        "tmuxai"
+      ]
+    },
+    {
+      "id": 43813046,
+      "title": "watching 03 model sweat over a paul morphy mate-in-2",
+      "score": 44,
+      "time": 1745771011,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 10,
+      "url": "https://alexop.dev/posts/how-03-model-tries-chess-puzzle/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "a paul morphy mate",
+        "03 model sweat"
+      ]
+    },
+    {
+      "id": 43813336,
+      "title": "extend (yc w23) is hiring engineers to build llm document processing",
+      "score": 1,
+      "time": 1745773246,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://jobs.ashbyhq.com/extend/9d4d8974-bd9b-432d-84ec-8268e5a8ed37",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "engineers"
+      ]
+    },
+    {
+      "id": 43809841,
+      "title": "show hn: remote-controlled ikea deathstar lamp",
+      "score": 242,
+      "time": 1745735144,
+      "text": "repainting the iconic ikea ps 2014 lamp into the deathstar from star wars has been a popular ikea hack for quite some time.this variant additionally replaces the manual, rope-operated mechanism to open and close the lamp with a remote-controlled motor.the firmware is based on esphome, and its excellent home assistant integration enables one to implement higher-level features, like a &quot;sundial&quot; where the aperture of the deathstar follows the sun elevation throughout the day (see  the timelapse video).that said, i will not consider this project as complete until the imperial march can be played over the stepper motor (just like the legendary floppotron) ;-)",
+      "sentiment": 0.49,
+      "kidsSize": 12,
+      "url": "https://gitlab.com/sephalon/deathstar_lamp",
+      "textLength": 672,
+      "hour": "06",
+      "keywords": [
+        "hn: remote-controlled ikea deathstar lamp"
+      ]
+    },
+    {
+      "id": 43811432,
+      "title": "show hn: a common lisp implementation in development, supports asdf",
+      "score": 65,
+      "time": 1745756644,
+      "text": "implementation of the standard is still not complete, but breakpoints and stepping work quite well!  it also has some support for watchpoints, that no implementation has.now it ships with asdf and is capable of loading systems!let me know if you like it. support on patreon or liberapay is much appreciated",
+      "sentiment": 0.01,
+      "kidsSize": 8,
+      "url": "https://savannah.nongnu.org/p/alisp",
+      "textLength": 306,
+      "hour": "12",
+      "keywords": [
+        "a common lisp implementation",
+        "asdf",
+        "hn",
+        "development"
+      ]
+    },
+    {
+      "id": 43812699,
+      "title": "calibrations have a context-collapse problem",
+      "score": 29,
+      "time": 1745768581,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://www.oldschoolburke.com/011-calibrations-have-a-context-collapse-problem/",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "a context-collapse problem",
+        "calibrations"
+      ]
+    },
+    {
+      "id": 43810724,
+      "title": "mesmerizing interlocking geometric patterns produced with japanese woodworking",
+      "score": 94,
+      "time": 1745748106,
+      "text": "",
+      "sentiment": 0.15,
+      "kidsSize": 7,
+      "url": "https://www.smithsonianmag.com/smithsonian-institution/see-the-mesmerizing-interlocking-geometric-patterns-produced-with-this-ancient-japanese-woodworking-technique-180986494/",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "geometric patterns",
+        "japanese woodworking"
+      ]
+    },
+    {
+      "id": 43809638,
+      "title": "how to program a text adventure in c",
+      "score": 213,
+      "time": 1745731551,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 13,
+      "url": "https://helderman.github.io/htpataic/htpataic01.html",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "a text adventure",
+        "c"
+      ]
+    },
+    {
+      "id": 43813036,
+      "title": "how nasa is using graph technology and llms to build a people knowledge graph",
+      "score": 82,
+      "time": 1745770970,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 12,
+      "url": "https://memgraph.com/blog/nasa-memgraph-people-knowledge-graph",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "a people knowledge graph",
+        "graph technology",
+        "nasa",
+        "llms"
+      ]
+    },
+    {
+      "id": 43809092,
+      "title": "open-source interactive c tutorial in the browser",
+      "score": 224,
+      "time": 1745722338,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 21,
+      "url": "https://www.learn-c.org/",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "open-source interactive c tutorial",
+        "the browser"
+      ]
+    },
+    {
+      "id": 43815113,
+      "title": "what air defenses do the houthis in yemen have?",
+      "score": 5,
+      "time": 1745787827,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://www.twz.com/news-features/what-air-defenses-do-the-houthis-in-yemen-actually-have",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "what air defenses",
+        "the houthis",
+        "yemen"
+      ]
+    },
+    {
+      "id": 43814683,
+      "title": "suicide reverberates among young doctors",
+      "score": 17,
+      "time": 1745784268,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 1,
+      "url": "https://www.wsj.com/health/medical-residents-working-conditions-young-doctor-suicide-3dc61495",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "young doctors",
+        "suicide"
+      ]
+    },
+    {
+      "id": 43808443,
+      "title": "ic\u00f4nes",
+      "score": 266,
+      "time": 1745713842,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 20,
+      "url": "https://icones.js.org/",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "ic\u00f4nes"
+      ]
+    },
+    {
+      "id": 43808803,
+      "title": "found a simple tool for database modeling: dbdiagram.io",
+      "score": 214,
+      "time": 1745718026,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 28,
+      "url": "https://dbdiagram.io",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "a simple tool"
+      ]
+    },
+    {
+      "id": 43813455,
+      "title": "dmca notices can silence critics but complaints by the public put all at risk",
+      "score": 42,
+      "time": 1745774013,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://torrentfreak.com/dmca-notices-can-silence-critics-but-public-complaints-are-chaotic-250427/",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "dmca notices",
+        "critics",
+        "complaints",
+        "the public",
+        "risk"
+      ]
+    },
+    {
+      "id": 43811908,
+      "title": "unauthorized experiment on cmv involving ai-generated comments",
+      "score": 26,
+      "time": 1745761697,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://simonwillison.net/2025/Apr/26/unauthorized-experiment-on-cmv/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "unauthorized experiment",
+        "ai-generated comments"
+      ]
+    },
+    {
+      "id": 43807404,
+      "title": "bare metal printf \u2013 c standard library without os",
+      "score": 211,
+      "time": 1745703157,
+      "text": "",
+      "sentiment": 0.03,
+      "kidsSize": 14,
+      "url": "https://popovicu.com/posts/bare-metal-printf/",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "bare metal printf",
+        "c standard library"
+      ]
+    },
+    {
+      "id": 43813879,
+      "title": "do large language models know who did what to whom?",
+      "score": 4,
+      "time": 1745776942,
+      "text": "",
+      "sentiment": 0.21,
+      "kidsSize": 1,
+      "url": "https://arxiv.org/abs/2504.16884",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "large language models"
+      ]
+    },
+    {
+      "id": 43812500,
+      "title": "show hn: logchef \u2013 schema-agnostic log viewer for clickhouse",
+      "score": 20,
+      "time": 1745766940,
+      "text": "hey hn! i\u2019m karan, creator of logchef (https:&#x2f;&#x2f;logchef.app), an open-source log viewer built specifically for exploring logs stored in clickhouse.this tool grew directly out of my $day job managing massive log volumes. like many orgs, we migrated our log workloads to clickhouse for its performance, but found the ecosystem lacked dedicated ui tooling for actually browsing and analyzing those logs effectively.we were using metabase, and while great for general bi, it wasn&#x27;t designed for log exploration workflows. common pain points included:- clunky ad-hoc querying: writing&#x2f;modifying raw clickhouse sql for quick checks was slow and error-prone, especially during incidents.\n- disconnect between viz &amp; raw logs: visualizing trends (like error counts) then drilling down to the specific raw logs often required separate, complex queries and wrestling with row limits. the intuitive &quot;slice-and-dice&quot; was missing.\n- ui friction: simple things like selecting precise time ranges (&quot;last 90 minutes&quot;), easily viewing surrounding log context, or dealing with truncated columns added unnecessary friction.\ndebugging sessions were taking longer than they should. so, over the last 3-4 months, i built logchef to scratch this itch.logchef&#x27;s core ideas:- purpose-built for clickhouse logs: designed from the ground up for the specific task of log exploration on top of clickhouse, focusing on speed and intuitive workflows.\n- schema-agnostic: logchef doesn&#x27;t force otel or any other schema. connect it directly to your existing clickhouse log tables (it just needs a timestamp column). bring your own schema!\n- focus on viewing&#x2f;querying: logchef intentionally doesn&#x27;t handle log collection&#x2f;ingestion. it complements great tools like vector, fluentbit, etc., by focusing purely on the exploration layer once data is in clickhouse.\n- simple search syntax: includes a simple query syntax (e.g., `status=200 and path~&quot;&#x2f;api&#x2f;&quot;`) that translates to efficient clickhouse sql behind the scenes, integrated with the monaco editor.tech stack: go backend, sqlite for metadata, vue.js + shadcn&#x2f;ui + tailwind css frontend.you can try a live public demo here: https:&#x2f;&#x2f;demo.logchef.app\n(it&#x27;s pre-populated with sample data using vector, so you can dive right in. uses dex for oidc auth - creds are on the login page).what&#x27;s next &amp; getting involved:logchef is already used internally at zerodha, and i&#x27;m driving towards v1.0 this year. the roadmap includes features like alerting, live tail logs, and enhanced dashboarding.\nit&#x27;s open source (agplv3), and i&#x27;d love to get more eyes on it and build a community.check out the repo: https:&#x2f;&#x2f;github.com&#x2f;mr-karan&#x2f;logchefi\u2019d love to hear your feedback, whether positive or negative. please open issues on github with suggestions or bug reports!thanks so much, hn!",
+      "sentiment": 0.1,
+      "kidsSize": 2,
+      "url": "https://github.com/mr-karan/logchef",
+      "textLength": 2936,
+      "hour": "15",
+      "keywords": [
+        "schema-agnostic log viewer",
+        "logchef",
+        "clickhouse",
+        "hn"
+      ]
+    },
+    {
+      "id": 43812379,
+      "title": "we're building a dystopia just to make people click on ads [video]",
+      "score": 226,
+      "time": 1745765816,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 30,
+      "url": "https://www.ted.com/talks/zeynep_tufekci_we_re_building_a_dystopia_just_to_make_people_click_on_ads",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "a dystopia",
+        "people",
+        "ads",
+        "video"
+      ]
+    },
+    {
+      "id": 43808454,
+      "title": "sigbovik conference proceedings 2025 [pdf]",
+      "score": 163,
+      "time": 1745713943,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 11,
+      "url": "https://sigbovik.org/2025/proceedings.pdf",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "sigbovik conference proceedings"
+      ]
+    },
+    {
+      "id": 43807593,
+      "title": "anatomy of a sql engine",
+      "score": 147,
+      "time": 1745704840,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://www.dolthub.com/blog/2025-04-25-sql-engine-anatomy/",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "a sql engine",
+        "anatomy"
+      ]
+    },
+    {
+      "id": 43814461,
+      "title": "mit committee report on the changing nature of information (1983) [pdf]",
+      "score": 26,
+      "time": 1745782171,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://archive.org/details/1983-03-09-27-27_202504",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "mit committee report",
+        "the changing nature",
+        "information"
+      ]
+    },
+    {
+      "id": 43813195,
+      "title": "nasa's lucy spacecraft completes asteroid donaldjohanson flyby",
+      "score": 23,
+      "time": 1745772155,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://science.nasa.gov/blogs/lucy/2025/04/20/nasas-lucy-spacecraft-completes-asteroid-donaldjohanson-flyby/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "nasa's lucy spacecraft"
+      ]
+    },
+    {
+      "id": 43813403,
+      "title": "ask hn: can vibe coding competitions be challenging and fair?",
+      "score": 9,
+      "time": 1745773663,
+      "text": "if so, how?",
+      "sentiment": 0.6,
+      "kidsSize": 3,
+      "url": [],
+      "textLength": 11,
+      "hour": "17",
+      "keywords": [
+        "hn",
+        "coding competitions"
+      ]
+    },
+    {
+      "id": 43810169,
+      "title": "compiler reminders",
+      "score": 31,
+      "time": 1745739631,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://jfmengels.net/compiler-reminders/",
+      "textLength": 0,
+      "hour": "07",
+      "keywords": [
+        "compiler reminders"
+      ]
+    },
+    {
+      "id": 43806491,
+      "title": "bill gates's personal easter eggs in 8 bit basic (2008)",
+      "score": 125,
+      "time": 1745696632,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 11,
+      "url": "https://www.pagetable.com/?p=43",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "bill gates's personal easter eggs"
+      ]
+    },
+    {
+      "id": 43813955,
+      "title": "consumers make their voices heard as microsoft's venture flatlines in popularity",
+      "score": 13,
+      "time": 1745777576,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://www.xda-developers.com/microsofts-huge-venture-flatlines/",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "microsoft's venture",
+        "consumers",
+        "their voices",
+        "popularity"
+      ]
+    },
+    {
+      "id": 43809915,
+      "title": "chongqing, the largest city \u2013 in pictures",
+      "score": 184,
+      "time": 1745736170,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 21,
+      "url": "https://www.theguardian.com/world/gallery/2025/apr/27/chongqing-the-worlds-largest-city-in-pictures",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "the largest city",
+        "chongqing",
+        "pictures"
+      ]
+    },
+    {
+      "id": 43803148,
+      "title": "show hn: my self-written hobby os is finally running on my vintage ibm thinkpad",
+      "score": 526,
+      "time": 1745671901,
+      "text": "finally got my hobby os up and running on real hardware. i love the old ibm thinkpads, so thought it was the perfect machine to get it working on. been working on it for quite some time now, but this has been a big milestone!",
+      "sentiment": 0.26,
+      "kidsSize": 38,
+      "url": "https://github.com/joexbayer/RetrOS-32",
+      "textLength": 225,
+      "hour": "12",
+      "keywords": [
+        "my vintage ibm thinkpad",
+        "my self-written hobby",
+        "hn"
+      ]
+    },
+    {
+      "id": 43813441,
+      "title": "what's the deal with autism rates?",
+      "score": 57,
+      "time": 1745773912,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 10,
+      "url": "https://www.cremieux.xyz/p/whats-the-deal-with-autism-rates",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "autism rates",
+        "the deal"
+      ]
+    },
+    {
+      "id": 43802727,
+      "title": "the friendship recession: the lost art of connecting",
+      "score": 496,
+      "time": 1745667681,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 53,
+      "url": "https://www.happiness.hks.harvard.edu/february-2025-issue/the-friendship-recession-the-lost-art-of-connecting",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "the friendship recession",
+        "the lost art"
+      ]
+    },
+    {
+      "id": 43811864,
+      "title": "former disney employee who hacked disney world menus sentenced to 3 years",
+      "score": 44,
+      "time": 1745761360,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://databreaches.net/2025/04/24/former-disney-employeedwho-hacked-disney-world-restaurant-menus-in-revenge-sentenced-to-3-years-in-federal-prison/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "disney world menus",
+        "former disney employee",
+        "3 years"
+      ]
+    },
+    {
+      "id": 43813826,
+      "title": "lenovo may be avoiding 'windows tax' via cheaper laptops with preinstalled linux",
+      "score": 26,
+      "time": 1745776323,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://news.itsfoss.com/lenovo-cuts-windows-tax/",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "windows tax",
+        "cheaper laptops",
+        "lenovo",
+        "preinstalled linux"
+      ]
+    },
+    {
+      "id": 43801906,
+      "title": "an end to all this prostate trouble?",
+      "score": 747,
+      "time": 1745656769,
+      "text": "",
+      "sentiment": -0.2,
+      "kidsSize": 38,
+      "url": "https://yarchive.net/blog/prostate/",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "all this prostate trouble",
+        "an end"
+      ]
+    },
+    {
+      "id": 43813566,
+      "title": "usb 2.0 is 25 years old today \u2013 the interface standard that changed the world",
+      "score": 15,
+      "time": 1745774849,
+      "text": "",
+      "sentiment": 0.05,
+      "kidsSize": 0,
+      "url": "https://www.tomshardware.com/peripherals/usb/usb-2-0-is-25-years-old-today-the-interface-standard-that-changed-the-world",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "the interface standard",
+        "usb",
+        "the world"
+      ]
+    },
+    {
+      "id": 43806691,
+      "title": "dad and the egg controller (2018)",
+      "score": 99,
+      "time": 1745698144,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://www.pentadact.com/2018-12-18-dad-and-the-egg-controller/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "the egg controller",
+        "dad"
+      ]
+    },
+    {
+      "id": 43806281,
+      "title": "bart's anime mascots",
+      "score": 140,
+      "time": 1745694740,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 21,
+      "url": "https://www.bart.gov/news/fun/anime",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "bart's anime mascots"
+      ]
+    },
+    {
+      "id": 43814422,
+      "title": "bot farms invade social media to hijack popular sentiment",
+      "score": 9,
+      "time": 1745781908,
+      "text": "",
+      "sentiment": 0.32,
+      "kidsSize": 3,
+      "url": "https://www.fastcompany.com/91321143/bot-farms-social-media-manipulation",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "bot farms",
+        "popular sentiment",
+        "social media"
+      ]
+    },
+    {
+      "id": 43810566,
+      "title": "zfs: apple's new filesystem that wasn't (2016)",
+      "score": 126,
+      "time": 1745745936,
+      "text": "",
+      "sentiment": 0.14,
+      "kidsSize": 13,
+      "url": "https://ahl.dtrace.org/2016/06/15/apple_and_zfs/",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "apple's new filesystem"
+      ]
+    },
+    {
+      "id": 43803724,
+      "title": "stuffed-na(a)n: stuff your nans",
+      "score": 147,
+      "time": 1745676241,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 15,
+      "url": "https://github.com/si14/stuffed-naan-js",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "na(a)n",
+        "your nans"
+      ]
+    },
+    {
+      "id": 43803243,
+      "title": "watching o3 guess a photo's location is surreal, dystopian and entertaining",
+      "score": 926,
+      "time": 1745672648,
+      "text": "",
+      "sentiment": 0.38,
+      "kidsSize": 75,
+      "url": "https://simonwillison.net/2025/Apr/26/o3-photo-locations/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "a photo's location",
+        "o3"
+      ]
+    },
+    {
+      "id": 43805358,
+      "title": "http feeds: a minimal specification for polling events over http",
+      "score": 70,
+      "time": 1745687535,
+      "text": "",
+      "sentiment": -0.1,
+      "kidsSize": 7,
+      "url": "https://www.http-feeds.org/",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "http",
+        "a minimal specification",
+        "polling events"
+      ]
+    },
+    {
+      "id": 43813579,
+      "title": "the beos file system, an os geek retrospective",
+      "score": 9,
+      "time": 1745774878,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://arstechnica.com/information-technology/2018/07/the-beos-filesystem/",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "the beos file system",
+        "an os geek"
+      ]
+    },
+    {
+      "id": 43807029,
+      "title": "cosae: learnable fourier series for image restoration",
+      "score": 65,
+      "time": 1745700202,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://sifeiliu.net/CosAE-page/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "learnable fourier series",
+        "image restoration",
+        "cosae"
+      ]
+    },
+    {
+      "id": 43806838,
+      "title": "slinky-coil dipole (2021)",
+      "score": 42,
+      "time": 1745699012,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://nonstopsystems.com/radio/frank_radio_antenna.htm",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "slinky-coil dipole"
+      ]
+    },
+    {
+      "id": 43813476,
+      "title": "starbucks opens its first 3d-printed store. is it cheaper than the real thing?",
+      "score": 12,
+      "time": 1745774158,
+      "text": "",
+      "sentiment": 0.23,
+      "kidsSize": 0,
+      "url": "https://www.fastcompany.com/91322114/starbucks-opens-its-first-3d-printed-store-is-it-cheaper-than-the-real-thing",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "its first 3d-printed store",
+        "the real thing",
+        "starbucks"
+      ]
+    },
+    {
+      "id": 43806630,
+      "title": "the passing of ucbvax (1994)",
+      "score": 64,
+      "time": 1745697726,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 5,
+      "url": "http://ucbvax.berkeley.edu/passing-of-ucbvax.txt",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "the passing",
+        "ucbvax"
+      ]
+    },
+    {
+      "id": 43814058,
+      "title": "openbsd 7.7 released",
+      "score": 105,
+      "time": 1745778581,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://www.openbsd.org/77.html",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": []
+    },
+    {
+      "id": 43814907,
+      "title": "the american style of quotation mark punctuation makes no sense",
+      "score": 8,
+      "time": 1745786219,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://www.erichgrunewald.com/posts/the-american-style-of-quotation-mark-punctuation-makes-no-sense/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "quotation mark punctuation",
+        "the american style",
+        "no sense"
+      ]
+    },
+    {
+      "id": 43813358,
+      "title": "california is nearly out of license plate numbers. here's what the dmv is doing",
+      "score": 12,
+      "time": 1745773390,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 6,
+      "url": "https://www.sfchronicle.com/california/article/california-new-license-plate-format-20293230.php",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "license plate numbers",
+        "california",
+        "the dmv"
+      ]
+    },
+    {
+      "id": 43801179,
+      "title": "cloth",
+      "score": 497,
+      "time": 1745645512,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 17,
+      "url": "https://www.cloudofoz.com/verlet-test/",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "cloth"
+      ]
+    },
+    {
+      "id": 43809484,
+      "title": "css zen garden",
+      "score": 285,
+      "time": 1745729083,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 25,
+      "url": "https://csszengarden.com/",
+      "textLength": 0,
+      "hour": "04",
+      "keywords": [
+        "css zen garden"
+      ]
+    },
+    {
+      "id": 43813321,
+      "title": "the emergence of eukaryotes as an evolutionary algorithmic phase transition",
+      "score": 9,
+      "time": 1745773170,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2422968122",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "an evolutionary algorithmic phase transition",
+        "the emergence",
+        "eukaryotes"
+      ]
+    },
+    {
+      "id": 43806296,
+      "title": "tilt: dev environment as code",
+      "score": 125,
+      "time": 1745694868,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 17,
+      "url": "https://github.com/tilt-dev/tilt",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "dev environment",
+        "tilt",
+        "code"
+      ]
+    },
+    {
+      "id": 43799697,
+      "title": "reading rss content is a skilled activity",
+      "score": 135,
+      "time": 1745626094,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 28,
+      "url": "https://www.doliver.org/articles/rss-as-a-skill",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "rss content",
+        "a skilled activity"
+      ]
+    },
+    {
+      "id": 43805457,
+      "title": "show hn: agenticseek \u2013 self-hosted manus alternative",
+      "score": 29,
+      "time": 1745688229,
+      "text": "i\u2019ve spent the last two months building agenticseek, a privacy-focused alternative to cloud-based ai tools like manusai. it runs entirely on your machine\u2014no api calls, no data leaks.why agenticseek?optimized for local llms (developed mostly on an rtx 3060 running deepseek r1 14b).truly private: all components (tts, stt, planner) run locally.more responsive than alternatives (we respond fast to issues + active discord).designed to be fun\u2014think jarvis-like voice control, multi-agent workflows, and a slick web ui.current features:web browsing (research + form filling), code write&#x2f;fix, file management&#x2f;search. planning capabilites to use multiple agents for complex task.is it stable?\nprototype-stage\u2014great for tinkerers.hoping to get feedback!",
+      "sentiment": -0.0,
+      "kidsSize": 2,
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "textLength": 757,
+      "hour": "17",
+      "keywords": [
+        "agenticseek",
+        "self-hosted manus alternative",
+        "hn"
+      ]
+    },
+    {
+      "id": 43813989,
+      "title": "china's huawei develops new ai chip, seeking to match nvidia",
+      "score": 16,
+      "time": 1745777973,
+      "text": "",
+      "sentiment": 0.14,
+      "kidsSize": 2,
+      "url": "https://www.wsj.com/tech/chinas-huawei-develops-new-ai-chip-seeking-to-match-nvidia-8166f606",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "china's huawei",
+        "new ai chip",
+        "nvidia"
+      ]
+    },
+    {
+      "id": 43803518,
+      "title": "llms can see and hear without any training",
+      "score": 206,
+      "time": 1745674705,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 21,
+      "url": "https://github.com/facebookresearch/MILS",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "llms",
+        "any training"
+      ]
+    },
+    {
+      "id": 43798009,
+      "title": "programming in d: tutorial and reference",
+      "score": 140,
+      "time": 1745611593,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 14,
+      "url": "https://ddili.org/ders/d.en/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "programming",
+        "tutorial",
+        "reference"
+      ]
+    },
+    {
+      "id": 43805683,
+      "title": "robot dexterity still seems hard",
+      "score": 66,
+      "time": 1745689992,
+      "text": "",
+      "sentiment": -0.29,
+      "kidsSize": 8,
+      "url": "https://www.construction-physics.com/p/robot-dexterity-still-seems-hard",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "robot dexterity"
+      ]
+    },
+    {
+      "id": 43809630,
+      "title": "moving beyond containers \u2013 introducing boxer by daniel phillips wasm i/o 2025 [video]",
+      "score": 49,
+      "time": 1745731424,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://www.youtube.com/watch?v=rHOwhkHv21U",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "daniel phillips wasm",
+        "containers",
+        "boxer",
+        "[video"
+      ]
+    },
+    {
+      "id": 43810370,
+      "title": "the new 4o personality is unusable for therapy",
+      "score": 38,
+      "time": 1745742558,
+      "text": "",
+      "sentiment": 0.14,
+      "kidsSize": 6,
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1k8odhx/the_new_4o_personality_is_unusable_for_therapy/",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "the new 4o personality",
+        "therapy"
+      ]
+    },
+    {
+      "id": 43799820,
+      "title": "i wrote a book called \u201ccrap towns\u201d. it seemed funny at the time",
+      "score": 384,
+      "time": 1745627441,
+      "text": "",
+      "sentiment": -0.28,
+      "kidsSize": 61,
+      "url": "https://samj.substack.com/p/that-joke-isnt-funny-any-more",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "\u201ccrap towns",
+        "a book",
+        "the time"
+      ]
+    },
+    {
+      "id": 43801439,
+      "title": "australian who ordered radioactive materials walks away from court",
+      "score": 325,
+      "time": 1745649779,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 38,
+      "url": "https://www.chemistryworld.com/news/australian-who-ordered-radioactive-materials-over-the-internet-walks-away-from-court/4021306.article",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "radioactive materials",
+        "australian",
+        "court"
+      ]
+    },
+    {
+      "id": 43793526,
+      "title": "writing \"/etc/hosts\" breaks the substack editor",
+      "score": 628,
+      "time": 1745588910,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 63,
+      "url": "https://scalewithlee.substack.com/p/when-etchsts-breaks-your-substack",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "the substack editor",
+        "/etc/hosts"
+      ]
+    },
+    {
+      "id": 43809028,
+      "title": "ray-ban stories smart glasses teardown (2023)",
+      "score": 12,
+      "time": 1745721607,
+      "text": "",
+      "sentiment": 0.21,
+      "kidsSize": 0,
+      "url": "https://www.digikey.kr/en/maker/projects/ray-ban-stories-smart-glasses-teardown/710c72d1c7f2499591fe38b387f90047",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "ray-ban stories",
+        "smart glasses"
+      ]
+    },
+    {
+      "id": 43800151,
+      "title": "mobygratis \u2013 free moby music to empower your creative projects",
+      "score": 241,
+      "time": 1745631534,
+      "text": "",
+      "sentiment": 0.45,
+      "kidsSize": 18,
+      "url": "https://mobygratis.com/",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "free moby music",
+        "your creative projects",
+        "mobygratis"
+      ]
+    },
+    {
+      "id": 43796898,
+      "title": "show hn: gs-calc \u2013 a modern spreadsheet with python integration",
+      "score": 107,
+      "time": 1745605065,
+      "text": "process large (e.g. 4gb+) data sets in a spreadsheet.load gb&#x2f;32 million-row files in seconds and use them without any crashes using up to about 500gb ram.load&#x2f;edit in-place&#x2f;split&#x2f;merge&#x2f;clean csv&#x2f;text files with up to 32 million rows and 1 million columns.use your python functions as udf formulas that can return to gs-calc images and entire csv files.use a set of statistical pivot data functions.solver functions virtually without limits for the number of variables.create and display all popular chart types with millions of data points instantly.suggestions for improvements are welcome (and often implemented quite quickly).",
+      "sentiment": 0.36,
+      "kidsSize": 8,
+      "url": "https://citadel5.com/gs-calc.htm",
+      "textLength": 659,
+      "hour": "18",
+      "keywords": [
+        "gs-calc",
+        "python integration",
+        "hn",
+        "a modern spreadsheet"
+      ]
+    },
+    {
+      "id": 43808671,
+      "title": "conl: \"markdown\" for your config files",
+      "score": 69,
+      "time": 1745716683,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 18,
+      "url": "https://cirw.in/blog/conl",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "your config files",
+        "conl"
+      ]
+    },
+    {
+      "id": 43800002,
+      "title": "berkeley humanoid lite \u2013 open-source robot",
+      "score": 277,
+      "time": 1745629420,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 14,
+      "url": "https://lite.berkeley-humanoid.org/",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "humanoid lite \u2013 open-source robot",
+        "berkeley"
+      ]
+    },
+    {
+      "id": 43811736,
+      "title": "show hn: lil digi \u2013 play a platformer game as yourself",
+      "score": 23,
+      "time": 1745760116,
+      "text": "i&#x27;ve been monitoring some of the image generation progress for game sprites for a while and was really impressed by gemini flash. this demo lets you upload a picture and turns it into an animated pixel character (a lil digi gif that you can download). i chain together the pixel art frames and insert the player into a tricky platforming level.video demo: \nhttps:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=ek7z-hltsseapi usage:\nunfortunately gemini flash 2.0 image gen has really tight api limits that don&#x27;t scale up for paid tiers -- if anyone on the team sees this and wants to help me out, my email is in my profile or you can reach me at hello@lildigi.melevel stats:\nfor the speedrunners out there, the fastest glitchless times i&#x27;ve seen around 17-18s.stack:\ncloudflare pages + aws lambda + geminihappy to answer any questions!",
+      "sentiment": -0.04,
+      "kidsSize": 10,
+      "url": "https://www.lildigi.me/",
+      "textLength": 844,
+      "hour": "13",
+      "keywords": [
+        "lil digi",
+        "a platformer game",
+        "hn"
+      ]
+    },
+    {
+      "id": 43813371,
+      "title": "looking for a hidden determinism",
+      "score": 4,
+      "time": 1745773501,
+      "text": "",
+      "sentiment": -0.17,
+      "kidsSize": 1,
+      "url": "https://lambdaway.fr/workshop/?view=relativite_complexe_5",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "a hidden determinism"
+      ]
+    },
+    {
+      "id": 43811160,
+      "title": "microsoft word 5.5 and 6.0 in-depth dos review with pics (2018)",
+      "score": 26,
+      "time": 1745753624,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://shot97retro.blogspot.com/2018/07/microsoft-word-55-and-60-in-depth-dos.html",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "microsoft word",
+        "pics"
+      ]
+    },
+    {
+      "id": 43808428,
+      "title": "path is a utility for working with paths",
+      "score": 58,
+      "time": 1745713670,
+      "text": "a recent post here got me thinking about my own personal gripes with os path handling offerings. so i&#x27;ve basically spent the passed couple of days working on a little project in an attempt to rectify the situation somewhat (in the spirit of cross-platform development). it should also work pretty well with existing tools. let me know what you think, and feel free to open an issue or a pull-request if you have any problems getting it running it on your system. enjoy!github link: https:&#x2f;&#x2f;github.com&#x2f;spyrjagaldr&#x2f;pathhttps:&#x2f;&#x2f;simonsafar.com&#x2f;2025&#x2f;path_as_system_call&#x2f;https:&#x2f;&#x2f;news.ycombinator.com&#x2f;item?id=43788728",
+      "sentiment": 0.12,
+      "kidsSize": 5,
+      "url": "https://gitlab.com/SpyrjaGaldr/path",
+      "textLength": 675,
+      "hour": "00",
+      "keywords": [
+        "path",
+        "paths",
+        "a utility"
+      ]
+    },
+    {
+      "id": 43796935,
+      "title": "lossless llm compression for efficient gpu inference via dynamic-length float",
+      "score": 404,
+      "time": 1745605253,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 22,
+      "url": "https://arxiv.org/abs/2504.11651",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "lossless llm compression",
+        "efficient gpu inference",
+        "dynamic-length float"
+      ]
+    },
+    {
+      "id": 43799802,
+      "title": "your phone isn't secretly listening to you, but the truth is more disturbing",
+      "score": 338,
+      "time": 1745627208,
+      "text": "",
+      "sentiment": -0.13,
+      "kidsSize": 43,
+      "url": "https://newatlas.com/computers/smartphone-listening-conversations-ads-facebook/",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "your phone",
+        "the truth"
+      ]
+    },
+    {
+      "id": 43793280,
+      "title": "the policy puppetry attack: novel bypass for major llms",
+      "score": 303,
+      "time": 1745587097,
+      "text": "",
+      "sentiment": 0.06,
+      "kidsSize": 34,
+      "url": "https://hiddenlayer.com/innovation-hub/novel-universal-bypass-for-all-major-llms/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "the policy puppetry attack",
+        "novel bypass",
+        "major llms"
+      ]
+    },
+    {
+      "id": 43791474,
+      "title": "avoiding skill atrophy in the age of ai",
+      "score": 360,
+      "time": 1745569854,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 60,
+      "url": "https://addyo.substack.com/p/avoiding-skill-atrophy-in-the-age",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "skill atrophy",
+        "the age"
+      ]
+    },
+    {
+      "id": 43790420,
+      "title": "what if we could rebuild kafka from scratch?",
+      "score": 244,
+      "time": 1745559292,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 36,
+      "url": "https://www.morling.dev/blog/what-if-we-could-rebuild-kafka-from-scratch/",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "scratch"
+      ]
+    },
+    {
+      "id": 43803343,
+      "title": "my $6k advance as a self-published technical author",
+      "score": 40,
+      "time": 1745673401,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://mtlynch.io/my-6k-advance/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "a self-published technical author",
+        "my $6k advance"
+      ]
+    },
+    {
+      "id": 43799302,
+      "title": "wikipedia\u2019s nonprofit status questioned by d.c. u.s. attorney",
+      "score": 896,
+      "time": 1745622235,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 73,
+      "url": "https://www.washingtonpost.com/technology/2025/04/25/wikipedia-nonprofit-ed-martin-letter/",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "wikipedia\u2019s nonprofit status",
+        "u.s. attorney",
+        "d.c"
+      ]
+    },
+    {
+      "id": 43811769,
+      "title": "when a child's life becomes the family business",
+      "score": 9,
+      "time": 1745760474,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.nytimes.com/2025/04/27/well/evantube-influencer-family.html",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "a child's life",
+        "the family business"
+      ]
+    },
+    {
+      "id": 43799557,
+      "title": "fifteen new giant radio galaxies discovered with askap",
+      "score": 43,
+      "time": 1745624924,
+      "text": "",
+      "sentiment": 0.07,
+      "kidsSize": 1,
+      "url": "https://phys.org/news/2025-04-fifteen-giant-radio-galaxies-askap.html",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "fifteen new giant radio galaxies",
+        "askap"
+      ]
+    },
+    {
+      "id": 43811105,
+      "title": "gpu price tracker",
+      "score": 49,
+      "time": 1745752883,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 13,
+      "url": "https://www.unitedcompute.ai/gpu-price-tracker",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "gpu price tracker"
+      ]
+    },
+    {
+      "id": 43777677,
+      "title": "echo \u2013 open hardware music player",
+      "score": 98,
+      "time": 1745449899,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://github.com/amachronic/echoplayer",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "open hardware music player",
+        "echo"
+      ]
+    },
+    {
+      "id": 43793288,
+      "title": "eurorack knob idea",
+      "score": 317,
+      "time": 1745587142,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 29,
+      "url": "https://mitxela.com/projects/euroknob",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "eurorack knob idea"
+      ]
+    },
+    {
+      "id": 43800574,
+      "title": "show hn: empty enter expander \u2013 type less in the terminal with this tool",
+      "score": 48,
+      "time": 1745636987,
+      "text": "when you have a lot of aliases it can be difficult to remember how was the one you need named especially if you do not use it very often. you can also have files stored in a bin folder and look there to find the name. another trick is to prepend your commands with a comma then type the comma and hit the tab key to see only your own commands. there is an article about it somewhere on the internet.i needed something lightweight to always show me the available commands. something to run with a few keystrokes. something that stores commands in files and folder structures.the idea was born at the time of using linux debian with the dwm (dynamic window manager). the first version was implemented in bash and it could do three things: start an application, expand text from a template and do a predefined automation on the selected application.it was launched by a keyboard shortcut and opened the list of commands in a new terminal window. the commands were stored in nested folders and it was able to switch between the three modes (launcher, expander, automator). it also required only few keystrokes to do the desired action.for instance, i was in the terminal and hit ctrl+p. it opened a new terminal and listed applications to launch. i hit the space to switch to the expander mode. then i hit the g to enter the git folder and s for the status. the result was that it put the git status to the terminal i was in before. this expander could be used in any application. it could insert the email template into the browser.then i migrated to macos and really missed that tool. so i quickly wrote a zsh vesrion that consists only the expander mode and supports only the terminal. it is activated by hitting enter on empty command and then it inserts the desired command right into the prompt. for example, when you hit enter, g and s you will get the git status command to the prompt and you can then execute it with enter. of course, those commands and keys are defined by you. there are various and lenghty commands that i use on a daily basis like this and it saves a lot of typing.the tool is called empty enter expander. it is implemented for the zsh as of now. please check it out at https:&#x2f;&#x2f;github.com&#x2f;waszabi&#x2f;empty-enter-expander and let me know what you like or dislike about it.",
+      "sentiment": 0.06,
+      "kidsSize": 11,
+      "url": "https://github.com/waszabi/empty-enter-expander",
+      "textLength": 2313,
+      "hour": "03",
+      "keywords": [
+        ": empty enter expander",
+        "the terminal",
+        "this tool",
+        "hn"
+      ]
+    },
+    {
+      "id": 43797256,
+      "title": "show hn: formalizing principia mathematica using lean",
+      "score": 50,
+      "time": 1745606970,
+      "text": "this project aims to formalize the first volume of prof. bertrand russell\u2019s principia mathematica using the lean theorem prover. throughout the formalization, i tried to rigorously follow prof. russell\u2019s proof, with no or little added statements from my side, which were only necessary for the formalization but not the logical argument. should you notice any inaccuracy (even if it does not necessarily falsify the proof), please let me know as i would like to proceed with the same spirit of rigour. before starting this project, i had already found prof. elkind\u2019s formalization of the principia using rocq (formerly coq), which is much mature work than this one. however, i still thought it would be fun to do it using lean4.https:&#x2f;&#x2f;ndrwnaguib.com&#x2f;principia&#x2f;https:&#x2f;&#x2f;github.com&#x2f;ndrwnaguib&#x2f;principia",
+      "sentiment": 0.06,
+      "kidsSize": 5,
+      "url": "https://github.com/ndrwnaguib/principia",
+      "textLength": 840,
+      "hour": "18",
+      "keywords": [
+        "principia mathematica",
+        "hn"
+      ]
+    },
+    {
+      "id": 43797212,
+      "title": "curry: a functional logic programming language",
+      "score": 66,
+      "time": 1745606782,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 5,
+      "url": "https://curry-lang.org/",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "a functional logic programming language",
+        "curry"
+      ]
+    },
+    {
+      "id": 43795090,
+      "title": "differential coverage for debugging",
+      "score": 29,
+      "time": 1745596884,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://research.swtch.com/diffcover",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "differential coverage"
+      ]
+    },
+    {
+      "id": 43796419,
+      "title": "paper2code: automating code generation from scientific papers",
+      "score": 40,
+      "time": 1745602575,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://arxiv.org/abs/2504.17192",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "code generation",
+        "scientific papers",
+        "paper2code"
+      ]
+    },
+    {
+      "id": 43798467,
+      "title": "gym class (yc w22) is hiring character animation engineering lead",
+      "score": 1,
+      "time": 1745614865,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.ycombinator.com/companies/gym-class-by-irl-studios/jobs/7UKmLED-gameplay-animation-engineer-staff-principal",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "character animation engineering lead",
+        "gym class",
+        "yc w22"
+      ]
+    },
+    {
+      "id": 43796003,
+      "title": "show hn: magnitude \u2013 open-source, ai-native test framework for web apps",
+      "score": 89,
+      "time": 1745600435,
+      "text": "hey hn, anders and tom here - we\u2019ve been building an end-to-end testing framework powered by visual llm agents to replace traditional web testing.we know there&#x27;s a lot of noise about different browser agents. if you&#x27;ve tried any of them, you know they&#x27;re slow, expensive, and inconsistent. that&#x27;s why we built an agent specifically for running test cases and optimized it just for that:- pure vision instead of error prone &quot;set-of-marks&quot; system (the colorful boxes you see in browser-use for example)- use tiny vlm (moondream) instead of openai&#x2f;anthropic computer use for dramatically faster and cheaper execution- use two agents: one for planning and adapting test cases and one for executing them quickly and consistently.the idea is the planner builds up a general plan which the executor runs. we can save this plan and re-run it with only the executor for quick, cheap, and consistent runs. when something goes wrong, it can kick back out to the planner agent and re-adjust the test.it\u2019s completely open source. would love to have more people try it out and tell us how we can make it great.repo: https:&#x2f;&#x2f;github.com&#x2f;magnitudedev&#x2f;magnitude",
+      "sentiment": 0.08,
+      "kidsSize": 9,
+      "url": "https://github.com/magnitudedev/magnitude",
+      "textLength": 1198,
+      "hour": "17",
+      "keywords": [
+        "ai-native test framework",
+        "hn",
+        "open-source",
+        "web apps",
+        "magnitude"
+      ]
+    },
+    {
+      "id": 43794110,
+      "title": "tumor-derived erythropoietin acts as immunosuppressive switch in cancer immunity",
+      "score": 89,
+      "time": 1745592147,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://www.science.org/doi/10.1126/science.adr3026",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "tumor-derived erythropoietin acts",
+        "immunosuppressive switch",
+        "cancer immunity"
+      ]
+    },
+    {
+      "id": 43811732,
+      "title": "wikipedia: database download",
+      "score": 131,
+      "time": 1745760083,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Database_download",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "database download",
+        "wikipedia"
+      ]
+    },
+    {
+      "id": 43812856,
+      "title": "virginia passes law to enforce maximum vehicle speeds for repeat speeders",
+      "score": 11,
+      "time": 1745769766,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://www.fastcompany.com/91323835/virginia-will-use-technology-to-slow-chronic-speeders-cars-and-other-states-are-rushing-to-join-in",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "maximum vehicle speeds",
+        "repeat speeders",
+        "virginia",
+        "law"
+      ]
+    },
+    {
+      "id": 43812742,
+      "title": "disney worker who hacked menus gets 3 years in prison",
+      "score": 11,
+      "time": 1745768851,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://www.nytimes.com/2025/04/26/us/disney-worker-prison-hacking.html",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "disney worker",
+        "menus",
+        "3 years",
+        "prison"
+      ]
+    },
+    {
+      "id": 43807753,
+      "title": "parity (yc s24) is hiring founding engineers to build an ai sre (in-person, sf)",
+      "score": 1,
+      "time": 1745706244,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.ycombinator.com/companies/parity/jobs",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "yc s24",
+        "an ai sre",
+        "parity",
+        "founding engineers",
+        "person"
+      ]
+    },
+    {
+      "id": 43811016,
+      "title": "show hn: bhvr, a bun and hono and vite and react starter",
+      "score": 48,
+      "time": 1745751752,
+      "text": "hey all! i&#x27;ve been using this stack personally for a while now and decided to automate it a bit by turning it into a template i can reuse. hope others might find it helpful!",
+      "sentiment": 0.0,
+      "kidsSize": 11,
+      "url": "https://bhvr.dev",
+      "textLength": 178,
+      "hour": "11",
+      "keywords": [
+        "hn",
+        "a bun",
+        "hono"
+      ]
+    },
+    {
+      "id": 43811561,
+      "title": "accidentally turing-complete",
+      "score": 21,
+      "time": 1745758199,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://beza1e1.tuxen.de/articles/accidentally_turing_complete.html",
+      "textLength": 0,
+      "hour": "12",
+      "keywords": []
+    },
+    {
+      "id": 43812816,
+      "title": "beijing seizes tiny sandbank in south china sea",
+      "score": 8,
+      "time": 1745769492,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.bbc.com/news/articles/creqp4lxnl4o",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "south china sea",
+        "tiny sandbank"
+      ]
+    },
+    {
+      "id": 43804443,
+      "title": "goenums: type safe enum generator for go",
+      "score": 32,
+      "time": 1745681219,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 2,
+      "url": "https://github.com/zarldev/goenums",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "safe enum generator",
+        "goenums"
+      ]
+    },
+    {
+      "id": 43802792,
+      "title": "the nncpnet email network",
+      "score": 33,
+      "time": 1745668444,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://changelog.complete.org/archives/10768-announcing-the-nncpnet-email-network",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "the nncpnet email network"
+      ]
+    },
+    {
+      "id": 43805369,
+      "title": "the seven-year rule",
+      "score": 89,
+      "time": 1745687598,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 21,
+      "url": "https://www.macsparky.com/blog/2025/04/the-seven-year-rule/",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "the seven-year rule"
+      ]
+    },
+    {
+      "id": 43800222,
+      "title": "colossal cave adventure (1976)",
+      "score": 62,
+      "time": 1745632352,
+      "text": "",
+      "sentiment": 0.3,
+      "kidsSize": 16,
+      "url": "https://github.com/wh0am1-dev/adventure",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "colossal cave adventure"
+      ]
+    },
+    {
+      "id": 43779398,
+      "title": "the vtech socratic method",
+      "score": 81,
+      "time": 1745471145,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://www.leadedsolder.com/2025/04/22/vtech-socrates-pickup.html",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "the vtech socratic method"
+      ]
+    },
+    {
+      "id": 43795300,
+      "title": "reproducibility project fails to validate dozens of biomedical studies",
+      "score": 261,
+      "time": 1745597648,
+      "text": "",
+      "sentiment": -0.5,
+      "kidsSize": 24,
+      "url": "https://www.nature.com/articles/d41586-025-01266-x",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "reproducibility project",
+        "dozens",
+        "biomedical studies"
+      ]
+    },
+    {
+      "id": 43798757,
+      "title": "world emulation via neural network",
+      "score": 248,
+      "time": 1745616837,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 20,
+      "url": "https://madebyoll.in/posts/world_emulation_via_dnn/",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "world emulation",
+        "neural network"
+      ]
+    },
+    {
+      "id": 43799396,
+      "title": "parallel ./configure",
+      "score": 215,
+      "time": 1745623196,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 26,
+      "url": "https://tavianator.com/2025/configure.html",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": []
+    },
+    {
+      "id": 43803659,
+      "title": "thank you for holding my duck (2021)",
+      "score": 84,
+      "time": 1745675794,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 15,
+      "url": "https://naml.us/post/thank-you-for-holding-my-duck/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "my duck"
+      ]
+    },
+    {
+      "id": 43799306,
+      "title": "acm's flagship magazine seeks submissions by/for practitioners",
+      "score": 53,
+      "time": 1745622294,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://cacm.acm.org/practice/call-for-papers-cacm-practice-section/",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "acm's flagship magazine",
+        "submissions",
+        "practitioners"
+      ]
+    },
+    {
+      "id": 43808427,
+      "title": "reimagining democracy",
+      "score": 30,
+      "time": 1745713654,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 5,
+      "url": "https://www.schneier.com/blog/archives/2025/04/reimagining-democracy-2.html",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "democracy"
+      ]
+    },
+    {
+      "id": 43805275,
+      "title": "show hn: i build a fantasy nhl app in 3 days with claude ai",
+      "score": 13,
+      "time": 1745687047,
+      "text": "i am not from north america, and moved there a couple years ago. after being invited to the first fantasy league and seeing the platform they were using, i couldn&#x27;t bring myself to check it every day. an excel sheet would have been more appealing to use than this.so i decided to create my own. but on the side? this would take ages. i am very confident with rust and javascript, but it still takes ages to build something like that.good prompts, and a few long nights later, and i could create something fun and easy to use.have a look:\nhttps:&#x2f;&#x2f;fantasy-frontend.fly.dev&#x2f;the frontend is in react, the backend in rust. i deployed both via fly.io. it was so simple and fast, it was shocking.after it was deployed, i took 2-3 days to refactor everything and made it neat and tidy, so i could possibly open it up for general use with accounts etc.the first time i built something with the help of ai not just for me.the biggest help was certainly the ui and styling. i was never good at that. the first draft looked rough. i fed it some screenshots from nhl.com and told the model to &quot;make it look nicer&quot;. what you see is i think the 20th iteration of the app, slowly improving, fixing bugs etc. but 90% with the help of ai.i could have done 98% myself (except the styling part). and after each working iteration, i spend quite some time cleaning up so i can  build on top of that.the beauty? the cleaner, more modular code base saved tokens and made it easier for the model to refactor and understand. strictly typed (typescritp in the frontend, rust in the backend) helped as well!",
+      "sentiment": 0.15,
+      "kidsSize": 3,
+      "url": [],
+      "textLength": 1609,
+      "hour": "17",
+      "keywords": [
+        "a fantasy nhl app",
+        "3 days",
+        "hn",
+        "claude"
+      ]
+    },
+    {
+      "id": 43801371,
+      "title": "finding paths of least action with gradient descent",
+      "score": 24,
+      "time": 1745648672,
+      "text": "",
+      "sentiment": -0.1,
+      "kidsSize": 2,
+      "url": "https://greydanus.github.io/2023/03/05/ncf-tutorial/",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "gradient descent",
+        "paths",
+        "least action"
+      ]
+    },
+    {
+      "id": 43773563,
+      "title": "launch hn: cua (yc x25) \u2013 open-source docker container for computer-use agents",
+      "score": 169,
+      "time": 1745423705,
+      "text": "hey hn, we\u2019re francesco and alessandro, the creators of c&#x2f;ua (https:&#x2f;&#x2f;www.trycua.com), a docker\u2011style container runtime that lets ai agents drive full operating systems in lightweight, isolated vms. our entire framework is open\u2011source (https:&#x2f;&#x2f;github.com&#x2f;trycua&#x2f;cua), and today we\u2019re thrilled to have our launch hn!check out our demo to see it in action: https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=ee9qf-13gho, and for more examples - including tableau, photoshop, cad workflows - see the demos in our repo: https:&#x2f;&#x2f;github.com&#x2f;trycua&#x2f;cua.for computer-use ai agents to be genuinely useful, they must interact with your system&#x27;s native applications. but giving full access to your host device is risky. what if the agent&#x27;s process gets compromised, or the llm hallucinates and leaks your data? and practically speaking, do you really want to give up control of your entire machine just so the agent can do its job?the idea behind c&#x2f;ua is simple: let agents operate in a mirror of the user\u2019s system - isolated, secure, and disposable - so users can fire-and-forget complex tasks without needing to dedicate their entire system to the agent. by running in a virtualized environment, agents can carry out their work without interrupting your workflow or risking the integrity of your system.while exploring this idea, i discovered apple\u2019s virtualization.framework and realized it offered fast and lightweight virtualization on apple silicon. this led us to build a high-performance virtualization layer and, eventually, a computer-use interface that allows agents to interact with apps just like a human would - without taking over the entire system.as we built this, we decided to open-source the virtualization core as a standalone cli tool called lume (show hn here: https:&#x2f;&#x2f;news.ycombinator.com&#x2f;item?id=42908061). c&#x2f;ua builds on top of lume, providing a full framework for running agent workflows inside secure macos or linux vms, so your system stays free for you to use while the agent works its magic in the background.with cua you can build an ai agent within a virtual environment to: - navigate and interact with any application&#x27;s interface; - read screen content and perform keyboard&#x2f;mouse actions; - switch between applications and self-debug when needed; - operate in a secure sandbox with controlled file access. all of this occurs in a fully isolated environment, ensuring your host system, files, and sensitive data remain completely secure, while you continue using your device without interruption.people are using c&#x2f;ua to: - bypass cryptojs-based encryption and anti-bot measures to interact with modern web apps reliably; - automate tableau dashboards and export insights via claude desktop; - drive photoshop for batch image editing by prompt; - modify 3d models in fusion 360 with a cad copilot; -extract data from legacy erp apps without brittle screen\u2011scraping scripts.we\u2019re currently working on multi\u2011vm orchestration for parallel agentic workflows, windows and linux vm support, and episodic and long-term memory for cua agents.on the open\u2011source side, c&#x2f;ua is 100 % free under the mit license - run it locally with any llm you like. we\u2019re also gearing up a hosted orchestration service for teams who want zero\u2011ops setup (early access sign\u2011ups opening soon).we\u2019d love to hear from you. what desktop or legacy apps do you wish you could automate? any thoughts, feedback, or horror stories from fragile ai automations are more than welcome!",
+      "sentiment": 0.23,
+      "kidsSize": 27,
+      "url": "https://github.com/trycua/cua",
+      "textLength": 3573,
+      "hour": "15",
+      "keywords": [
+        "computer-use agents",
+        "open-source docker container",
+        "cua",
+        "hn",
+        "yc x25"
+      ]
+    },
+    {
+      "id": 43769936,
+      "title": "the gruen transfer is consuming the internet",
+      "score": 355,
+      "time": 1745398174,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 27,
+      "url": "https://sebs.website/blog/the%20gruen-transfer-is-consuming-the-internet",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "the gruen transfer",
+        "the internet"
+      ]
+    },
+    {
+      "id": 43781888,
+      "title": "i wrote to the address in the gplv2 license notice (2022)",
+      "score": 784,
+      "time": 1745497598,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 39,
+      "url": "https://code.mendhak.com/gpl-v2-address-letter/",
+      "textLength": 0,
+      "hour": "12",
+      "keywords": [
+        "the gplv2 license notice",
+        "the address"
+      ]
+    },
+    {
+      "id": 43800988,
+      "title": "amazon japan ordered to pay 35m. yen for allowing listing of fakes",
+      "score": 165,
+      "time": 1745642342,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://mainichi.jp/english/articles/20250425/p2g/00m/0bu/047000c",
+      "textLength": 0,
+      "hour": "04",
+      "keywords": [
+        "amazon japan",
+        "35m. yen",
+        "listing",
+        "fakes"
+      ]
+    },
+    {
+      "id": 43794284,
+      "title": "a $20k american-made electric pickup with no paint, no stereo, no screen",
+      "score": 1394,
+      "time": 1745593297,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 200,
+      "url": "https://www.theverge.com/electric-cars/655527/slate-electric-truck-price-paint-radio-bezos",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "a $20k american-made electric pickup",
+        "no paint",
+        "no screen"
+      ]
+    },
+    {
+      "id": 43808046,
+      "title": "solar orbiter's widest high-res view of the sun",
+      "score": 49,
+      "time": 1745708663,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2025/04/Solar_Orbiter_s_widest_high-res_view_of_the_Sun",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "solar orbiter's widest high-res view",
+        "the sun"
+      ]
+    },
+    {
+      "id": 43792248,
+      "title": "gcc 15.1",
+      "score": 274,
+      "time": 1745578439,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://gcc.gnu.org/gcc-15/",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "gcc"
+      ]
+    },
+    {
+      "id": 43791992,
+      "title": "show hn: i used openai's new image api for a personalized coloring book service",
+      "score": 308,
+      "time": 1745575539,
+      "text": "i&#x27;ve had an idea for a long time to generate a cute coloring book based on family photos, send it to a printing service, and then deliver it to people.last month, when openai&#x27;s sora was released for public use i (foolishly) thought i&#x27;d manually drag-and-drop each order\u2019s photos into sora&#x27;s ui and copy the resulting images back into my system. this took way too much time (about an hour for each of the few books i made and tested with family and friends). it clearly wasn&#x27;t possible to release this version because i\u2019d be losing a huge amount of time on every order. so instead, i decided i&#x27;d finish off the project as best i could, put it &quot;on ice,&quot; and wait for the api release.the api is now released (quicker than i thought it&#x27;d be, too!) and i integrated it last night. i&#x27;d love your feedback on any and all aspects.the market is mostly family-based, but from my testing of the physical book i&#x27;ve found that both adults and kids enjoy coloring them in (it&#x27;s surprisingly cathartic and creative). if you would like to order one you can get 10% off by tapping the total price line item five times.",
+      "sentiment": 0.25,
+      "kidsSize": 47,
+      "url": "https://clevercoloringbook.com/",
+      "textLength": 1161,
+      "hour": "10",
+      "keywords": [
+        "a personalized coloring book service",
+        "openai's new image api",
+        "hn"
+      ]
+    },
+    {
+      "id": 43766263,
+      "title": "exploiting undefined behavior in c/c++ programs: the performance impact [pdf]",
+      "score": 94,
+      "time": 1745355708,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://web.ist.utl.pt/nuno.lopes/pubs/ub-pldi25.pdf",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "c/c++ programs",
+        "undefined behavior",
+        "the performance impact"
+      ]
+    },
+    {
+      "id": 43780363,
+      "title": "careless people",
+      "score": 1028,
+      "time": 1745482631,
+      "text": "",
+      "sentiment": -0.5,
+      "kidsSize": 43,
+      "url": "https://pluralistic.net/2025/04/23/zuckerstreisand/#zdgaf",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "careless people"
+      ]
+    },
+    {
+      "id": 43789593,
+      "title": "notation as a tool of thought (1979)",
+      "score": 314,
+      "time": 1745548234,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 16,
+      "url": "https://www.jsoftware.com/papers/tot.htm",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "notation",
+        "a tool",
+        "thought"
+      ]
+    },
+    {
+      "id": 43813256,
+      "title": "not worried about ai taking our jobs; worried it won't take our current jobs",
+      "score": 7,
+      "time": 1745772717,
+      "text": "i want us to plan, strategize, review, and set ai tools to auto. while they work, we&#x27;re free to be human - thinking, creating, living. agree, disagree?",
+      "sentiment": 0.13,
+      "kidsSize": 2,
+      "url": [],
+      "textLength": 156,
+      "hour": "16",
+      "keywords": [
+        "our jobs",
+        "our current jobs"
+      ]
+    },
+    {
+      "id": 43814070,
+      "title": "trump denies disaster aid, tells states to do more",
+      "score": 7,
+      "time": 1745778684,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 0,
+      "url": "https://rhodeislandcurrent.com/2025/04/27/trump-denies-disaster-aid-tells-states-to-do-more/",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "disaster aid",
+        "trump",
+        "states"
+      ]
+    },
+    {
+      "id": 43813429,
+      "title": "a comparative analysis across extremist reddit communities",
+      "score": 3,
+      "time": 1745773849,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.nature.com/articles/s41598-024-81567-9",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "a comparative analysis",
+        "extremist reddit communities"
+      ]
+    },
+    {
+      "id": 43820228,
+      "title": "i built a hardware processor that runs python",
+      "score": 122,
+      "time": 1745840694,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 17,
+      "url": "https://www.runpyxl.com/gpio",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "a hardware processor"
+      ]
+    },
+    {
+      "id": 43820076,
+      "title": "deep dive into how dos games do copy protection by making themselves unwinnable",
+      "score": 74,
+      "time": 1745839779,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 11,
+      "url": "https://mrwint.github.io/winter/writeup/writeup.html",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "deep dive",
+        "dos games",
+        "protection"
+      ]
+    },
+    {
+      "id": 43816419,
+      "title": "show hn: i made a web-based, free alternative to screen studio",
+      "score": 317,
+      "time": 1745800733,
+      "text": "",
+      "sentiment": 0.4,
+      "kidsSize": 39,
+      "url": "https://www.screenrecorder.me",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "a web-based, free alternative",
+        "hn",
+        "studio"
+      ]
+    },
+    {
+      "id": 43820043,
+      "title": "reports of widespread power cuts in spain and portugal",
+      "score": 256,
+      "time": 1745839594,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 27,
+      "url": "https://www.bbc.com/news/live/c9wpq8xrvd9t",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "widespread power cuts",
+        "reports",
+        "spain",
+        "portugal"
+      ]
+    },
+    {
+      "id": 43815591,
+      "title": "ai helps unravel a cause of alzheimer\u2019s and identify a therapeutic candidate",
+      "score": 243,
+      "time": 1745792367,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 21,
+      "url": "https://today.ucsd.edu/story/ai-helps-unravel-a-cause-of-alzheimers-disease-and-identify-a-therapeutic-candidate",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "a therapeutic candidate",
+        "a cause",
+        "alzheimer"
+      ]
+    },
+    {
+      "id": 43818518,
+      "title": "reversing the fossilization of computer science conferences",
+      "score": 33,
+      "time": 1745824662,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://cacm.acm.org/blogcacm/reversing-the-fossilization-of-computer-science-conferences/",
+      "textLength": 0,
+      "hour": "07",
+      "keywords": [
+        "computer science conferences",
+        "the fossilization"
+      ]
+    },
+    {
+      "id": 43820408,
+      "title": "optery (yc w22) \u2013 engineering team lead and engineers with node.js (u.s., latam)",
+      "score": 1,
+      "time": 1745841616,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://jobs.ashbyhq.com/optery",
+      "textLength": 0,
+      "hour": "12",
+      "keywords": [
+        "yc w22",
+        "engineering team",
+        "(u.s., latam",
+        "optery",
+        "engineers"
+      ]
+    },
+    {
+      "id": 43815523,
+      "title": "ask hn: what are you working on? (april 2025)",
+      "score": 170,
+      "time": 1745791701,
+      "text": "what are you working on? any new ideas that you&#x27;re thinking about?",
+      "sentiment": 0.14,
+      "kidsSize": 289,
+      "url": [],
+      "textLength": 71,
+      "hour": "22",
+      "keywords": [
+        "hn",
+        "(april"
+      ]
+    },
+    {
+      "id": 43814708,
+      "title": "i just want to code (2023)",
+      "score": 214,
+      "time": 1745784518,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 34,
+      "url": "https://www.zachbellay.com/daily/i-just-want-to-code/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": []
+    },
+    {
+      "id": 43817377,
+      "title": "inference-aware fine-tuning for best-of-n sampling in large language models",
+      "score": 49,
+      "time": 1745812606,
+      "text": "",
+      "sentiment": 0.21,
+      "kidsSize": 3,
+      "url": "https://arxiv.org/abs/2412.15287",
+      "textLength": 0,
+      "hour": "03",
+      "keywords": [
+        "inference-aware fine-tuning",
+        "large language models",
+        "n",
+        "sampling"
+      ]
+    },
+    {
+      "id": 43816634,
+      "title": "presentation slides with markdown",
+      "score": 117,
+      "time": 1745803261,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 22,
+      "url": "https://sli.dev",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "presentation"
+      ]
+    },
+    {
+      "id": 43816697,
+      "title": "to 'reclaim future-making', amazon workers published collection of scifi stories",
+      "score": 57,
+      "time": 1745803977,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://afteramazon.world/",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "amazon workers",
+        "collection",
+        "scifi stories"
+      ]
+    },
+    {
+      "id": 43818169,
+      "title": "naur's \"programming as theory building\" and llms replacing human programmers",
+      "score": 40,
+      "time": 1745820979,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://ratfactor.com/cards/naur-vs-llms",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "naur's \"programming",
+        "theory building",
+        "human programmers",
+        "llms"
+      ]
+    },
+    {
+      "id": 43815558,
+      "title": "the suburban office park that launched silicon valley",
+      "score": 90,
+      "time": 1745792072,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 10,
+      "url": "https://thehustle.co/originals/the-suburban-office-park-that-launched-silicon-valley",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "the suburban office park",
+        "silicon valley"
+      ]
+    },
+    {
+      "id": 43815116,
+      "title": "show hn: i486sx_soft_fpu \u2013 software fpu emulator for netbsd 10 on 486sx",
+      "score": 92,
+      "time": 1745787853,
+      "text": "first release is here!i&#x27;m excited to announce the first release of i486sx_soft_fpu \u2014 a software fpu emulator for the classic intel 486sx cpu, running on netbsd 10!this project brings floating-point support back to life for 486sx machines, even though modern netbsd versions no longer natively support processors without a hardware fpu.\nif you&#x27;re into retrocomputing, operating system hacking, or just love old-school hardware, check it out!project page: https:&#x2f;&#x2f;github.com&#x2f;mezantrop&#x2f;i486sx_soft_fpu\ncontributions, feedback, and testing are all very welcome!let&#x27;s keep these vintage machines alive!#retrocomputing #netbsd #486sx #opensource",
+      "sentiment": 0.24,
+      "kidsSize": 12,
+      "url": "https://github.com/mezantrop/i486SX_soft_FPU",
+      "textLength": 674,
+      "hour": "21",
+      "keywords": [
+        "software fpu emulator",
+        "i486sx_soft_fpu",
+        "486sx",
+        "hn"
+      ]
+    },
+    {
+      "id": 43820144,
+      "title": "making a game from scratch using only a guitar [video]",
+      "score": 16,
+      "time": 1745840236,
+      "text": "",
+      "sentiment": -0.2,
+      "kidsSize": 5,
+      "url": "https://www.youtube.com/watch?v=wesICmc48UE",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "only a guitar [video",
+        "a game",
+        "scratch"
+      ]
+    },
+    {
+      "id": 43816327,
+      "title": "new material gives copper superalloy-like strength",
+      "score": 130,
+      "time": 1745799566,
+      "text": "",
+      "sentiment": 0.14,
+      "kidsSize": 13,
+      "url": "https://news.lehigh.edu/new-material-gives-copper-superalloy-like-strength-0",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "copper superalloy-like strength",
+        "new material"
+      ]
+    },
+    {
+      "id": 43814934,
+      "title": "boxie \u2013 an always offline audio player for my 3 year old",
+      "score": 147,
+      "time": 1745786433,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 19,
+      "url": "https://mariozechner.at/posts/2025-04-20-boxie/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "an always offline audio player",
+        "boxie"
+      ]
+    },
+    {
+      "id": 43819914,
+      "title": "nationwide power outages also disrupt internet traffic in portugal and spain",
+      "score": 47,
+      "time": 1745838619,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://twitter.com/CloudflareRadar/status/1916811587408536055",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "nationwide power outages",
+        "internet traffic",
+        "portugal",
+        "spain"
+      ]
+    },
+    {
+      "id": 43815044,
+      "title": "how a pipe organ works (2020)",
+      "score": 58,
+      "time": 1745787183,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://www.pipedreams.org/page/how-a-pipe-organ-works",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "how a pipe organ works"
+      ]
+    },
+    {
+      "id": 43815510,
+      "title": "computer architects can't find the average",
+      "score": 70,
+      "time": 1745791591,
+      "text": "",
+      "sentiment": -0.15,
+      "kidsSize": 11,
+      "url": "https://dgsq.net/2025-04-27-averages/",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "computer architects",
+        "the average"
+      ]
+    },
+    {
+      "id": 43817423,
+      "title": "show hn: cleverb.ee \u2013 open-source agent that writes a cited research report",
+      "score": 62,
+      "time": 1745813072,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://github.com/SureScaleAI/cleverbee",
+      "textLength": 0,
+      "hour": "04",
+      "keywords": [
+        "open-source agent",
+        "a cited research report",
+        "hn"
+      ]
+    },
+    {
+      "id": 43815511,
+      "title": "tiny emulators",
+      "score": 127,
+      "time": 1745791598,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://floooh.github.io/tiny8bit-preview/",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "tiny emulators"
+      ]
+    },
+    {
+      "id": 43821138,
+      "title": "european critical dependencies",
+      "score": 7,
+      "time": 1745845657,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://jurgen.gaeremyn.be/2025/03/08/european-critical-dependencies/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "european critical dependencies"
+      ]
+    },
+    {
+      "id": 43815083,
+      "title": "cut: chattanooga civic user testing",
+      "score": 35,
+      "time": 1745787566,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://cut.chattanooga.gov/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        ": chattanooga civic user testing"
+      ]
+    },
+    {
+      "id": 43815891,
+      "title": "restoring a sinclair c5",
+      "score": 47,
+      "time": 1745795271,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://woof.tech/@crashtestdev/114411537491626882",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "a sinclair c5"
+      ]
+    },
+    {
+      "id": 43817585,
+      "title": "intel removed all cpu information pages before 2nd generation processors",
+      "score": 43,
+      "time": 1745814811,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://old.reddit.com/r/intel/comments/1k8aqe5/intel_removed_all_cpu_information_pages_before/",
+      "textLength": 0,
+      "hour": "04",
+      "keywords": [
+        "all cpu information pages",
+        "2nd generation processors",
+        "intel"
+      ]
+    },
+    {
+      "id": 43814604,
+      "title": "unpacking packed executables",
+      "score": 13,
+      "time": 1745783508,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://neugierig.org/software/blog/2025/04/unpacking.html",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "packed executables"
+      ]
+    },
+    {
+      "id": 43815440,
+      "title": "pkg.pl: an experimental package manager for scryer prolog",
+      "score": 8,
+      "time": 1745790775,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 0,
+      "url": "https://github.com/bakaq/pkg.pl",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "an experimental package manager",
+        "scryer prolog"
+      ]
+    },
+    {
+      "id": 43814011,
+      "title": "luculent: manually hinted monospace font, crisp at tiny sizes (2015)",
+      "score": 13,
+      "time": 1745778168,
+      "text": "",
+      "sentiment": 0.12,
+      "kidsSize": 0,
+      "url": "http://eastfarthing.com/luculent/",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "manually hinted monospace font",
+        "tiny sizes",
+        "luculent"
+      ]
+    },
+    {
+      "id": 43819019,
+      "title": "a critical bibliography about the pirate site libgen",
+      "score": 10,
+      "time": 1745829722,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://eve.gd/2025/03/21/a-critical-bibliography-about-libgen-the-pirate-site-that-meta-used-for-ai-training/",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "the pirate site libgen",
+        "a critical bibliography"
+      ]
+    },
+    {
+      "id": 43816376,
+      "title": "national archives releases unidentified anomalous phenomena (uap) records",
+      "score": 61,
+      "time": 1745800087,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://www.archives.gov/press/press-releases/2025/nr25-07",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "national archives",
+        "unidentified anomalous phenomena",
+        "(uap) records"
+      ]
+    },
+    {
+      "id": 43815279,
+      "title": "stasi's zersetzung and modern psychological warfare",
+      "score": 13,
+      "time": 1745789182,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 5,
+      "url": "https://www.mariobekes.com.au/from-berlin-to-the-digital-age-stasis-zersetzung-and-the-modern-battle-of-psychological-warfare/",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "modern psychological warfare",
+        "stasi's zersetzung"
+      ]
+    },
+    {
+      "id": 43816853,
+      "title": "ask hn: cs degrees, do they matter again?",
+      "score": 60,
+      "time": 1745805999,
+      "text": "tldr; skip to the --------last time i &quot;asked hn&quot;, i was in a very different place. fresh out of a bootcamp, right at the peak, and subsequent collapse of the covid hiring. it didn&#x27;t go well. however, another hn reader turned me on to upwork, and over the last 2 years, i&#x27;ve been building modest freelancing career.i came from an automotive background where i made awful money, moved to the bay area, became a bike messenger in san francisco because i didn&#x27;t know what to do with myself, and once again made awful money.i had been a hobbyist programmer for years by this point, so i got sucked into the bootcamp racket. the program was great. i got what i needed out of it, although the certificate wasn&#x27;t worth the paper it was printed on.i landed an ongoing contract on upwork, which i still work on which really changed everything for me. i also landed an internship at akamai as a cloud support engineer, which never resulted in employment, but i&#x27;m not sure it&#x27;s the type of work that i really want to be doing. it was more of a foot in the door type thing for me.either way, i am now making a living off of software development. a lucrative living? no, but it works for my lifestyle.several years ago, we were all told &quot;you don&#x27;t need a degree bro, degrees are obsolete bro, companies only care about what you know&quot;.i found out that this wasn&#x27;t true the hard way, however now i at least have some professional experience to my name. the job market is bad for everyone right now. i&#x27;m not necessarily looking for a job atm, but at some point, the grind and hustle of freelancing might either fizzle out, or i might just get tired of it.now that that&#x27;s out of the way, here is my question...----------i&#x27;ve thought about doing an online cs degree. it seems like this can be done for less than 15 grand, and also doable while still making money.is this a bad idea? is this a good idea? is this necessary if i want to be employable in the future?",
+      "sentiment": -0.01,
+      "kidsSize": 36,
+      "url": [],
+      "textLength": 2019,
+      "hour": "02",
+      "keywords": [
+        "cs degrees",
+        "hn"
+      ]
+    },
+    {
+      "id": 43816916,
+      "title": "the group chats that changed america",
+      "score": 48,
+      "time": 1745806734,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://www.semafor.com/article/04/27/2025/the-group-chats-that-changed-america",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "the group chats",
+        "america"
+      ]
+    },
+    {
+      "id": 43816651,
+      "title": "visual transistor-level simulation of the 6502 cpu",
+      "score": 17,
+      "time": 1745803453,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "http://www.visual6502.org/",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "visual transistor-level simulation",
+        "the 6502 cpu"
+      ]
+    },
+    {
+      "id": 43810561,
+      "title": "u.s. autism data project sparks uproar over ethics, privacy and intent",
+      "score": 219,
+      "time": 1745745803,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 17,
+      "url": "https://www.washingtonpost.com/health/2025/04/25/autism-registry-privacy-rfk-research/",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "u.s. autism data project",
+        "ethics",
+        "privacy",
+        "intent"
+      ]
+    },
+    {
+      "id": 43815653,
+      "title": "here's how to get chatgpt to stop being an overly flattering yes man",
+      "score": 90,
+      "time": 1745792971,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 18,
+      "url": "https://old.reddit.com/r/ChatGPT/comments/1k8vomo/heres_how_to_get_chatgpt_to_stop_being_an_overly/",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "chatgpt",
+        "yes man"
+      ]
+    },
+    {
+      "id": 43817137,
+      "title": "the vietnam war ended 50 years ago, but the battle with agent orange continues",
+      "score": 48,
+      "time": 1745809859,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://apnews.com/article/vietnam-war-anniversary-agent-orange-0829caefe48cc11fb88ab27982da922b",
+      "textLength": 0,
+      "hour": "03",
+      "keywords": [
+        "the vietnam war",
+        "agent orange",
+        "the battle"
+      ]
+    },
+    {
+      "id": 43817827,
+      "title": "nasa orbiter spots curiosity rover making tracks to next science stop",
+      "score": 11,
+      "time": 1745817579,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/nasa-orbiter-spots-curiosity-rover-making-tracks-to-next-science-stop/",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "nasa orbiter",
+        "curiosity rover",
+        "next science stop",
+        "tracks"
+      ]
+    },
+    {
+      "id": 43816183,
+      "title": "tokyo metropolitan area outer underground discharge channel",
+      "score": 11,
+      "time": 1745798022,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://www.japan.travel/en/spot/1524/",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "tokyo metropolitan area outer underground discharge channel"
+      ]
+    },
+    {
+      "id": 43811487,
+      "title": "ask hn: memory-safe low level languages?",
+      "score": 36,
+      "time": 1745757270,
+      "text": "i am looking for memory-safe languages that can be used for systems&#x2f;graphics programming. i love rust, but it often feels like too massive a language with too much stuff going on. is there a language like c, which is simpler (obviously without all the ub and other problems)?this is an especially hard ask, given how useful the fp-like features of rust are, and i find it almost impossible to live without them. basically, i am looking for a middle ground between c&#x2f;zig and rust.one such language i have found is austral[0]. what other such languages are there?[0] https:&#x2f;&#x2f;austral-lang.org&#x2f;",
+      "sentiment": -0.03,
+      "kidsSize": 29,
+      "url": [],
+      "textLength": 615,
+      "hour": "12",
+      "keywords": [
+        ": memory-safe low level languages",
+        "hn"
+      ]
+    },
+    {
+      "id": 43816038,
+      "title": "in memoriam: sf and fine artist david schleinkofer",
+      "score": 12,
+      "time": 1745796590,
+      "text": "",
+      "sentiment": 0.42,
+      "kidsSize": 1,
+      "url": "https://downthetubes.net/in-memoriam-sf-and-fine-artist-david-schleinkofer/",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "fine artist",
+        "memoriam",
+        "sf",
+        "david"
+      ]
+    },
+    {
+      "id": 43814945,
+      "title": "silent bugs matter: a study of compiler-introduced security bugs",
+      "score": 7,
+      "time": 1745786483,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/xu-jianhao",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "compiler-introduced security bugs",
+        "silent bugs",
+        "a study"
+      ]
+    },
+    {
+      "id": 43815821,
+      "title": "from hypercard to vibe coding",
+      "score": 10,
+      "time": 1745794521,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://newsletter.iryanbell.com/p/from-hypercard-to-vibe-coding",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "hypercard"
+      ]
+    },
+    {
+      "id": 43817318,
+      "title": "the hospital where staff treat fear of death as well as physical pain",
+      "score": 69,
+      "time": 1745812033,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 11,
+      "url": "https://www.theguardian.com/society/2025/apr/22/palliative-care-denmark-hospital-death-dying",
+      "textLength": 0,
+      "hour": "03",
+      "keywords": [
+        "physical pain",
+        "the hospital",
+        "staff",
+        "fear",
+        "death"
+      ]
+    },
+    {
+      "id": 43821104,
+      "title": "power outage cripples spain and portugal",
+      "score": 7,
+      "time": 1745845444,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://www.politico.eu/article/huge-blackouts-cripple-power-supply-in-spain-and-portugal/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "power outage cripples",
+        "spain",
+        "portugal"
+      ]
+    },
+    {
+      "id": 43821245,
+      "title": "massive power outages cause blackouts in spain and portugal",
+      "score": 4,
+      "time": 1745846376,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://english.elpais.com/international/2025-04-28/massive-power-outages-cause-blackouts-in-spain-and-portugal.html",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "massive power outages",
+        "blackouts",
+        "spain",
+        "portugal"
+      ]
+    },
+    {
+      "id": 43814469,
+      "title": "what went into training deepseek-r1? \u2013 epoch ai",
+      "score": 8,
+      "time": 1745782257,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://epoch.ai/gradient-updates/what-went-into-training-deepseek-r1",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "training deepseek-r1",
+        "epoch"
+      ]
+    },
+    {
+      "id": 43815406,
+      "title": "princeton engineering anomalies research",
+      "score": 7,
+      "time": 1745790570,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://pearlab.icrl.org/theory.html",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "princeton engineering anomalies research"
+      ]
+    },
+    {
+      "id": 43820364,
+      "title": "taking on musk, new york considers move to close tesla dealerships",
+      "score": 3,
+      "time": 1745841418,
+      "text": "",
+      "sentiment": 0.14,
+      "kidsSize": 3,
+      "url": "https://www.nytimes.com/2025/04/27/nyregion/new-york-tesla-dealerships-doge.html",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "tesla dealerships",
+        "musk",
+        "new york"
+      ]
+    },
+    {
+      "id": 43815136,
+      "title": "the license/contract dichotomy in open licenses: a comparative analysis",
+      "score": 8,
+      "time": 1745788027,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1372040",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "the license/contract dichotomy",
+        "open licenses",
+        "a comparative analysis"
+      ]
+    },
+    {
+      "id": 43815920,
+      "title": "the valley of my dreams: why silicon valley left boston's route 128 in the dust (2009)",
+      "score": 11,
+      "time": 1745795567,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://techcrunch.com/2009/10/31/the-valley-of-my-dreams-why-silicon-valley-left-bostons-route-128-in-the-dust/",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "silicon valley",
+        "the valley",
+        "boston's route",
+        "my dreams",
+        "the dust"
+      ]
+    },
+    {
+      "id": 43800472,
+      "title": "still standing",
+      "score": 61,
+      "time": 1745635794,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 16,
+      "url": "https://blog.4chan.org/post/781845918774394880/still-standing",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": []
+    },
+    {
+      "id": 43816582,
+      "title": "major offshore wind developer has stopped activities in united states",
+      "score": 4,
+      "time": 1745802698,
+      "text": "",
+      "sentiment": 0.06,
+      "kidsSize": 0,
+      "url": "https://finance.yahoo.com/news/rwe-stopped-offshore-wind-activities-064323305.html",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "major offshore wind developer",
+        "united states",
+        "activities"
+      ]
+    },
+    {
+      "id": 43815673,
+      "title": "jpmc: an open letter to third-party suppliers",
+      "score": 14,
+      "time": 1745793169,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.jpmorgan.com/technology/technology-blog/open-letter-to-our-suppliers",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "third-party suppliers",
+        "jpmc",
+        "an open letter"
+      ]
+    },
+    {
+      "id": 43815033,
+      "title": "ai coding assistants provide little value because a programmer's job is to think",
+      "score": 88,
+      "time": 1745787080,
+      "text": "",
+      "sentiment": -0.19,
+      "kidsSize": 50,
+      "url": "https://www.doliver.org/articles/programming-is-a-thinkers-game",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "little value",
+        "a programmer's job",
+        "coding assistants"
+      ]
+    },
+    {
+      "id": 43815247,
+      "title": "why \"learn to code\" failed [polymatter] [video]",
+      "score": 14,
+      "time": 1745788910,
+      "text": "",
+      "sentiment": -0.5,
+      "kidsSize": 5,
+      "url": "https://www.youtube.com/watch?v=bThPluSzlDU",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": []
+    },
+    {
+      "id": 43814155,
+      "title": "your.org ftp server",
+      "score": 6,
+      "time": 1745779440,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://163.237.219.7",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "your.org ftp server"
+      ]
+    },
+    {
+      "id": 43814000,
+      "title": "show hn: i made a one-click ai ad creator for products",
+      "score": 3,
+      "time": 1745778064,
+      "text": "hi hn!i recently built admuseai \u2014 a simple ai tool that generates product ad creatives using just one main product image (plus optional reference styles). built in 24 hours thanks to vibe-coding!why i made it:\ni noticed that creating good-looking ad creatives often needs a designer or a lot of time. i wanted a faster way to turn product photos into polished ads \u2014 no editing skills required.how it works:\n- upload a product image- (optional) upload a few reference images for style inspiration- write a short prompt- generate \u2192 download your ad creatives!~~ free for limited time ~~no account&#x2f;signup needed \u2014 you can just use it directly!link: https:&#x2f;&#x2f;admuseai.comwould love any feedback \u2014 ui&#x2f;ux thoughts, feature ideas, or anything else! \nthanks for checking it out.",
+      "sentiment": 0.13,
+      "kidsSize": 1,
+      "url": "https://admuseai.com",
+      "textLength": 789,
+      "hour": "18",
+      "keywords": [
+        "ad creator",
+        "products",
+        "hn"
+      ]
+    },
+    {
+      "id": 43814724,
+      "title": "we need more optimistic science fiction",
+      "score": 11,
+      "time": 1745784676,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 1,
+      "url": "https://craig-russell.co.uk/blog/2024-10-24-optimistic-sci-fi/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "more optimistic science fiction"
+      ]
+    },
+    {
+      "id": 43815760,
+      "title": "microsoft says it will buy 8m tons of carbon offsets (2024)",
+      "score": 4,
+      "time": 1745793975,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.wsj.com/articles/turning-brazilian-farmland-back-into-forest-gains-some-traction-9965350c",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "carbon offsets",
+        "microsoft",
+        "8m tons"
+      ]
+    },
+    {
+      "id": 43814942,
+      "title": "bssg: a simple static site generator written in bash",
+      "score": 13,
+      "time": 1745786467,
+      "text": "",
+      "sentiment": 0.25,
+      "kidsSize": 0,
+      "url": "https://bssg.dragas.net/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "a simple static site generator",
+        "bash"
+      ]
+    },
+    {
+      "id": 43815344,
+      "title": "astronomers find earth-like exoplanets common across the cosmos",
+      "score": 6,
+      "time": 1745789888,
+      "text": "",
+      "sentiment": -0.3,
+      "kidsSize": 1,
+      "url": "https://news.osu.edu/astronomers-find-earth-like-exoplanets-common-across-the-cosmos/",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "earth-like exoplanets",
+        "astronomers",
+        "the cosmos"
+      ]
+    },
+    {
+      "id": 43791385,
+      "title": "large language models, small labor market effects [pdf]",
+      "score": 76,
+      "time": 1745568918,
+      "text": "",
+      "sentiment": -0.02,
+      "kidsSize": 5,
+      "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/04/BFI_WP_2025-56-1.pdf",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "small labor market effects",
+        "large language models"
+      ]
+    },
+    {
+      "id": 43797505,
+      "title": "done in by time",
+      "score": 15,
+      "time": 1745608370,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 5,
+      "url": "https://thelampmagazine.com/issues/issue-27/done-in-by-time",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "time"
+      ]
+    },
+    {
+      "id": 43788255,
+      "title": "a love letter to people who believe in people",
+      "score": 255,
+      "time": 1745534101,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 19,
+      "url": "https://www.swiss-miss.com/2025/04/a-love-letter-to-people-who-believe-in-people.html",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "people",
+        "a love letter"
+      ]
+    },
+    {
+      "id": 43797774,
+      "title": "tales of the yucca man (2018)",
+      "score": 7,
+      "time": 1745609955,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://longreads.com/2018/04/25/the-known-unknown-tales-of-the-yucca-man/",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "the yucca man",
+        "tales"
+      ]
+    },
+    {
+      "id": 43798617,
+      "title": "finding things the government might know about you",
+      "score": 12,
+      "time": 1745615891,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://www.nytimes.com/2025/04/16/insider/trump-musk-data-access.html",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "the government",
+        "things"
+      ]
+    },
+    {
+      "id": 43790683,
+      "title": "mary maclane, the wild woman from butte",
+      "score": 23,
+      "time": 1745562012,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 1,
+      "url": "https://publicdomainreview.org/essay/i-am-making-the-world-my-confessor/",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "mary maclane",
+        "the wild woman",
+        "butte"
+      ]
+    },
+    {
+      "id": 43788053,
+      "title": "scientists develop artificial leaf, uses sunlight to produce valuable chemicals",
+      "score": 260,
+      "time": 1745532615,
+      "text": "",
+      "sentiment": -0.6,
+      "kidsSize": 15,
+      "url": "https://newscenter.lbl.gov/2025/04/24/scientists-develop-artificial-leaf-that-uses-sunlight-to-produce-valuable-chemicals/",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "artificial leaf",
+        "valuable chemicals",
+        "scientists",
+        "sunlight"
+      ]
+    },
+    {
+      "id": 43790603,
+      "title": "\"poetry city\": iowa city, iowa",
+      "score": 46,
+      "time": 1745561158,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://www.publicbooks.org/poetry-city-iowa-city-iowa/",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "iowa city",
+        "\"poetry city",
+        "iowa"
+      ]
+    },
+    {
+      "id": 43793986,
+      "title": "uit \u2013 performant, modular, low-memory file processing at scale, in the cloud",
+      "score": 23,
+      "time": 1745591500,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://github.com/janwilmake/uit",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "uit \u2013 performant, modular, low-memory file processing",
+        "scale",
+        "the cloud"
+      ]
+    },
+    {
+      "id": 43793638,
+      "title": "xprize in carbon removal goes to enhanced rock weathering",
+      "score": 16,
+      "time": 1745589587,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://spectrum.ieee.org/xprize-carbon-removal",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "carbon removal",
+        "enhanced rock weathering",
+        "xprize"
+      ]
+    },
+    {
+      "id": 43793627,
+      "title": "show hn: bugstalker - a modern rust debugger",
+      "score": 101,
+      "time": 1745589535,
+      "text": "",
+      "sentiment": 0.2,
+      "kidsSize": 9,
+      "url": "https://github.com/godzie44/BugStalker",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "a modern rust debugger",
+        "hn",
+        "bugstalker"
+      ]
+    },
+    {
+      "id": 43774169,
+      "title": "tarpit ideas: what they are and how to avoid them (2023) [video]",
+      "score": 128,
+      "time": 1745427576,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 19,
+      "url": "https://www.ycombinator.com/library/Ij-tarpit-ideas-what-are-tarpit-ideas-how-to-avoid-them",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "tarpit ideas",
+        "[video"
+      ]
+    },
+    {
+      "id": 43797058,
+      "title": "next-gen gpu programming: hands-on with mojo and max modular hq",
+      "score": 33,
+      "time": 1745605943,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 5,
+      "url": "https://www.youtube.com/live/uul6hZ5NXC8?si=mKxZJy2xAD-rOc3g",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "mojo and max modular hq",
+        "next-gen gpu programming",
+        "hands"
+      ]
+    },
+    {
+      "id": 43795504,
+      "title": "write an interpreter in ruby",
+      "score": 44,
+      "time": 1745598384,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://speakerdeck.com/marioariasc/write-an-interpreter-in-ruby",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "an interpreter",
+        "ruby"
+      ]
+    },
+    {
+      "id": 43796746,
+      "title": "things i learned about software and startups by playing video games",
+      "score": 3,
+      "time": 1745604301,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://the-nerve-blog.ghost.io/learning-from-video-games/",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "video games",
+        "software",
+        "startups",
+        "things"
+      ]
+    },
+    {
+      "id": 43786506,
+      "title": "openai releases image generation in the api",
+      "score": 470,
+      "time": 1745522871,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 40,
+      "url": "https://openai.com/index/image-generation-api/",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "openai releases image generation",
+        "the api"
+      ]
+    },
+    {
+      "id": 43790855,
+      "title": "some __nonstring__ turbulence",
+      "score": 119,
+      "time": 1745563605,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://lwn.net/SubscriberLink/1018486/1dcd29863655cb25/",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "turbulence"
+      ]
+    },
+    {
+      "id": 43789142,
+      "title": "a visual journey through async rust",
+      "score": 135,
+      "time": 1745542235,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "a visual journey",
+        "async rust"
+      ]
+    },
+    {
+      "id": 43795961,
+      "title": "dolphins communicate with 'fountains of pee'",
+      "score": 28,
+      "time": 1745600280,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://www.scientificamerican.com/article/dolphins-communicate-with-fountains-of-pee/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "dolphins",
+        "fountains",
+        "pee"
+      ]
+    },
+    {
+      "id": 43785039,
+      "title": "openvsx, which vscode forks rely on for extensions, down for 24 hours",
+      "score": 236,
+      "time": 1745514596,
+      "text": "",
+      "sentiment": -0.16,
+      "kidsSize": 21,
+      "url": "https://status.open-vsx.org/",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "vscode forks",
+        "openvsx",
+        "extensions",
+        "24 hours"
+      ]
+    },
+    {
+      "id": 43782406,
+      "title": "instant sql for results as you type in duckdb ui",
+      "score": 359,
+      "time": 1745501006,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 28,
+      "url": "https://motherduck.com/blog/introducing-instant-sql/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "instant sql",
+        "results",
+        "duckdb"
+      ]
+    },
+    {
+      "id": 43794576,
+      "title": "fbi arrests judge accused of helping man evade immigration authorities",
+      "score": 867,
+      "time": 1745594735,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 72,
+      "url": "https://apnews.com/article/immigration-judge-arrested-7997186bbca5730e70a25f2347e631f6",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "fbi arrests judge",
+        "man",
+        "immigration authorities"
+      ]
+    },
+    {
+      "id": 43784721,
+      "title": "one quantum transition makes light at 21 cm",
+      "score": 248,
+      "time": 1745512734,
+      "text": "",
+      "sentiment": 0.4,
+      "kidsSize": 15,
+      "url": "https://bigthink.com/starts-with-a-bang/21cm-magic-length/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "one quantum transition",
+        "light",
+        "21 cm"
+      ]
+    },
+    {
+      "id": 43772110,
+      "title": "show hn: logiquiz \u2013 daily self-referential puzzles",
+      "score": 30,
+      "time": 1745415819,
+      "text": "hey hn,about twenty years ago, while i was in college, i first stumbled upon james propp&#x27;s self-referential aptitude test [1] and absolutely loved it. ever since then, i&#x27;ve had this idea of turning that concept into a daily game, and i&#x27;ve finally built it: https:&#x2f;&#x2f;www.logiquiz.com&#x2f;the game interface checks each question against the answers you&#x27;ve given, so it doesn&#x27;t spoil anything by giving away the answers.there are five different tests each day, from very easy to very hard.i&#x27;d love to hear what you think![1]: https:&#x2f;&#x2f;faculty.uml.edu&#x2f;jpropp&#x2f;srat-q.txt",
+      "sentiment": 0.13,
+      "kidsSize": 5,
+      "url": "https://www.logiquiz.com/",
+      "textLength": 624,
+      "hour": "13",
+      "keywords": [
+        "daily self-referential puzzles",
+        "hn",
+        "logiquiz"
+      ]
+    },
+    {
+      "id": 43785044,
+      "title": "show hn: lemon slice live \u2013 have a video call with a transformer model",
+      "score": 181,
+      "time": 1745514614,
+      "text": "hey hn, this is lina, andrew, and sidney from lemon slice. we\u2019ve trained a custom diffusion transformer (dit) model that achieves video streaming at 25fps and wrapped it into a demo that allows anyone to turn a photo into a real-time, talking avatar. here\u2019s an example conversation from co-founder andrew: https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=ceyp5xqmfzy. try it for yourself at: https:&#x2f;&#x2f;lemonslice.com&#x2f;live.(btw, we used to be called infinity ai and did a show hn under that name last year: https:&#x2f;&#x2f;news.ycombinator.com&#x2f;item?id=41467704.)unlike existing avatar video chat platforms like heygen, tolan, or apple memoji filters, we do not require training custom models, rigging a character ahead of time, or having a human drive the avatar. our tech allows users to create and immediately video-call a custom character by uploading a single image. the character image can be any style - from photorealistic to cartoons, paintings, and more.to achieve this demo, we had to do the following (among other things! but these were the hardest):1. training a fast dit model. to make our video generation fast, we had to both design a model that made the right trade-offs between speed and quality, and use standard distillation approaches. we first trained a custom video diffusion transformer (dit) from scratch that achieves excellent lip and facial expression sync to audio. to further optimize the model for speed, we applied teacher-student distillation. the distilled model achieves 25fps video generation at 256-px resolution. purpose-built transformer asics will eventually allow us to stream our video model at 4k resolution.2. solving the infinite video problem. most video dit models (sora, runway, kling) generate 5-second chunks. they can iteratively extend it by another 5sec by feeding the end of the 1st chunk into the start of the 2nd in an autoregressive manner. unfortunately the models experience quality degradation after multiple extensions due to accumulation of generation errors. we developed a temporal consistency preservation technique that maintains visual coherence across long sequences. our technique significantly reduces artifact accumulation and allows us to generate indefinitely-long videos.3. a complex streaming architecture with minimal latency. enabling an end-to-end avatar zoom call requires several building blocks, including voice transcription, llm inference, and text-to-speech generation in addition to video generation. we use deepgram as our ai voice partner. modal as the end-to-end compute platform. and daily.co and pipecat to help build a parallel processing pipeline that orchestrates everything via continuously streaming chunks. our system achieves end-to-end latency of 3-6 seconds from user input to avatar response. our target is &lt;2 second latency.more technical details here: https:&#x2f;&#x2f;lemonslice.com&#x2f;live&#x2f;technical-report.current limitations that we want to solve include: (1) enabling whole-body and background motions (we\u2019re training a next-gen model for this), (2) reducing delays and improving resolution (purpose-built asics will help), (3) training a model on dyadic conversations so that avatars learn to listen naturally, and (4) allowing the character to \u201csee you\u201d and respond to what they see to create a more natural and engaging conversation.we believe that generative video will usher in a new media type centered around interactivity: tv shows, movies, ads, and online courses will stop and talk to us. our entertainment will be a mixture of passive and active experiences depending on what we\u2019re in the mood for. well, prediction is hard, especially about the future, but that\u2019s how we see it anyway!we\u2019d love for you to try out the demo and let us know what you think! post your characters and&#x2f;or conversation recordings below.",
+      "sentiment": 0.06,
+      "kidsSize": 25,
+      "url": [],
+      "textLength": 3864,
+      "hour": "17",
+      "keywords": [
+        "a transformer model",
+        "a video call",
+        "hn"
+      ]
+    },
+    {
+      "id": 43786514,
+      "title": "pygraph: robust compiler support for cuda graphs in pytorch",
+      "score": 79,
+      "time": 1745522909,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://arxiv.org/abs/2503.19779",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "robust compiler support",
+        "cuda graphs",
+        "pygraph",
+        "pytorch"
+      ]
+    },
+    {
+      "id": 43794210,
+      "title": "exploring model welfare",
+      "score": 6,
+      "time": 1745592782,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://www.anthropic.com/research/exploring-model-welfare",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "model welfare"
+      ]
+    },
+    {
+      "id": 43798874,
+      "title": "attorney general warns arrested judge is just the beginning",
+      "score": 7,
+      "time": 1745617779,
+      "text": "",
+      "sentiment": 0.05,
+      "kidsSize": 0,
+      "url": "https://newrepublic.com/post/194453/donald-trump-attorney-general-pam-bondi-arrest-judge-warning",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "attorney general",
+        "arrested judge",
+        "just the beginning"
+      ]
+    },
+    {
+      "id": 43784200,
+      "title": "a principled approach to querying data \u2013 a type-safe search dsl",
+      "score": 86,
+      "time": 1745509995,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://www.claudiu-ivan.com/writing/search-dsl",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "a type-safe search",
+        "a principled approach",
+        "data"
+      ]
+    },
+    {
+      "id": 43795700,
+      "title": "exercise before bed is linked with disrupted sleep",
+      "score": 87,
+      "time": 1745599099,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 22,
+      "url": "https://medicalxpress.com/news/2025-04-bed-linked-disrupted.html",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "disrupted sleep",
+        "exercise",
+        "bed"
+      ]
+    },
+    {
+      "id": 43783416,
+      "title": "fundamental flaws of simd isas (2021)",
+      "score": 142,
+      "time": 1745505723,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 16,
+      "url": "https://www.bitsnbites.eu/three-fundamental-flaws-of-simd/",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "fundamental flaws",
+        "simd isas"
+      ]
+    },
+    {
+      "id": 43789010,
+      "title": "show hn: faasta \u2013 a self-hosted serverless platform for wasm-wasi-http in rust",
+      "score": 83,
+      "time": 1745541065,
+      "text": "i&#x27;ve just released an early version off my project i&#x27;ve been working on for a few months now and would love some feedback.https:&#x2f;&#x2f;github.com&#x2f;fourlexboehm&#x2f;faastai was surprised there isn&#x27;t yet an open&#x2f;source and standards compliant way to host wasi-http functions in a way that takes advantages of wasm, a multi tenanted application.if you&#x27;re not familiar with wasi, compared to something like aws lambda, this approach is much more efficient as a single process can serve 1000s of function invocations concurrently and asynchronously, instead requiring an entire vm.this is still early days for the project, but feel free to download the cli utility with cargo install cargo-faasta.feel free to test deploying functions on my hosted instance at https:&#x2f;&#x2f;website.faasta.xyz.the service is free to use and currently supports deployments via github oauth, with a limit of 10 functions per github account.",
+      "sentiment": 0.16,
+      "kidsSize": 7,
+      "url": "https://github.com/fourlexboehm/faasta",
+      "textLength": 955,
+      "hour": "00",
+      "keywords": [
+        "wasm-wasi-http",
+        "hn",
+        "a self-hosted serverless platform",
+        "rust"
+      ]
+    },
+    {
+      "id": 43787676,
+      "title": "you can be a great designer and be completely unknown",
+      "score": 240,
+      "time": 1745529898,
+      "text": "",
+      "sentiment": 0.35,
+      "kidsSize": 33,
+      "url": "https://www.chrbutler.com/you-can-be-a-great-designer-and-be-completely-unknown",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "a great designer"
+      ]
+    },
+    {
+      "id": 43795703,
+      "title": "a scaled down look at spending, revenue, and what's being cut",
+      "score": 61,
+      "time": 1745599114,
+      "text": "",
+      "sentiment": -0.16,
+      "kidsSize": 15,
+      "url": "https://www.debtinperspective.com/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "a scaled down look",
+        "spending",
+        "revenue"
+      ]
+    },
+    {
+      "id": 43796961,
+      "title": "general anesthesia reduces uniqueness of brain's functional 'fingerprint'",
+      "score": 6,
+      "time": 1745605383,
+      "text": "",
+      "sentiment": 0.05,
+      "kidsSize": 3,
+      "url": "https://medicalxpress.com/news/2025-04-general-anesthesia-uniqueness-brain-functional.html",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "brain's functional 'fingerprint",
+        "general anesthesia",
+        "uniqueness"
+      ]
+    },
+    {
+      "id": 43780918,
+      "title": "show hn: i built lovable for text bots and mini apps",
+      "score": 39,
+      "time": 1745489033,
+      "text": "hi hn,during the last weeks, i&#x27;ve been working to create a system that allows you to convert prompts into chatbots and mini apps on platforms that everyone uses on a daily basis.the first integrated platform is telegram:telegram is a powerful platform with many integrations and features like bots, apps, games and even payments. so i thought it would be nice to make it easier to create these apps. i created a bot http:&#x2f;&#x2f;t.me&#x2f;plutonicdevbot.workflow is pretty simple: create or choose an existing bot and send a text&#x2f;voice message about what to create just like you prompt everywhere. to get more instructions, use the &#x2f;help and &#x2f;howto commands.planning to create the same solution for slack and discord.thanks for taking a look. i would love to hear feedback.https:&#x2f;&#x2f;plutonic.devx.com&#x2f;plutonicdev[1] https:&#x2f;&#x2f;core.telegram.org&#x2f;bots[2] https:&#x2f;&#x2f;core.telegram.org&#x2f;bots&#x2f;webapps",
+      "sentiment": 0.28,
+      "kidsSize": 6,
+      "url": "https://plutonic.dev",
+      "textLength": 960,
+      "hour": "10",
+      "keywords": [
+        "mini apps",
+        "text bots",
+        "hn"
+      ]
+    },
+    {
+      "id": 43780876,
+      "title": "assignment 5: cars and key fobs (2021)",
+      "score": 223,
+      "time": 1745488402,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 23,
+      "url": "https://web.stanford.edu/class/ee26n/Assignments/Assignment5.html",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "key fobs",
+        "assignment",
+        "5: cars"
+      ]
+    },
+    {
+      "id": 43794159,
+      "title": "show hn: stackhound - stop guessing repo's tech stack, analyze it in seconds",
+      "score": 4,
+      "time": 1745592429,
+      "text": "if you\u2019ve ever explored github repos and felt frustrated by how little you can tell about a project\u2019s real tech stack \u2014 you\u2019re not alone.that\u2019s exactly why i built stackhound \n https:&#x2f;&#x2f;www.producthunt.com&#x2f;posts&#x2f;stackhoundit goes beyond the github api to scan dependency files and uncover the actual tools, frameworks, and languages a repo uses \u2014 whether it&#x27;s built with react, next.js, tailwind, flask, or spring boot.just drop in a github username and repo to analyze it instantly.\n you can also use our &#x2f;api&#x2f;analyze endpoint to plug it into your own tools.try the live demo:\n https:&#x2f;&#x2f;stackhound.vercel.app&#x2f;\ncheck out the code (open source!):\n https:&#x2f;&#x2f;github.com&#x2f;lorenzopalaia&#x2f;stackhoundwould love to hear your thoughts \u2014 what features would make stackhound even more useful for you?",
+      "sentiment": 0.13,
+      "kidsSize": 1,
+      "url": "https://stackhound.vercel.app/",
+      "textLength": 854,
+      "hour": "14",
+      "keywords": [
+        "repo's tech stack",
+        "stackhound - stop",
+        "hn",
+        "seconds"
+      ]
+    },
+    {
+      "id": 43782299,
+      "title": "ask hn: share your ai prompt that stumps every model",
+      "score": 389,
+      "time": 1745500282,
+      "text": "i had an idea for creating a crowdsourced database of ai prompts that no ai model could yet crack (wanted to use some of them as we&#x27;re adding new models to kilo code).i&#x27;ve seen a bunch of those prompts scattered across hn, so thought to open a thread here so we can maybe have a centralied location for this.share your prompt that stumps every ai model here.",
+      "sentiment": 0.07,
+      "kidsSize": 171,
+      "url": [],
+      "textLength": 368,
+      "hour": "13",
+      "keywords": [
+        "every model",
+        "hn"
+      ]
+    },
+    {
+      "id": 43780176,
+      "title": "show hn: colanode, open-source and local-first slack and notion alternative",
+      "score": 128,
+      "time": 1745480595,
+      "text": "hey hn,i&#x27;m hakan, the founder of colanode (https:&#x2f;&#x2f;github.com&#x2f;colanode&#x2f;colanode), an open-source, local-first collaboration app combining the best of slack-style chats and notion-style note-taking, fully self-hostable for complete data control. here&#x27;s a quick demo: https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=wp1hosceargas a heavy notion user, i often found it tough to get my teams fully onboard since people naturally gravitate toward chat for quick interactions. maintaining context between chat apps like slack and documentation apps like notion became increasingly frustrating. switching contexts, losing track of information, and managing data across multiple tools created unnecessary friction.this frustration led me to build colanode, a single platform integrating structured notes and knowledge management with real-time chat. after building the first version, early feedback highlighted a critical issue: teams&#x2f;organizations want full control over sensitive data, especially conversations. that&#x27;s why i decided to open-source colanode under an apache 2.0 license, making it fully self-hostable so you can retain complete ownership and privacy over your data.colanode is built with simplicity and extensibility in mind, using only open-source tools and avoiding any vendor or cloud lock-in. it features a local-first architecture offering complete offline support. from a technical perspective, colanode consists of a node.js server api and an electron desktop client, with mobile apps coming soon. everything in colanode is represented as a node (e.g., message, file, folder, chat, channel, database, record), each with specific attributes and permissions. all reads and writes performed by the desktop client happen locally within a sqlite database, and changes sync seamlessly via a synchronization engine built on top of sqlite, postgres, and yjs\u2014a crdt library for conflict resolution. the server then propagates these changes to other collaborators. you can self-host the server in any environment using docker, postgres, redis, and any s3-compatible storage, and connect using the official desktop client, which supports simultaneous connections to multiple servers and accounts. this local-first approach also prepares us for future integrations with fully local llms, further enhancing privacy and performance.i&#x27;d love your feedback and suggestions on colanode. what features would you like to see? what would you change?thanks, looking forward to your thoughts!",
+      "sentiment": 0.08,
+      "kidsSize": 14,
+      "url": "https://github.com/colanode/colanode",
+      "textLength": 2530,
+      "hour": "07",
+      "keywords": [
+        "colanode, open-source and local-first slack",
+        "notion",
+        "hn"
+      ]
+    },
+    {
+      "id": 43794439,
+      "title": "new analysis casts doubt on 'biosignatures' found on planet k2-18b",
+      "score": 18,
+      "time": 1745594129,
+      "text": "",
+      "sentiment": 0.14,
+      "kidsSize": 3,
+      "url": "https://www.npr.org/2025/04/25/g-s1-62610/biosignatures-k2-18b-james-webb-exoplanet-doubt",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "planet k2-18b",
+        "new analysis",
+        "doubt",
+        "biosignatures"
+      ]
+    },
+    {
+      "id": 43792829,
+      "title": "show hn: snipfast \u2013 extract highlighted text from physical books",
+      "score": 7,
+      "time": 1745583742,
+      "text": "hi hn,i built snipfast - a tool that helps you extract important text from an image of a page. if you\u2019ve ever highlighted sections in a physical book and wanted to save or organize them digitally, snipfast can help.this came from my own frustration. i like to note down ideas when reading, but doing that from physical books was time-consuming. i looked for a tool to solve this, didn\u2019t find one, so i built it.snipfast lets you:- automatically detect and extract highlighted text from a page photo (works with most highlighter pens and languages)- click on sentences in the image to manually pick exactly what you want to copyit\u2019s aimed at readers, students, researchers - basically anyone who annotates physical books and wants to keep those notes digitally.under the hood, it uses a custom ml model trained on highlight detection. the app runs on a kotlin backend with a postgres database. you can try it for free. signup is required, but it\u2019s minimal. i offer some credits upfront so people can test it out. after that, there\u2019s a small payment required. the goal is mainly to prevent abuse and to validate whether this is a tool people find valuable enough to pay for.the ui still needs work, and i\u2019m mainly looking for feedback at this stage. i\u2019d love to hear: does this solve a real problem for you? was anything confusing? what would make it more useful?link: https:&#x2f;&#x2f;snipfa.stthanks,\ntom",
+      "sentiment": 0.15,
+      "kidsSize": 1,
+      "url": "https://snipfa.st",
+      "textLength": 1405,
+      "hour": "12",
+      "keywords": [
+        "physical books",
+        "highlighted text",
+        "snipfast",
+        "hn"
+      ]
+    },
+    {
+      "id": 43792774,
+      "title": "show hn: an interactive demo of qr codes' error correction",
+      "score": 8,
+      "time": 1745583324,
+      "text": "hi hn!\nthis is a hobby project of mine that recently landed me my first interview and helped me get my first internship offers.draw on a qr code, and the health bars will accurately display how close the qr code is to being unscannable. how few errors does it take to break a qr code? how many errors can a qr code handle? counters at the bottom track your record minimum and maximum damage. (can you figure out how to break a qr code with 0.0% damage to the actual data region?)also, click on the magnifying glass button to toggle between &quot;draw mode&quot; and &quot;inspect mode&quot;.\ni encourage you to use your phone&#x27;s camera to scan the code as you draw and undo&#x2f;redo to verify that the code really does break when the app says it does.i wrote the underlying decoder in c++, and it&#x27;s compiled to webassembly for the website.i hope you find it interesting.",
+      "sentiment": 0.21,
+      "kidsSize": 1,
+      "url": "https://qris.cool",
+      "textLength": 880,
+      "hour": "12",
+      "keywords": [
+        "qr codes' error correction",
+        "hn",
+        "an interactive demo"
+      ]
+    },
+    {
+      "id": 43798275,
+      "title": "synadia response to cncf",
+      "score": 9,
+      "time": 1745613459,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 5,
+      "url": "https://www.synadia.com/blog/synadia-response-to-cncf",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "synadia response",
+        "cncf"
+      ]
+    },
+    {
+      "id": 43785350,
+      "title": "show hn: infat \u2013 declaritive application assocation manager for macos",
+      "score": 85,
+      "time": 1745516272,
+      "text": "bello! made this to help navigate the tumultuous process of navigating to a new machine on mac when you have a number of custom utilities setup for editing particular files. this is designed to make that as easy as possible, and add some magic on top of that, like setting mailto handlers or anything else of that breed. use xdg_config_home to keep it organized.credit to https:&#x2f;&#x2f;github.com&#x2f;moretension&#x2f;duti for the original inspiration for the project.happy to answer and help with whatever.",
+      "sentiment": 0.3,
+      "kidsSize": 14,
+      "url": "https://github.com/philocalyst/infat",
+      "textLength": 512,
+      "hour": "17",
+      "keywords": [
+        "macos",
+        "hn: infat",
+        "declaritive application assocation manager"
+      ]
+    },
+    {
+      "id": 43780377,
+      "title": "mark zuckerberg says social media is over",
+      "score": 515,
+      "time": 1745482763,
+      "text": "",
+      "sentiment": 0.03,
+      "kidsSize": 145,
+      "url": "https://www.newyorker.com/culture/infinite-scroll/mark-zuckerberg-says-social-media-is-over",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "mark zuckerberg",
+        "social media"
+      ]
+    },
+    {
+      "id": 43779766,
+      "title": "daily driving a linux phone, but why?",
+      "score": 136,
+      "time": 1745475215,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 30,
+      "url": "https://thefoggiest.dev/2025/04/24/daily-driving-a-linux-phone-but-why",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "a linux phone"
+      ]
+    },
+    {
+      "id": 43787353,
+      "title": "openalternative \u2013 open-source alternatives to popular software",
+      "score": 34,
+      "time": 1745528017,
+      "text": "",
+      "sentiment": 0.6,
+      "kidsSize": 2,
+      "url": "https://github.com/piotrkulpinski/openalternative",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "openalternative \u2013 open-source alternatives",
+        "popular software"
+      ]
+    },
+    {
+      "id": 43788125,
+      "title": "microsoft subtracts c/c++ extension from vs code forks",
+      "score": 228,
+      "time": 1745533129,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 41,
+      "url": "https://www.theregister.com/2025/04/24/microsoft_vs_code_subtracts_cc_extension/",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "c/c++ extension",
+        "vs code forks",
+        "microsoft"
+      ]
+    },
+    {
+      "id": 43773813,
+      "title": "ai horseless carriages",
+      "score": 815,
+      "time": 1745425196,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 103,
+      "url": "https://koomen.dev/essays/horseless-carriages/",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "horseless carriages"
+      ]
+    },
+    {
+      "id": 43784668,
+      "title": "show hn: zev \u2013 remember (or discover) terminal commands",
+      "score": 78,
+      "time": 1745512434,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 17,
+      "url": "https://github.com/dtnewman/zev",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "terminal commands",
+        "hn",
+        ": zev"
+      ]
+    },
+    {
+      "id": 43776477,
+      "title": "how much math is knowable? [video]",
+      "score": 106,
+      "time": 1745441337,
+      "text": "",
+      "sentiment": 0.2,
+      "kidsSize": 4,
+      "url": "https://www.youtube.com/watch?v=VplMHWSZf5c",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "how much math"
+      ]
+    },
+    {
+      "id": 43791115,
+      "title": "key takeaways from catl's naxtra sodium-ion battery launch",
+      "score": 11,
+      "time": 1745565959,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.batterytechonline.com/materials/5-key-takeaways-from-catl-s-naxtra-sodium-ion-battery-launch",
+      "textLength": 0,
+      "hour": "07",
+      "keywords": [
+        "catl's naxtra sodium-ion battery launch",
+        "key takeaways"
+      ]
+    },
+    {
+      "id": 43748025,
+      "title": "mistaking mary magdalene",
+      "score": 38,
+      "time": 1745202260,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/mistaking-mary-magdalene",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "mary magdalene"
+      ]
+    },
+    {
+      "id": 43784205,
+      "title": "three things everyone should know about vision transformers",
+      "score": 66,
+      "time": 1745510004,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://arxiv.org/abs/2203.09795",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "vision transformers",
+        "three things"
+      ]
+    },
+    {
+      "id": 43781465,
+      "title": "show hn: i made my own trmnl e-ink device",
+      "score": 72,
+      "time": 1745494450,
+      "text": "",
+      "sentiment": 0.6,
+      "kidsSize": 4,
+      "url": "https://www.stavros.io/posts/making-a-trmnl-device/",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "my own trmnl e-ink device",
+        "hn"
+      ]
+    },
+    {
+      "id": 43798620,
+      "title": "new jersey sues discord for allegedly failing to protect children",
+      "score": 8,
+      "time": 1745615925,
+      "text": "",
+      "sentiment": 0.02,
+      "kidsSize": 0,
+      "url": "https://www.wired.com/story/new-jersey-sues-discord/",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "new jersey",
+        "discord",
+        "children"
+      ]
+    },
+    {
+      "id": 43784056,
+      "title": "asymmetric content moderation in search markets: the case of adult websites",
+      "score": 84,
+      "time": 1745509124,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 9,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5106235",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "asymmetric content moderation",
+        "search markets",
+        "adult websites",
+        "the case"
+      ]
+    },
+    {
+      "id": 43794081,
+      "title": "century-old genetics mystery of mendel's peas solved",
+      "score": 17,
+      "time": 1745591999,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://www.nature.com/articles/d41586-025-01269-8",
+      "textLength": 0,
+      "hour": "14",
+      "keywords": [
+        "century-old genetics mystery",
+        "mendel's peas"
+      ]
+    },
+    {
+      "id": 43747634,
+      "title": "finland is painting deer antlers with reflective paint (2014)",
+      "score": 96,
+      "time": 1745195760,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 32,
+      "url": "https://www.smithsonianmag.com/smart-news/avoid-deer-strikes-finland-painting-deer-antlers-reflective-paint-180949792/",
+      "textLength": 0,
+      "hour": "00",
+      "keywords": [
+        "deer antlers",
+        "reflective paint",
+        "finland"
+      ]
+    },
+    {
+      "id": 43790093,
+      "title": "deepmind releases lyria 2 music generation model",
+      "score": 289,
+      "time": 1745555115,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 41,
+      "url": "https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/",
+      "textLength": 0,
+      "hour": "04",
+      "keywords": [
+        "deepmind releases lyria 2 music generation model"
+      ]
+    },
+    {
+      "id": 43783997,
+      "title": "a tour inside the ibm z17",
+      "score": 81,
+      "time": 1745508796,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 8,
+      "url": "https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/elizabeth-k-joseph1/2025/04/23/a-tour-inside-the-ibm-z17?communityKey=e7b7d299-8509-4572-8cf1-c1112684644f",
+      "textLength": 0,
+      "hour": "15",
+      "keywords": [
+        "the ibm z17",
+        "a tour"
+      ]
+    },
+    {
+      "id": 43780785,
+      "title": "creating your own federated microblog",
+      "score": 180,
+      "time": 1745487477,
+      "text": "",
+      "sentiment": 0.6,
+      "kidsSize": 8,
+      "url": "https://fedify.dev/tutorial/microblog",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "your own federated microblog"
+      ]
+    },
+    {
+      "id": 43789471,
+      "title": "i used simple rules to make dfas that kinda match accepted physics models",
+      "score": 15,
+      "time": 1745546409,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 6,
+      "url": "https://keweizhou1996-df477.web.app/dfa.html",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "simple rules",
+        "kinda match",
+        "physics models"
+      ]
+    },
+    {
+      "id": 43787493,
+      "title": "agent mesh for enterprise agents",
+      "score": 21,
+      "time": 1745528696,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://www.solo.io/blog/agent-mesh-for-enterprise-agents",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "agent mesh",
+        "enterprise agents"
+      ]
+    },
+    {
+      "id": 43780815,
+      "title": "on loyalty to your employer (2018)",
+      "score": 409,
+      "time": 1745487828,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 79,
+      "url": "https://medium.com/hackernoon/on-loyalty-to-your-employer-c674c4b06b3a",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "loyalty",
+        "your employer"
+      ]
+    },
+    {
+      "id": 43775926,
+      "title": "you wouldn't steal a font",
+      "score": 1350,
+      "time": 1745437356,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 43,
+      "url": "https://fedi.rib.gay/notes/a6xqityngfubsz0f",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "a font"
+      ]
+    },
+    {
+      "id": 43775366,
+      "title": "'bright circle' and 'margaret fuller': the rise of the transcendental woman",
+      "score": 18,
+      "time": 1745433925,
+      "text": "",
+      "sentiment": 0.7,
+      "kidsSize": 1,
+      "url": "https://www.wsj.com/arts-culture/books/bright-circle-and-margaret-fuller-the-rise-of-the-transcendental-woman-1bacdb10",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "'bright circle",
+        "the transcendental woman",
+        "the rise"
+      ]
+    },
+    {
+      "id": 43789625,
+      "title": "observability 2.0 and the database for it",
+      "score": 118,
+      "time": 1745548740,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 17,
+      "url": "https://greptime.com/blogs/2025-04-25-greptimedb-observability2-new-database",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "observability",
+        "the database"
+      ]
+    },
+    {
+      "id": 43770337,
+      "title": "apple and meta fined millions for breaching eu law",
+      "score": 439,
+      "time": 1745402464,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 34,
+      "url": "https://ca.finance.yahoo.com/news/apple-fined-570-million-meta-094701712.html",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "eu law",
+        "apple",
+        "meta",
+        "millions"
+      ]
+    },
+    {
+      "id": 43773746,
+      "title": "more everything forever",
+      "score": 153,
+      "time": 1745424820,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 33,
+      "url": "https://www.nytimes.com/2025/04/23/books/review/more-everything-forever-adam-becker.html",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": []
+    },
+    {
+      "id": 43773777,
+      "title": "mcp on aws lambda with mcpengine",
+      "score": 116,
+      "time": 1745425024,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 9,
+      "url": "https://www.featureform.com/post/deploy-mcp-on-aws-lambda-with-mcpengine",
+      "textLength": 0,
+      "hour": "16",
+      "keywords": [
+        "aws",
+        "mcpengine"
+      ]
+    },
+    {
+      "id": 43785580,
+      "title": "pgdog is a transaction pooler logical replication manager can shard postgresql",
+      "score": 20,
+      "time": 1745517497,
+      "text": "",
+      "sentiment": 0.25,
+      "kidsSize": 0,
+      "url": "https://github.com/pgdogdev/pgdog",
+      "textLength": 0,
+      "hour": "17",
+      "keywords": [
+        "a transaction pooler logical replication manager",
+        "pgdog",
+        "postgresql"
+      ]
+    },
+    {
+      "id": 43775358,
+      "title": "the hidden cost of ai coding",
+      "score": 327,
+      "time": 1745433887,
+      "text": "",
+      "sentiment": -0.17,
+      "kidsSize": 53,
+      "url": "https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/",
+      "textLength": 0,
+      "hour": "18",
+      "keywords": [
+        "the hidden cost"
+      ]
+    },
+    {
+      "id": 43771645,
+      "title": "how i blog with obsidian, hugo, github, and cloudflare",
+      "score": 325,
+      "time": 1745413232,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 59,
+      "url": "https://ingau.me/blog/how-i-write-my-blogs-in-obsidian-and-publish-instantly/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "obsidian",
+        "hugo",
+        "github"
+      ]
+    },
+    {
+      "id": 43801959,
+      "title": "ice deports 3 u.s. citizen children held incommunicado prior to the deportation",
+      "score": 235,
+      "time": 1745657369,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 15,
+      "url": "https://www.aclu.org/press-releases/ice-deports-3-u-s-citizen-children-held-incommunicado-prior-to-the-deportation",
+      "textLength": 0,
+      "hour": "08",
+      "keywords": [
+        "3 u.s. citizen children",
+        "incommunicado",
+        "the deportation"
+      ]
+    },
+    {
+      "id": 43802839,
+      "title": "freshpaint (yc s19) is hiring back end and front end engineers (remote, us only)",
+      "score": 1,
+      "time": 1745668838,
+      "text": "what we do:\nfreshpaint bridges the gap between patient privacy and digital marketing by ensuring sensitive data is never shared with tools that aren\u2019t hipaa-compliant. freshpaint bridges the gap between patient privacy and digital marketing by ensuring sensitive data is never shared with tools that aren\u2019t hipaa-compliant. we&#x27;re a small, senior team building real-time data pipelines and and privacy-safe systems.tech stack: go, postgres, aws, typescript, react.we&#x27;re looking for:backend engineers: experience with backend systems, apis, distributed architectures, and product-focused engineering.\napply here: https:&#x2f;&#x2f;tinyurl.com&#x2f;4nbv7wdefrontend engineers: experience with react, typescript, and owning ui development in collaborative environments.\napply here: https:&#x2f;&#x2f;tinyurl.com&#x2f;wfud7ppvexperience at high growth, early stage startups is a must.fully remote (us). competitive salary and equity.follow the url&#x27;s above to apply or email our recruiter at shannan@freshpaint.io",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": [],
+      "textLength": 1022,
+      "hour": "12",
+      "keywords": [
+        "freshpaint",
+        "front end engineers",
+        "remote",
+        "yc s19",
+        "end"
+      ]
+    },
+    {
+      "id": 43803473,
+      "title": "build your own antisocial writing rig with dos and a $2 usb key",
+      "score": 15,
+      "time": 1745674308,
+      "text": "",
+      "sentiment": 0.3,
+      "kidsSize": 1,
+      "url": "https://www.theregister.com/2025/04/26/dos_distraction_free_writing/",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "your own antisocial writing rig",
+        "dos",
+        "key"
+      ]
+    },
+    {
+      "id": 43802436,
+      "title": "will the humanities survive artificial intelligence?",
+      "score": 10,
+      "time": 1745664097,
+      "text": "",
+      "sentiment": -0.6,
+      "kidsSize": 6,
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/will-the-humanities-survive-artificial-intelligence",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "artificial intelligence",
+        "the humanities"
+      ]
+    },
+    {
+      "id": 43801000,
+      "title": "catastrophic fires and soil degradation: possible link with neolithic revolution",
+      "score": 5,
+      "time": 1745642583,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://link.springer.com/article/10.1007/s11368-025-04021-x",
+      "textLength": 0,
+      "hour": "04",
+      "keywords": [
+        "catastrophic fires",
+        "soil degradation",
+        "possible link",
+        "neolithic revolution"
+      ]
+    },
+    {
+      "id": 43802675,
+      "title": "backblaze: mounting losses, lawsuits, sham accounting, insider selling",
+      "score": 119,
+      "time": 1745667020,
+      "text": "",
+      "sentiment": -0.2,
+      "kidsSize": 10,
+      "url": "https://www.morpheus-research.com/backblaze/",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "sham accounting",
+        "insider selling",
+        "backblaze",
+        "mounting losses",
+        "lawsuits"
+      ]
+    },
+    {
+      "id": 43802063,
+      "title": "mike lindell's lawyers used ai to write brief\u2013judge finds nearly 30 mistakes",
+      "score": 110,
+      "time": 1745658867,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 13,
+      "url": "https://arstechnica.com/tech-policy/2025/04/mypillow-ceos-lawyers-used-ai-in-brief-citing-fictional-cases-judge-says/",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "mike lindell's lawyers",
+        "brief",
+        "judge",
+        "nearly 30 mistakes"
+      ]
+    },
+    {
+      "id": 43798832,
+      "title": "i designed my led matrix pcb with code",
+      "score": 96,
+      "time": 1745617413,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 14,
+      "url": "https://docs.tscircuit.com/tutorials/building-led-matrix",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "my led matrix pcb",
+        "code"
+      ]
+    },
+    {
+      "id": 43802574,
+      "title": "first and 2nd gen nest thermostats will lose support in oct 2025",
+      "score": 55,
+      "time": 1745665621,
+      "text": "",
+      "sentiment": 0.12,
+      "kidsSize": 10,
+      "url": "https://arstechnica.com/gadgets/2025/04/google-ending-support-for-older-nest-thermostats-will-stop-selling-nests-in-europe/",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "first and 2nd gen nest thermostats",
+        "support",
+        "oct"
+      ]
+    },
+    {
+      "id": 43801461,
+      "title": "apparently bluesky has one centralized service, the \"relay\"",
+      "score": 85,
+      "time": 1745650237,
+      "text": "",
+      "sentiment": 0.05,
+      "kidsSize": 9,
+      "url": "https://mastodon.online/@mastodonmigration/114399534536933573",
+      "textLength": 0,
+      "hour": "06",
+      "keywords": [
+        "one centralized service",
+        "bluesky",
+        "the \"relay"
+      ]
+    },
+    {
+      "id": 43802468,
+      "title": "bbc licence fee 'unenforceable', says culture secretary",
+      "score": 15,
+      "time": 1745664463,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 0,
+      "url": "https://www.bbc.co.uk/news/articles/crrz18882ygo",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "bbc licence fee",
+        "culture secretary"
+      ]
+    },
+    {
+      "id": 43802491,
+      "title": "inmates in elsalvador tortured/strangled-hellish conditions in bukele's prisons (2023)",
+      "score": 50,
+      "time": 1745664702,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://english.elpais.com/international/2023-05-29/inmates-in-el-salvador-tortured-and-strangled-a-report-denounces-hellish-conditions-in-bukeles-prisons.html",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "elsalvador tortured/strangled-hellish conditions",
+        "bukele's prisons",
+        "inmates"
+      ]
+    },
+    {
+      "id": 43803060,
+      "title": "ask hn: did someone dig into the jfk files?",
+      "score": 6,
+      "time": 1745671020,
+      "text": "i&#x27;m wondering:did someone already dig into the released jfk files?\nor are there any projects?today, in days of ai, this should be somehow much more easy &amp; less time consuming?",
+      "sentiment": 0.26,
+      "kidsSize": 3,
+      "url": [],
+      "textLength": 184,
+      "hour": "12",
+      "keywords": [
+        "the jfk files",
+        "hn"
+      ]
+    },
+    {
+      "id": 43802459,
+      "title": "five years after escaping in a crate, carlos ghosn is teaching business strategy",
+      "score": 10,
+      "time": 1745664290,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://www.wsj.com/business/autos/carlos-ghosn-japan-lebanon-crate-9241e9b7",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "carlos ghosn",
+        "business strategy",
+        "a crate"
+      ]
+    },
+    {
+      "id": 43802214,
+      "title": "oscilloscope demo scores the win at revision 2025",
+      "score": 13,
+      "time": 1745661037,
+      "text": "",
+      "sentiment": 0.8,
+      "kidsSize": 1,
+      "url": "https://hackaday.com/2025/04/26/amazing-oscilloscope-demo-scores-the-win-at-revision-2025/",
+      "textLength": 0,
+      "hour": "09",
+      "keywords": [
+        "oscilloscope demo",
+        "the win",
+        "revision"
+      ]
+    },
+    {
+      "id": 43800153,
+      "title": "mathematicians just solved a 125-year-old problem, uniting 3 theories in physics",
+      "score": 95,
+      "time": 1745631568,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 4,
+      "url": "https://www.scientificamerican.com/article/lofty-math-problem-called-hilberts-sixth-closer-to-being-solved/",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "a 125-year-old problem",
+        "mathematicians",
+        "physics",
+        "3 theories"
+      ]
+    },
+    {
+      "id": 43802665,
+      "title": "anthropic sent takedown notice to dev trying to reverse-engineer its coding tool",
+      "score": 7,
+      "time": 1745666939,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://techcrunch.com/2025/04/25/anthropic-sent-a-takedown-notice-to-a-dev-trying-to-reverse-engineer-its-coding-tool/",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "takedown notice",
+        "anthropic",
+        "dev",
+        "its coding tool"
+      ]
+    },
+    {
+      "id": 43802633,
+      "title": "social media and map apps blamed for record rise in mountain rescue callouts",
+      "score": 4,
+      "time": 1745666392,
+      "text": "",
+      "sentiment": 0.03,
+      "kidsSize": 1,
+      "url": "https://www.theguardian.com/world/2025/apr/16/record-high-british-mountain-rescue-callouts-social-media-map-apps",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "mountain rescue callouts",
+        "map apps",
+        "record rise",
+        "social media"
+      ]
+    },
+    {
+      "id": 43798311,
+      "title": "fun with ip address parsing",
+      "score": 24,
+      "time": 1745613745,
+      "text": "",
+      "sentiment": 0.3,
+      "kidsSize": 5,
+      "url": "https://blog.dave.tf/post/ip-addr-parsing/",
+      "textLength": 0,
+      "hour": "20",
+      "keywords": [
+        "ip address",
+        "fun"
+      ]
+    },
+    {
+      "id": 43800725,
+      "title": "thermal imaging shows xai lied about supercomputer pollution, group says",
+      "score": 41,
+      "time": 1745638787,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://arstechnica.com/tech-policy/2025/04/elon-musks-xai-accused-of-lying-to-black-communities-about-harmful-pollution/",
+      "textLength": 0,
+      "hour": "03",
+      "keywords": [
+        "supercomputer pollution",
+        "xai",
+        "group"
+      ]
+    },
+    {
+      "id": 43802497,
+      "title": "mark zuckerberg personally lost the facebook antitrust case",
+      "score": 204,
+      "time": 1745664783,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 16,
+      "url": "https://pluralistic.net/2025/04/18/chatty-zucky/",
+      "textLength": 0,
+      "hour": "10",
+      "keywords": [
+        "mark zuckerberg",
+        "antitrust case",
+        "the facebook"
+      ]
+    },
+    {
+      "id": 43801082,
+      "title": "a tuition-free school created by zuckerberg and chan will shutter next year",
+      "score": 48,
+      "time": 1745643759,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 7,
+      "url": "https://www.cnn.com/2025/04/25/tech/chan-zuckerberg-primary-school-closing/index.html",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "a tuition-free school",
+        "zuckerberg",
+        "chan"
+      ]
+    },
+    {
+      "id": 43801149,
+      "title": "discord co-founder and ceo jason citron is stepping down",
+      "score": 33,
+      "time": 1745644959,
+      "text": "",
+      "sentiment": -0.16,
+      "kidsSize": 3,
+      "url": "https://www.theverge.com/news/654594/discord-new-ceo-jason-citron-humam-sakhnini",
+      "textLength": 0,
+      "hour": "05",
+      "keywords": [
+        "ceo jason citron",
+        "discord co",
+        "founder"
+      ]
+    },
+    {
+      "id": 43802671,
+      "title": "quantum messages cross germany using conventional fiber",
+      "score": 3,
+      "time": 1745667009,
+      "text": "",
+      "sentiment": -0.07,
+      "kidsSize": 0,
+      "url": "https://spectrum.ieee.org/quantum-key-distribution-commercial-fiber",
+      "textLength": 0,
+      "hour": "11",
+      "keywords": [
+        "quantum messages",
+        "conventional fiber",
+        "germany"
+      ]
+    },
+    {
+      "id": 43800220,
+      "title": "gas: get action status a github actions checker script",
+      "score": 7,
+      "time": 1745632334,
+      "text": "",
+      "sentiment": 0.1,
+      "kidsSize": 1,
+      "url": "https://gist.github.com/twosdai/cc017c2aa186a52618d2d4dbcadde363",
+      "textLength": 0,
+      "hour": "01",
+      "keywords": [
+        "a github actions checker script",
+        "action status",
+        "gas"
+      ]
+    },
+    {
+      "id": 43800623,
+      "title": "a thorium reactor in the desert has rewritten the rules of nuclear power",
+      "score": 29,
+      "time": 1745637420,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 3,
+      "url": "https://www.popularmechanics.com/science/green-tech/a64550626/thorium-reactor-nuclear-power/",
+      "textLength": 0,
+      "hour": "03",
+      "keywords": [
+        "a thorium reactor",
+        "nuclear power",
+        "the desert",
+        "the rules"
+      ]
+    },
+    {
+      "id": 43800823,
+      "title": "nofl: a precise immix",
+      "score": 4,
+      "time": 1745639891,
+      "text": "",
+      "sentiment": 0.4,
+      "kidsSize": 0,
+      "url": "https://arxiv.org/abs/2503.16971",
+      "textLength": 0,
+      "hour": "03",
+      "keywords": [
+        "a precise immix",
+        "nofl"
+      ]
+    },
+    {
+      "id": 43803325,
+      "title": "top employee monitoring app leaks 21m screenshots on users",
+      "score": 30,
+      "time": 1745673268,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 3,
+      "url": "https://www.techradar.com/pro/security/top-employee-monitoring-app-leaks-21-million-screenshots-on-thousands-of-users",
+      "textLength": 0,
+      "hour": "13",
+      "keywords": [
+        "app leaks",
+        "users"
+      ]
+    },
+    {
+      "id": 43800385,
+      "title": "magically remove ads from any recipe website",
+      "score": 6,
+      "time": 1745634377,
+      "text": "",
+      "sentiment": 0.5,
+      "kidsSize": 5,
+      "url": "https://preppear.com/recipes/new",
+      "textLength": 0,
+      "hour": "02",
+      "keywords": [
+        "any recipe website",
+        "ads"
+      ]
+    },
+    {
+      "id": 43799413,
+      "title": "ats3 xanadu released",
+      "score": 6,
+      "time": 1745623356,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://github.com/githwxi/XATSHOME",
+      "textLength": 0,
+      "hour": "23",
+      "keywords": [
+        "ats3 xanadu"
+      ]
+    },
+    {
+      "id": 43799196,
+      "title": "simons foundation launches collaboration on ecological neuroscience",
+      "score": 10,
+      "time": 1745621198,
+      "text": "",
+      "sentiment": 0.4,
+      "kidsSize": 0,
+      "url": "https://www.simonsfoundation.org/2025/04/24/simons-foundation-launches-collaboration-on-ecological-neuroscience",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "simons foundation",
+        "ecological neuroscience",
+        "collaboration"
+      ]
+    },
+    {
+      "id": 43797750,
+      "title": "rockets, robots and supercars made in greece",
+      "score": 7,
+      "time": 1745609824,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://greekanalyst.substack.com/p/rockets-robots-and-supercars-made",
+      "textLength": 0,
+      "hour": "19",
+      "keywords": [
+        "rockets",
+        "robots",
+        "supercars",
+        "greece"
+      ]
+    },
+    {
+      "id": 43799036,
+      "title": "what consumers are snapping up or putting off in face of tariffs",
+      "score": 11,
+      "time": 1745619630,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://www.cnbc.com/2025/04/25/trump-tariffs-news-car-purchases-rise-consumer-spending-slows.html",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "consumers",
+        "face",
+        "tariffs"
+      ]
+    },
+    {
+      "id": 43798863,
+      "title": "netflix introduces a new kind of subtitles for the non-hearing impaired",
+      "score": 12,
+      "time": 1745617682,
+      "text": "",
+      "sentiment": 0.37,
+      "kidsSize": 7,
+      "url": "https://arstechnica.com/gadgets/2025/04/cant-understand-dialogue-on-tv-shows-netflix-has-a-new-feature-for-you/",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "the non-hearing impaired",
+        "netflix",
+        "a new kind",
+        "subtitles"
+      ]
+    },
+    {
+      "id": 43799128,
+      "title": "you can't just replace science with silicon valley",
+      "score": 11,
+      "time": 1745620603,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 1,
+      "url": "https://www.theintrinsicperspective.com/p/no-you-cant-just-replace-science",
+      "textLength": 0,
+      "hour": "22",
+      "keywords": [
+        "silicon valley",
+        "science"
+      ]
+    },
+    {
+      "id": 43798753,
+      "title": "breitspurbahn",
+      "score": 5,
+      "time": 1745616817,
+      "text": "",
+      "sentiment": 0.0,
+      "kidsSize": 2,
+      "url": "https://en.wikipedia.org/wiki/Breitspurbahn",
+      "textLength": 0,
+      "hour": "21",
+      "keywords": [
+        "breitspurbahn"
+      ]
+    }
+  ]
+}

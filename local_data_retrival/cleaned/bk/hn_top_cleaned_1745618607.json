@@ -1,0 +1,752 @@
+[
+  {
+    "id": 43791385,
+    "title": "large language models, small labor market effects [pdf]",
+    "score": 76,
+    "time": 1745568918,
+    "text": "",
+    "sentiment": -0.02,
+    "kidsSize": 5,
+    "url": "https://bfi.uchicago.edu/wp-content/uploads/2025/04/BFI_WP_2025-56-1.pdf"
+  },
+  {
+    "id": 43797505,
+    "title": "done in by time",
+    "score": 15,
+    "time": 1745608370,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 5,
+    "url": "https://thelampmagazine.com/issues/issue-27/done-in-by-time"
+  },
+  {
+    "id": 43788255,
+    "title": "a love letter to people who believe in people",
+    "score": 255,
+    "time": 1745534101,
+    "text": "",
+    "sentiment": 0.5,
+    "kidsSize": 19,
+    "url": "https://www.swiss-miss.com/2025/04/a-love-letter-to-people-who-believe-in-people.html"
+  },
+  {
+    "id": 43797774,
+    "title": "tales of the yucca man (2018)",
+    "score": 7,
+    "time": 1745609955,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 1,
+    "url": "https://longreads.com/2018/04/25/the-known-unknown-tales-of-the-yucca-man/"
+  },
+  {
+    "id": 43798617,
+    "title": "finding things the government might know about you",
+    "score": 12,
+    "time": 1745615891,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 1,
+    "url": "https://www.nytimes.com/2025/04/16/insider/trump-musk-data-access.html"
+  },
+  {
+    "id": 43790683,
+    "title": "mary maclane, the wild woman from butte",
+    "score": 23,
+    "time": 1745562012,
+    "text": "",
+    "sentiment": 0.1,
+    "kidsSize": 1,
+    "url": "https://publicdomainreview.org/essay/i-am-making-the-world-my-confessor/"
+  },
+  {
+    "id": 43788053,
+    "title": "scientists develop artificial leaf, uses sunlight to produce valuable chemicals",
+    "score": 260,
+    "time": 1745532615,
+    "text": "",
+    "sentiment": -0.6,
+    "kidsSize": 15,
+    "url": "https://newscenter.lbl.gov/2025/04/24/scientists-develop-artificial-leaf-that-uses-sunlight-to-produce-valuable-chemicals/"
+  },
+  {
+    "id": 43790603,
+    "title": "\"poetry city\": iowa city, iowa",
+    "score": 46,
+    "time": 1745561158,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 6,
+    "url": "https://www.publicbooks.org/poetry-city-iowa-city-iowa/"
+  },
+  {
+    "id": 43793986,
+    "title": "uit \u2013 performant, modular, low-memory file processing at scale, in the cloud",
+    "score": 23,
+    "time": 1745591500,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 3,
+    "url": "https://github.com/janwilmake/uit"
+  },
+  {
+    "id": 43793638,
+    "title": "xprize in carbon removal goes to enhanced rock weathering",
+    "score": 16,
+    "time": 1745589587,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 1,
+    "url": "https://spectrum.ieee.org/xprize-carbon-removal"
+  },
+  {
+    "id": 43793627,
+    "title": "show hn: bugstalker - a modern rust debugger",
+    "score": 101,
+    "time": 1745589535,
+    "text": "",
+    "sentiment": 0.2,
+    "kidsSize": 9,
+    "url": "https://github.com/godzie44/BugStalker"
+  },
+  {
+    "id": 43774169,
+    "title": "tarpit ideas: what they are and how to avoid them (2023) [video]",
+    "score": 128,
+    "time": 1745427576,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 19,
+    "url": "https://www.ycombinator.com/library/Ij-tarpit-ideas-what-are-tarpit-ideas-how-to-avoid-them"
+  },
+  {
+    "id": 43797058,
+    "title": "next-gen gpu programming: hands-on with mojo and max modular hq",
+    "score": 33,
+    "time": 1745605943,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 5,
+    "url": "https://www.youtube.com/live/uul6hZ5NXC8?si=mKxZJy2xAD-rOc3g"
+  },
+  {
+    "id": 43795504,
+    "title": "write an interpreter in ruby",
+    "score": 44,
+    "time": 1745598384,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 2,
+    "url": "https://speakerdeck.com/marioariasc/write-an-interpreter-in-ruby"
+  },
+  {
+    "id": 43796746,
+    "title": "things i learned about software and startups by playing video games",
+    "score": 3,
+    "time": 1745604301,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 0,
+    "url": "https://the-nerve-blog.ghost.io/learning-from-video-games/"
+  },
+  {
+    "id": 43786506,
+    "title": "openai releases image generation in the api",
+    "score": 470,
+    "time": 1745522871,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 40,
+    "url": "https://openai.com/index/image-generation-api/"
+  },
+  {
+    "id": 43790855,
+    "title": "some __nonstring__ turbulence",
+    "score": 119,
+    "time": 1745563605,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 8,
+    "url": "https://lwn.net/SubscriberLink/1018486/1dcd29863655cb25/"
+  },
+  {
+    "id": 43789142,
+    "title": "a visual journey through async rust",
+    "score": 135,
+    "time": 1745542235,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 8,
+    "url": "https://github.com/alexpusch/rust-magic-patterns/blob/master/visual-journey-through-async-rust/Readme.md"
+  },
+  {
+    "id": 43795961,
+    "title": "dolphins communicate with 'fountains of pee'",
+    "score": 28,
+    "time": 1745600280,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 8,
+    "url": "https://www.scientificamerican.com/article/dolphins-communicate-with-fountains-of-pee/"
+  },
+  {
+    "id": 43785039,
+    "title": "openvsx, which vscode forks rely on for extensions, down for 24 hours",
+    "score": 236,
+    "time": 1745514596,
+    "text": "",
+    "sentiment": -0.16,
+    "kidsSize": 21,
+    "url": "https://status.open-vsx.org/"
+  },
+  {
+    "id": 43782406,
+    "title": "instant sql for results as you type in duckdb ui",
+    "score": 359,
+    "time": 1745501006,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 28,
+    "url": "https://motherduck.com/blog/introducing-instant-sql/"
+  },
+  {
+    "id": 43794576,
+    "title": "fbi arrests judge accused of helping man evade immigration authorities",
+    "score": 867,
+    "time": 1745594735,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 72,
+    "url": "https://apnews.com/article/immigration-judge-arrested-7997186bbca5730e70a25f2347e631f6"
+  },
+  {
+    "id": 43784721,
+    "title": "one quantum transition makes light at 21 cm",
+    "score": 248,
+    "time": 1745512734,
+    "text": "",
+    "sentiment": 0.4,
+    "kidsSize": 15,
+    "url": "https://bigthink.com/starts-with-a-bang/21cm-magic-length/"
+  },
+  {
+    "id": 43772110,
+    "title": "show hn: logiquiz \u2013 daily self-referential puzzles",
+    "score": 30,
+    "time": 1745415819,
+    "text": "hey hn,about twenty years ago, while i was in college, i first stumbled upon james propp&#x27;s self-referential aptitude test [1] and absolutely loved it. ever since then, i&#x27;ve had this idea of turning that concept into a daily game, and i&#x27;ve finally built it: https:&#x2f;&#x2f;www.logiquiz.com&#x2f;the game interface checks each question against the answers you&#x27;ve given, so it doesn&#x27;t spoil anything by giving away the answers.there are five different tests each day, from very easy to very hard.i&#x27;d love to hear what you think![1]: https:&#x2f;&#x2f;faculty.uml.edu&#x2f;jpropp&#x2f;srat-q.txt",
+    "sentiment": 0.13,
+    "kidsSize": 5,
+    "url": "https://www.logiquiz.com/"
+  },
+  {
+    "id": 43785044,
+    "title": "show hn: lemon slice live \u2013 have a video call with a transformer model",
+    "score": 181,
+    "time": 1745514614,
+    "text": "hey hn, this is lina, andrew, and sidney from lemon slice. we\u2019ve trained a custom diffusion transformer (dit) model that achieves video streaming at 25fps and wrapped it into a demo that allows anyone to turn a photo into a real-time, talking avatar. here\u2019s an example conversation from co-founder andrew: https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=ceyp5xqmfzy. try it for yourself at: https:&#x2f;&#x2f;lemonslice.com&#x2f;live.(btw, we used to be called infinity ai and did a show hn under that name last year: https:&#x2f;&#x2f;news.ycombinator.com&#x2f;item?id=41467704.)unlike existing avatar video chat platforms like heygen, tolan, or apple memoji filters, we do not require training custom models, rigging a character ahead of time, or having a human drive the avatar. our tech allows users to create and immediately video-call a custom character by uploading a single image. the character image can be any style - from photorealistic to cartoons, paintings, and more.to achieve this demo, we had to do the following (among other things! but these were the hardest):1. training a fast dit model. to make our video generation fast, we had to both design a model that made the right trade-offs between speed and quality, and use standard distillation approaches. we first trained a custom video diffusion transformer (dit) from scratch that achieves excellent lip and facial expression sync to audio. to further optimize the model for speed, we applied teacher-student distillation. the distilled model achieves 25fps video generation at 256-px resolution. purpose-built transformer asics will eventually allow us to stream our video model at 4k resolution.2. solving the infinite video problem. most video dit models (sora, runway, kling) generate 5-second chunks. they can iteratively extend it by another 5sec by feeding the end of the 1st chunk into the start of the 2nd in an autoregressive manner. unfortunately the models experience quality degradation after multiple extensions due to accumulation of generation errors. we developed a temporal consistency preservation technique that maintains visual coherence across long sequences. our technique significantly reduces artifact accumulation and allows us to generate indefinitely-long videos.3. a complex streaming architecture with minimal latency. enabling an end-to-end avatar zoom call requires several building blocks, including voice transcription, llm inference, and text-to-speech generation in addition to video generation. we use deepgram as our ai voice partner. modal as the end-to-end compute platform. and daily.co and pipecat to help build a parallel processing pipeline that orchestrates everything via continuously streaming chunks. our system achieves end-to-end latency of 3-6 seconds from user input to avatar response. our target is &lt;2 second latency.more technical details here: https:&#x2f;&#x2f;lemonslice.com&#x2f;live&#x2f;technical-report.current limitations that we want to solve include: (1) enabling whole-body and background motions (we\u2019re training a next-gen model for this), (2) reducing delays and improving resolution (purpose-built asics will help), (3) training a model on dyadic conversations so that avatars learn to listen naturally, and (4) allowing the character to \u201csee you\u201d and respond to what they see to create a more natural and engaging conversation.we believe that generative video will usher in a new media type centered around interactivity: tv shows, movies, ads, and online courses will stop and talk to us. our entertainment will be a mixture of passive and active experiences depending on what we\u2019re in the mood for. well, prediction is hard, especially about the future, but that\u2019s how we see it anyway!we\u2019d love for you to try out the demo and let us know what you think! post your characters and&#x2f;or conversation recordings below.",
+    "sentiment": 0.06,
+    "kidsSize": 25,
+    "url": []
+  },
+  {
+    "id": 43786514,
+    "title": "pygraph: robust compiler support for cuda graphs in pytorch",
+    "score": 79,
+    "time": 1745522909,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 6,
+    "url": "https://arxiv.org/abs/2503.19779"
+  },
+  {
+    "id": 43794210,
+    "title": "exploring model welfare",
+    "score": 6,
+    "time": 1745592782,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 2,
+    "url": "https://www.anthropic.com/research/exploring-model-welfare"
+  },
+  {
+    "id": 43798874,
+    "title": "attorney general warns arrested judge is just the beginning",
+    "score": 7,
+    "time": 1745617779,
+    "text": "",
+    "sentiment": 0.05,
+    "kidsSize": 0,
+    "url": "https://newrepublic.com/post/194453/donald-trump-attorney-general-pam-bondi-arrest-judge-warning"
+  },
+  {
+    "id": 43784200,
+    "title": "a principled approach to querying data \u2013 a type-safe search dsl",
+    "score": 86,
+    "time": 1745509995,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 8,
+    "url": "https://www.claudiu-ivan.com/writing/search-dsl"
+  },
+  {
+    "id": 43795700,
+    "title": "exercise before bed is linked with disrupted sleep",
+    "score": 87,
+    "time": 1745599099,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 22,
+    "url": "https://medicalxpress.com/news/2025-04-bed-linked-disrupted.html"
+  },
+  {
+    "id": 43783416,
+    "title": "fundamental flaws of simd isas (2021)",
+    "score": 142,
+    "time": 1745505723,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 16,
+    "url": "https://www.bitsnbites.eu/three-fundamental-flaws-of-simd/"
+  },
+  {
+    "id": 43789010,
+    "title": "show hn: faasta \u2013 a self-hosted serverless platform for wasm-wasi-http in rust",
+    "score": 83,
+    "time": 1745541065,
+    "text": "i&#x27;ve just released an early version off my project i&#x27;ve been working on for a few months now and would love some feedback.https:&#x2f;&#x2f;github.com&#x2f;fourlexboehm&#x2f;faastai was surprised there isn&#x27;t yet an open&#x2f;source and standards compliant way to host wasi-http functions in a way that takes advantages of wasm, a multi tenanted application.if you&#x27;re not familiar with wasi, compared to something like aws lambda, this approach is much more efficient as a single process can serve 1000s of function invocations concurrently and asynchronously, instead requiring an entire vm.this is still early days for the project, but feel free to download the cli utility with cargo install cargo-faasta.feel free to test deploying functions on my hosted instance at https:&#x2f;&#x2f;website.faasta.xyz.the service is free to use and currently supports deployments via github oauth, with a limit of 10 functions per github account.",
+    "sentiment": 0.16,
+    "kidsSize": 7,
+    "url": "https://github.com/fourlexboehm/faasta"
+  },
+  {
+    "id": 43787676,
+    "title": "you can be a great designer and be completely unknown",
+    "score": 240,
+    "time": 1745529898,
+    "text": "",
+    "sentiment": 0.35,
+    "kidsSize": 33,
+    "url": "https://www.chrbutler.com/you-can-be-a-great-designer-and-be-completely-unknown"
+  },
+  {
+    "id": 43795703,
+    "title": "a scaled down look at spending, revenue, and what's being cut",
+    "score": 61,
+    "time": 1745599114,
+    "text": "",
+    "sentiment": -0.16,
+    "kidsSize": 15,
+    "url": "https://www.debtinperspective.com/"
+  },
+  {
+    "id": 43796961,
+    "title": "general anesthesia reduces uniqueness of brain's functional 'fingerprint'",
+    "score": 6,
+    "time": 1745605383,
+    "text": "",
+    "sentiment": 0.05,
+    "kidsSize": 3,
+    "url": "https://medicalxpress.com/news/2025-04-general-anesthesia-uniqueness-brain-functional.html"
+  },
+  {
+    "id": 43780918,
+    "title": "show hn: i built lovable for text bots and mini apps",
+    "score": 39,
+    "time": 1745489033,
+    "text": "hi hn,during the last weeks, i&#x27;ve been working to create a system that allows you to convert prompts into chatbots and mini apps on platforms that everyone uses on a daily basis.the first integrated platform is telegram:telegram is a powerful platform with many integrations and features like bots, apps, games and even payments. so i thought it would be nice to make it easier to create these apps. i created a bot http:&#x2f;&#x2f;t.me&#x2f;plutonicdevbot.workflow is pretty simple: create or choose an existing bot and send a text&#x2f;voice message about what to create just like you prompt everywhere. to get more instructions, use the &#x2f;help and &#x2f;howto commands.planning to create the same solution for slack and discord.thanks for taking a look. i would love to hear feedback.https:&#x2f;&#x2f;plutonic.devx.com&#x2f;plutonicdev[1] https:&#x2f;&#x2f;core.telegram.org&#x2f;bots[2] https:&#x2f;&#x2f;core.telegram.org&#x2f;bots&#x2f;webapps",
+    "sentiment": 0.28,
+    "kidsSize": 6,
+    "url": "https://plutonic.dev"
+  },
+  {
+    "id": 43780876,
+    "title": "assignment 5: cars and key fobs (2021)",
+    "score": 223,
+    "time": 1745488402,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 23,
+    "url": "https://web.stanford.edu/class/ee26n/Assignments/Assignment5.html"
+  },
+  {
+    "id": 43794159,
+    "title": "show hn: stackhound - stop guessing repo's tech stack, analyze it in seconds",
+    "score": 4,
+    "time": 1745592429,
+    "text": "if you\u2019ve ever explored github repos and felt frustrated by how little you can tell about a project\u2019s real tech stack \u2014 you\u2019re not alone.that\u2019s exactly why i built stackhound \n https:&#x2f;&#x2f;www.producthunt.com&#x2f;posts&#x2f;stackhoundit goes beyond the github api to scan dependency files and uncover the actual tools, frameworks, and languages a repo uses \u2014 whether it&#x27;s built with react, next.js, tailwind, flask, or spring boot.just drop in a github username and repo to analyze it instantly.\n you can also use our &#x2f;api&#x2f;analyze endpoint to plug it into your own tools.try the live demo:\n https:&#x2f;&#x2f;stackhound.vercel.app&#x2f;\ncheck out the code (open source!):\n https:&#x2f;&#x2f;github.com&#x2f;lorenzopalaia&#x2f;stackhoundwould love to hear your thoughts \u2014 what features would make stackhound even more useful for you?",
+    "sentiment": 0.13,
+    "kidsSize": 1,
+    "url": "https://stackhound.vercel.app/"
+  },
+  {
+    "id": 43782299,
+    "title": "ask hn: share your ai prompt that stumps every model",
+    "score": 389,
+    "time": 1745500282,
+    "text": "i had an idea for creating a crowdsourced database of ai prompts that no ai model could yet crack (wanted to use some of them as we&#x27;re adding new models to kilo code).i&#x27;ve seen a bunch of those prompts scattered across hn, so thought to open a thread here so we can maybe have a centralied location for this.share your prompt that stumps every ai model here.",
+    "sentiment": 0.07,
+    "kidsSize": 171,
+    "url": []
+  },
+  {
+    "id": 43780176,
+    "title": "show hn: colanode, open-source and local-first slack and notion alternative",
+    "score": 128,
+    "time": 1745480595,
+    "text": "hey hn,i&#x27;m hakan, the founder of colanode (https:&#x2f;&#x2f;github.com&#x2f;colanode&#x2f;colanode), an open-source, local-first collaboration app combining the best of slack-style chats and notion-style note-taking, fully self-hostable for complete data control. here&#x27;s a quick demo: https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=wp1hosceargas a heavy notion user, i often found it tough to get my teams fully onboard since people naturally gravitate toward chat for quick interactions. maintaining context between chat apps like slack and documentation apps like notion became increasingly frustrating. switching contexts, losing track of information, and managing data across multiple tools created unnecessary friction.this frustration led me to build colanode, a single platform integrating structured notes and knowledge management with real-time chat. after building the first version, early feedback highlighted a critical issue: teams&#x2f;organizations want full control over sensitive data, especially conversations. that&#x27;s why i decided to open-source colanode under an apache 2.0 license, making it fully self-hostable so you can retain complete ownership and privacy over your data.colanode is built with simplicity and extensibility in mind, using only open-source tools and avoiding any vendor or cloud lock-in. it features a local-first architecture offering complete offline support. from a technical perspective, colanode consists of a node.js server api and an electron desktop client, with mobile apps coming soon. everything in colanode is represented as a node (e.g., message, file, folder, chat, channel, database, record), each with specific attributes and permissions. all reads and writes performed by the desktop client happen locally within a sqlite database, and changes sync seamlessly via a synchronization engine built on top of sqlite, postgres, and yjs\u2014a crdt library for conflict resolution. the server then propagates these changes to other collaborators. you can self-host the server in any environment using docker, postgres, redis, and any s3-compatible storage, and connect using the official desktop client, which supports simultaneous connections to multiple servers and accounts. this local-first approach also prepares us for future integrations with fully local llms, further enhancing privacy and performance.i&#x27;d love your feedback and suggestions on colanode. what features would you like to see? what would you change?thanks, looking forward to your thoughts!",
+    "sentiment": 0.08,
+    "kidsSize": 14,
+    "url": "https://github.com/colanode/colanode"
+  },
+  {
+    "id": 43794439,
+    "title": "new analysis casts doubt on 'biosignatures' found on planet k2-18b",
+    "score": 18,
+    "time": 1745594129,
+    "text": "",
+    "sentiment": 0.14,
+    "kidsSize": 3,
+    "url": "https://www.npr.org/2025/04/25/g-s1-62610/biosignatures-k2-18b-james-webb-exoplanet-doubt"
+  },
+  {
+    "id": 43792829,
+    "title": "show hn: snipfast \u2013 extract highlighted text from physical books",
+    "score": 7,
+    "time": 1745583742,
+    "text": "hi hn,i built snipfast - a tool that helps you extract important text from an image of a page. if you\u2019ve ever highlighted sections in a physical book and wanted to save or organize them digitally, snipfast can help.this came from my own frustration. i like to note down ideas when reading, but doing that from physical books was time-consuming. i looked for a tool to solve this, didn\u2019t find one, so i built it.snipfast lets you:- automatically detect and extract highlighted text from a page photo (works with most highlighter pens and languages)- click on sentences in the image to manually pick exactly what you want to copyit\u2019s aimed at readers, students, researchers - basically anyone who annotates physical books and wants to keep those notes digitally.under the hood, it uses a custom ml model trained on highlight detection. the app runs on a kotlin backend with a postgres database. you can try it for free. signup is required, but it\u2019s minimal. i offer some credits upfront so people can test it out. after that, there\u2019s a small payment required. the goal is mainly to prevent abuse and to validate whether this is a tool people find valuable enough to pay for.the ui still needs work, and i\u2019m mainly looking for feedback at this stage. i\u2019d love to hear: does this solve a real problem for you? was anything confusing? what would make it more useful?link: https:&#x2f;&#x2f;snipfa.stthanks,\ntom",
+    "sentiment": 0.15,
+    "kidsSize": 1,
+    "url": "https://snipfa.st"
+  },
+  {
+    "id": 43792774,
+    "title": "show hn: an interactive demo of qr codes' error correction",
+    "score": 8,
+    "time": 1745583324,
+    "text": "hi hn!\nthis is a hobby project of mine that recently landed me my first interview and helped me get my first internship offers.draw on a qr code, and the health bars will accurately display how close the qr code is to being unscannable. how few errors does it take to break a qr code? how many errors can a qr code handle? counters at the bottom track your record minimum and maximum damage. (can you figure out how to break a qr code with 0.0% damage to the actual data region?)also, click on the magnifying glass button to toggle between &quot;draw mode&quot; and &quot;inspect mode&quot;.\ni encourage you to use your phone&#x27;s camera to scan the code as you draw and undo&#x2f;redo to verify that the code really does break when the app says it does.i wrote the underlying decoder in c++, and it&#x27;s compiled to webassembly for the website.i hope you find it interesting.",
+    "sentiment": 0.21,
+    "kidsSize": 1,
+    "url": "https://qris.cool"
+  },
+  {
+    "id": 43798275,
+    "title": "synadia response to cncf",
+    "score": 9,
+    "time": 1745613459,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 5,
+    "url": "https://www.synadia.com/blog/synadia-response-to-cncf"
+  },
+  {
+    "id": 43785350,
+    "title": "show hn: infat \u2013 declaritive application assocation manager for macos",
+    "score": 85,
+    "time": 1745516272,
+    "text": "bello! made this to help navigate the tumultuous process of navigating to a new machine on mac when you have a number of custom utilities setup for editing particular files. this is designed to make that as easy as possible, and add some magic on top of that, like setting mailto handlers or anything else of that breed. use xdg_config_home to keep it organized.credit to https:&#x2f;&#x2f;github.com&#x2f;moretension&#x2f;duti for the original inspiration for the project.happy to answer and help with whatever.",
+    "sentiment": 0.3,
+    "kidsSize": 14,
+    "url": "https://github.com/philocalyst/infat"
+  },
+  {
+    "id": 43780377,
+    "title": "mark zuckerberg says social media is over",
+    "score": 515,
+    "time": 1745482763,
+    "text": "",
+    "sentiment": 0.03,
+    "kidsSize": 145,
+    "url": "https://www.newyorker.com/culture/infinite-scroll/mark-zuckerberg-says-social-media-is-over"
+  },
+  {
+    "id": 43779766,
+    "title": "daily driving a linux phone, but why?",
+    "score": 136,
+    "time": 1745475215,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 30,
+    "url": "https://thefoggiest.dev/2025/04/24/daily-driving-a-linux-phone-but-why"
+  },
+  {
+    "id": 43787353,
+    "title": "openalternative \u2013 open-source alternatives to popular software",
+    "score": 34,
+    "time": 1745528017,
+    "text": "",
+    "sentiment": 0.6,
+    "kidsSize": 2,
+    "url": "https://github.com/piotrkulpinski/openalternative"
+  },
+  {
+    "id": 43788125,
+    "title": "microsoft subtracts c/c++ extension from vs code forks",
+    "score": 228,
+    "time": 1745533129,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 41,
+    "url": "https://www.theregister.com/2025/04/24/microsoft_vs_code_subtracts_cc_extension/"
+  },
+  {
+    "id": 43773813,
+    "title": "ai horseless carriages",
+    "score": 815,
+    "time": 1745425196,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 103,
+    "url": "https://koomen.dev/essays/horseless-carriages/"
+  },
+  {
+    "id": 43784668,
+    "title": "show hn: zev \u2013 remember (or discover) terminal commands",
+    "score": 78,
+    "time": 1745512434,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 17,
+    "url": "https://github.com/dtnewman/zev"
+  },
+  {
+    "id": 43776477,
+    "title": "how much math is knowable? [video]",
+    "score": 106,
+    "time": 1745441337,
+    "text": "",
+    "sentiment": 0.2,
+    "kidsSize": 4,
+    "url": "https://www.youtube.com/watch?v=VplMHWSZf5c"
+  },
+  {
+    "id": 43791115,
+    "title": "key takeaways from catl's naxtra sodium-ion battery launch",
+    "score": 11,
+    "time": 1745565959,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 0,
+    "url": "https://www.batterytechonline.com/materials/5-key-takeaways-from-catl-s-naxtra-sodium-ion-battery-launch"
+  },
+  {
+    "id": 43748025,
+    "title": "mistaking mary magdalene",
+    "score": 38,
+    "time": 1745202260,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 6,
+    "url": "https://www.newyorker.com/culture/the-weekend-essay/mistaking-mary-magdalene"
+  },
+  {
+    "id": 43784205,
+    "title": "three things everyone should know about vision transformers",
+    "score": 66,
+    "time": 1745510004,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 2,
+    "url": "https://arxiv.org/abs/2203.09795"
+  },
+  {
+    "id": 43781465,
+    "title": "show hn: i made my own trmnl e-ink device",
+    "score": 72,
+    "time": 1745494450,
+    "text": "",
+    "sentiment": 0.6,
+    "kidsSize": 4,
+    "url": "https://www.stavros.io/posts/making-a-trmnl-device/"
+  },
+  {
+    "id": 43798620,
+    "title": "new jersey sues discord for allegedly failing to protect children",
+    "score": 8,
+    "time": 1745615925,
+    "text": "",
+    "sentiment": 0.02,
+    "kidsSize": 0,
+    "url": "https://www.wired.com/story/new-jersey-sues-discord/"
+  },
+  {
+    "id": 43784056,
+    "title": "asymmetric content moderation in search markets: the case of adult websites",
+    "score": 84,
+    "time": 1745509124,
+    "text": "",
+    "sentiment": 0.1,
+    "kidsSize": 9,
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5106235"
+  },
+  {
+    "id": 43794081,
+    "title": "century-old genetics mystery of mendel's peas solved",
+    "score": 17,
+    "time": 1745591999,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 3,
+    "url": "https://www.nature.com/articles/d41586-025-01269-8"
+  },
+  {
+    "id": 43747634,
+    "title": "finland is painting deer antlers with reflective paint (2014)",
+    "score": 96,
+    "time": 1745195760,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 32,
+    "url": "https://www.smithsonianmag.com/smart-news/avoid-deer-strikes-finland-painting-deer-antlers-reflective-paint-180949792/"
+  },
+  {
+    "id": 43790093,
+    "title": "deepmind releases lyria 2 music generation model",
+    "score": 289,
+    "time": 1745555115,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 41,
+    "url": "https://deepmind.google/discover/blog/music-ai-sandbox-now-with-new-features-and-broader-access/"
+  },
+  {
+    "id": 43783997,
+    "title": "a tour inside the ibm z17",
+    "score": 81,
+    "time": 1745508796,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 8,
+    "url": "https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/elizabeth-k-joseph1/2025/04/23/a-tour-inside-the-ibm-z17?communityKey=e7b7d299-8509-4572-8cf1-c1112684644f"
+  },
+  {
+    "id": 43780785,
+    "title": "creating your own federated microblog",
+    "score": 180,
+    "time": 1745487477,
+    "text": "",
+    "sentiment": 0.6,
+    "kidsSize": 8,
+    "url": "https://fedify.dev/tutorial/microblog"
+  },
+  {
+    "id": 43789471,
+    "title": "i used simple rules to make dfas that kinda match accepted physics models",
+    "score": 15,
+    "time": 1745546409,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 6,
+    "url": "https://keweizhou1996-df477.web.app/dfa.html"
+  },
+  {
+    "id": 43787493,
+    "title": "agent mesh for enterprise agents",
+    "score": 21,
+    "time": 1745528696,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 4,
+    "url": "https://www.solo.io/blog/agent-mesh-for-enterprise-agents"
+  },
+  {
+    "id": 43780815,
+    "title": "on loyalty to your employer (2018)",
+    "score": 409,
+    "time": 1745487828,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 79,
+    "url": "https://medium.com/hackernoon/on-loyalty-to-your-employer-c674c4b06b3a"
+  },
+  {
+    "id": 43775926,
+    "title": "you wouldn't steal a font",
+    "score": 1350,
+    "time": 1745437356,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 43,
+    "url": "https://fedi.rib.gay/notes/a6xqityngfubsz0f"
+  },
+  {
+    "id": 43775366,
+    "title": "'bright circle' and 'margaret fuller': the rise of the transcendental woman",
+    "score": 18,
+    "time": 1745433925,
+    "text": "",
+    "sentiment": 0.7,
+    "kidsSize": 1,
+    "url": "https://www.wsj.com/arts-culture/books/bright-circle-and-margaret-fuller-the-rise-of-the-transcendental-woman-1bacdb10"
+  },
+  {
+    "id": 43789625,
+    "title": "observability 2.0 and the database for it",
+    "score": 118,
+    "time": 1745548740,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 17,
+    "url": "https://greptime.com/blogs/2025-04-25-greptimedb-observability2-new-database"
+  },
+  {
+    "id": 43770337,
+    "title": "apple and meta fined millions for breaching eu law",
+    "score": 439,
+    "time": 1745402464,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 34,
+    "url": "https://ca.finance.yahoo.com/news/apple-fined-570-million-meta-094701712.html"
+  },
+  {
+    "id": 43773746,
+    "title": "more everything forever",
+    "score": 153,
+    "time": 1745424820,
+    "text": "",
+    "sentiment": 0.5,
+    "kidsSize": 33,
+    "url": "https://www.nytimes.com/2025/04/23/books/review/more-everything-forever-adam-becker.html"
+  },
+  {
+    "id": 43773777,
+    "title": "mcp on aws lambda with mcpengine",
+    "score": 116,
+    "time": 1745425024,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 9,
+    "url": "https://www.featureform.com/post/deploy-mcp-on-aws-lambda-with-mcpengine"
+  },
+  {
+    "id": 43785580,
+    "title": "pgdog is a transaction pooler logical replication manager can shard postgresql",
+    "score": 20,
+    "time": 1745517497,
+    "text": "",
+    "sentiment": 0.25,
+    "kidsSize": 0,
+    "url": "https://github.com/pgdogdev/pgdog"
+  },
+  {
+    "id": 43775358,
+    "title": "the hidden cost of ai coding",
+    "score": 327,
+    "time": 1745433887,
+    "text": "",
+    "sentiment": -0.17,
+    "kidsSize": 53,
+    "url": "https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/"
+  },
+  {
+    "id": 43771645,
+    "title": "how i blog with obsidian, hugo, github, and cloudflare",
+    "score": 325,
+    "time": 1745413232,
+    "text": "",
+    "sentiment": 0.0,
+    "kidsSize": 59,
+    "url": "https://ingau.me/blog/how-i-write-my-blogs-in-obsidian-and-publish-instantly/"
+  }
+]
