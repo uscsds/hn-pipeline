@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hacker News Analysis Dashboard</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script type="module" crossorigin src="/assets/index-BIm5vV-f.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-4wFEIzol.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <a href="https://www.gannon.edu" class="header-logo-link">
+        <img class="header-logo" src="https://marvel-b1-cdn.bc0a.com/f00000000206029/www.gannon.edu/media/gannon-university/site-assets/images/CentennialLogo_GU_2.png" alt="GANNON UNIVERSITY">
+      </a>
+      <div class="header-text">
+        <h1>Hacker News Analysis Dashboard</h1>
+            <p>
+              Based on <a href="https://aws.amazon.com" target="_blank" rel="noopener noreferrer">AWS Services</a> and <a href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer">Hacker News</a>
+            </p>
+      </div>
+    </div>
+  </header>
+
+  <main class="dashboard">
+      
+    <div class="summary-grid">
+      <div class="summary-section">
+        <div class="timestampSection">
+          <label for="timestampSelector">Select Analysis Timestamp:</label>
+          <select id="timestampSelector" aria-label="Analysis Timestamp Selector"></select>
+          <button id="refreshTimestamps">🔄 Refresh</button>
+          
+        </div>
+        <div class="summary-content-grid">
+          <div>
+            <h3>Sentiment Distribution</h3>
+            <svg id="summarySentimentChart" width="300" height="200"></svg>
+            <div class="metadata" id="timestampMeta"></div>
+          </div>
+          <div id="summary-stats">
+            <div class="stats-row">
+              <div id="summaryTotalStories"><strong>Total Stories:</strong> <span></span></div>
+              <div id="summaryAverageScore"><strong>Average Score:</strong> <span></span></div>
+            </div>
+            <strong>Top Keywords</strong>
+            <ul id="topKeywordsList"></ul>
+          </div>
+        </div>
+          
+        <section id="story-table" style="margin-top: 0.05rem;">
+          <h2 style="margin-bottom: 1rem;">Top Stories</h2>
+          <table id="storyTable" style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+            <thead>
+              <tr style="background-color: #f0f4f8;">
+                <th style="text-align: left; padding: 8px;">Title</th>
+                <th style="text-align: left; padding: 8px; width: 80px;">Score</th>
+                <th style="text-align: left; padding: 8px; width: 100px;">Comments</th>
+                <th style="text-align: left; padding: 8px; width: 100px;">Sentiment</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </section>
+        
+          
+        
+      </div>
+    </div>
+    <div class="main">
+      <div class="chart-section">
+      <div class="chart-container chart-frame-large fade-in">
+        <h2 class="chart-title"> Story Metric Distribution</h2>
+        <select id="histogramMetric">
+          <option value="score">Score Distribution</option>
+          <option value="textLength">Text Length Distribution</option>
+          <option value="hour">Posted Hour Distribution</option>
+        </select>
+        
+        <svg id="histogramChart" width="800" height="400"></svg>
+      </div>
+      </div>
+      <div class="chart-section">
+      <div class="chart-container chart-frame-large fade-in">
+        <h2 class="chart-title"> Score Correlation</h2>
+        <select id="chartSelector">
+          <option value="textLength">Score vs Text Length</option>
+          <option value="hour">Score vs Hour</option>
+        </select>
+        
+        <svg id="correlationChart" width="800" height="400"></svg>
+      </div>
+    </div>
+    </div>
+  </main>
+
+  
+</body>
+</html>
