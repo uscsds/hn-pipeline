@@ -32,7 +32,7 @@ export SPACY_DATA="$PYTHON_DIR/spacy_data"
 mkdir -p "$SPACY_DATA"
 
 # Install the small English model into the layer
-python3 -m spacy download en_core_web_sm --direct --destination "$SPACY_DATA"
+pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl --target "$SPACY_DATA"
 
 # Patch environment variables for runtime (if needed)
 # You could also adjust your lambda to load it from SPACY_DATA
@@ -40,6 +40,6 @@ python3 -m spacy download en_core_web_sm --direct --destination "$SPACY_DATA"
 echo "🗜️ Zipping layer..."
 cd "$LAYER_DIR"
 zip -r9 python_layer.zip python > /dev/null
-cd -
+cd ..
 
 echo "✅ Lambda layer built successfully: $ZIP_FILE"

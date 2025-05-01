@@ -66,6 +66,8 @@ sudo ./aws/install
 cd 2_Lambda/_build_sctipts
 chmod +x build_layer.sh
 chmod +x build_lambda.sh
+pip install nltk
+pip install spacy
 ./build_layer.sh
 ./build_lambda.sh
 
