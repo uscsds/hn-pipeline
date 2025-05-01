@@ -32,7 +32,18 @@ chmod 600 ~/.ssh/id_rsa
 # Clone source of terraform to apply on EC2
 cd ~  # cd /home/ubuntu/
 git clone git@github.com:uscsds/hn-pipeline.git
-cd hn-pipeline/terraform-hn-pipeline
+cd hn-pipeline/
+
+# Run S3 bucket creating script
+# Cd to the folder where have Terraform script and run
+cd 1_S3
+terraform -v
+terraform init
+terraform validate
+# run each time need to apply updated setup
+terraform plan -out=tfplan
+terraform apply tfplan
+cd ..
 
 
 # Run build lambda source
@@ -46,13 +57,11 @@ sudo ./aws/install
 
 ##############################################################################################
 ####### This is by passed for now => (CREARE S3 BUCKET "my-hn-lambda-artifacts-123456" BEFORE BELOW STEP) ###################
-chmod +x lambda/build.sh
-chmod +x lambda/clean_hn_data/build.sh
-cd lambda
-./build.sh
-cd clean_hn_data
-./build.sh
-cd ../..
+cd 2_Lambda/_build_sctipts
+chmod +x build_layer.sh
+chmod +x build_lambda.sh
+./build_layer.sh
+./build_lambda.sh
 
 
 # Apply terraform lambda
