@@ -1,7 +1,8 @@
 
 
-//const S3_BASE = "https://YOUR_BUCKET.s3.amazonaws.com/analysis";
-const S3_BASE = "http://localhost:8000";
+const S3_STATE = "https://hn-state-data-123456.s3.amazonaws.com";
+const S3_ANALYSIS = "https://hn-processed-data-123456.s3.amazonaws.com";
+//const S3_BASE = "http://localhost:8000";
 const modules = [
   ['sentimentChart', 'sentiment_analysis'],
   ['keywordsChart', 'keyword_extraction'],
@@ -12,7 +13,7 @@ const modules = [
 ];
 
 async function loadTimestamps() {
-  const response = await fetch(`${S3_BASE}/state/processed_files.json`);
+  const response = await fetch(`${S3_STATE}/state/processed_files.json`);
   const states = await response.json();
   const timestamps = states["processed_files"];
   const selector = document.getElementById('timestampSelector');
@@ -37,7 +38,7 @@ async function loadTimestamps() {
 document.getElementById('refreshTimestamps').addEventListener('click', loadTimestamps);
 
 async function load_stories_analysis(timestamp) {
-  const response = await fetch(`${S3_BASE}/analysis/stories_analysis_${timestamp}.json`);
+  const response = await fetch(`${S3_ANALYSIS}/analysis/stories_analysis_${timestamp}.json`);
   const stories_analysis = await response.json();
   return stories_analysis;
 }
