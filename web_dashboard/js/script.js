@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 
 //const S3_BASE = "https://YOUR_BUCKET.s3.amazonaws.com/analysis";
-const S3_BASE = "http://localhost:8000/example_data";
+const S3_BASE = "http://localhost:8000";
 const modules = [
   ['sentimentChart', 'sentiment_analysis'],
   ['keywordsChart', 'keyword_extraction'],
@@ -12,7 +12,7 @@ const modules = [
 ];
 
 async function loadTimestamps() {
-  const response = await fetch(`${S3_BASE}/index.json`);
+  const response = await fetch(`${S3_BASE}/state/processed_files.json`);
   const timestamps = await response.json();
   const selector = document.getElementById('timestampSelector');
   selector.innerHTML = '';

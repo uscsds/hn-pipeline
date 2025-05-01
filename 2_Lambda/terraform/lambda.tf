@@ -1,3 +1,7 @@
+provider "aws" {
+  region = "us-east-1"  # or your preferred region
+}
+
 module "clean_hn_data_lambda" {
   source        = "./modules/lambda_function"
   function_name = "clean_hn_data"

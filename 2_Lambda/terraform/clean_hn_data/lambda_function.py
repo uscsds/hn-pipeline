@@ -43,7 +43,8 @@ def clean_story(story):
         'time': story.get('time'),
         'text': text or '',
         'sentiment': round(sentiment, 2),
-        'kids': story.get('kids', [])
+        'kidsSize': len(story.get('kids', [])),
+        'url': story.get('url', [])
     }
 
 def load_json_from_s3(key):

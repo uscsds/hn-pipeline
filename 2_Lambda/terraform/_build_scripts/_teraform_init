@@ -56,6 +56,7 @@ cd ../..
 
 
 # Apply terraform lambda
+# Cd to the folder where have Terraform script and run
 terraform -v
 terraform init
 terraform validate
