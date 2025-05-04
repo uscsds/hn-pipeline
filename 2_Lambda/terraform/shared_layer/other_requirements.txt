@@ -1,0 +1,4 @@
+requests
+boto3
+textblob
+s3transfer

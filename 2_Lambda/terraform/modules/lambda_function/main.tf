@@ -1,10 +1,36 @@
-resource "aws_lambda_layer_version" "shared_layer" {
-  filename             = "${path.module}/../../shared_layer/python_layer.zip"
-  layer_name           = "shared-python-libs"
+# ---------------------
+# Layer 1: NLTK Layer
+# ---------------------
+resource "aws_lambda_layer_version" "nltk_layer" {
+  filename             = "${path.module}/../../shared_layer/nltk_layer.zip"
+  layer_name           = "nltk-python-libs"
   compatible_runtimes  = ["python3.11"]
-  source_code_hash     = filebase64sha256("${path.module}/../../shared_layer/python_layer.zip")
+  source_code_hash     = filebase64sha256("${path.module}/../../shared_layer/nltk_layer.zip")
 }
 
+# ---------------------
+# Layer 2: spaCy Layer
+# ---------------------
+resource "aws_lambda_layer_version" "spacy_layer" {
+  filename             = "${path.module}/../../shared_layer/spacy_layer.zip"
+  layer_name           = "spacy-python-libs"
+  compatible_runtimes  = ["python3.11"]
+  source_code_hash     = filebase64sha256("${path.module}/../../shared_layer/spacy_layer.zip")
+}
+
+# ---------------------
+# Layer 3: other Layer
+# ---------------------
+resource "aws_lambda_layer_version" "other_layer" {
+  filename             = "${path.module}/../../shared_layer/other_layer.zip"
+  layer_name           = "spacy-python-libs"
+  compatible_runtimes  = ["python3.11"]
+  source_code_hash     = filebase64sha256("${path.module}/../../shared_layer/other_layer.zip")
+}
+
+# ---------------------
+# Lambda Function
+# ---------------------
 resource "aws_lambda_function" "this" {
   function_name = var.function_name
   handler       = var.handler
@@ -19,5 +45,10 @@ resource "aws_lambda_function" "this" {
     variables = var.env_variables
   }
 
-  layers = [aws_lambda_layer_version.shared_layer.arn]
+  layers = [
+    aws_lambda_layer_version.nltk_layer.arn,
+    aws_lambda_layer_version.spacy_layer.arn,
+    aws_lambda_layer_version.other_layer.arn
+  ]
 }
+
