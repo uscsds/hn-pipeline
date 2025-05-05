@@ -28,6 +28,14 @@
 #  source_code_hash     = filebase64sha256("${path.module}/../../shared_layer/other_layer.zip")
 #}
 
+
+resource "aws_s3_object" "lambda_code" {
+  bucket = var.lambda_artifacts_bucket
+  key    = var.s3_key
+  source = var.source_path
+  etag   = filemd5(var.source_path)
+}
+
 # ---------------------
 # Lambda Function
 # ---------------------
@@ -38,7 +46,7 @@ resource "aws_lambda_function" "this" {
   role          = var.lambda_role_arn
 
   s3_bucket        = var.lambda_artifacts_bucket
-  s3_key           = var.s3_key
+  s3_key           = aws_s3_object.lambda_code.key
   source_code_hash = filebase64sha256(var.source_path)
 
   environment {
@@ -46,9 +54,9 @@ resource "aws_lambda_function" "this" {
   }
 
   layers = [
-    arn:aws:lambda:us-east-1:502435263495:layer:hn-nltk_layer:1,
-    arn:aws:lambda:us-east-1:502435263495:layer:hn-spacy-layer:1,
-    arn:aws:lambda:us-east-1:502435263495:layer:hn-other-layer:1
+    "arn:aws:lambda:us-east-1:502435263495:layer:hn-nltk_layer:1",
+    "arn:aws:lambda:us-east-1:502435263495:layer:hn-spacy-layer:1",
+    "arn:aws:lambda:us-east-1:502435263495:layer:hn-other-layer:1"
   ]
 }
 

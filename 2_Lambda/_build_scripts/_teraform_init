@@ -145,6 +145,11 @@ aws lambda publish-layer-version \
 
 # get the LayerVersionArn returned 
 
+# Add layer for regex
+docker run -it amazon/aws-lambda-python:3.11 bash
+docker ps -a 
+docker cp c87f5cec3d66:/opt/regex_layer.zip ./regex_layer.zip
+
 # To list all update layer versions
 aws lambda list-layer-versions --layer-name hn-spacy-layer --region us-east-1
 

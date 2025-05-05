@@ -25,7 +25,7 @@ def lambda_handler(event, context):
         except Exception as e:
             print(f"Error with {sid}: {e}")
 
-    filename = f"hn_top_{int(time.time())}.json"
-    s3.put_object(Bucket=raw_bucket, Key=f"{raw_key}/{filename}", Body=json.dumps(stories))
+    filename = f"{int(time.time())}.json"
+    s3.put_object(Bucket=raw_bucket, Key=f"{raw_key}_{filename}", Body=json.dumps(stories))
     
     return {"status": "success", "stored": filename}
