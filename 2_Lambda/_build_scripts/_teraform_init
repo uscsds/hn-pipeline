@@ -128,19 +128,19 @@ aws lambda publish-layer-version \
   --layer-name hn-spacy-layer \
   --description "spaCy with en_core_web_sm model (cleaned) for HN project" \
   --zip-file fileb://terraform/shared_layer/spacy_layer.zip \
-  --compatible-runtimes python3.11 python3.12 \
+  --compatible-runtimes python3.11 \
   --region us-east-1
 aws lambda publish-layer-version \
   --layer-name hn-nltk-layer \
   --description "NLTK dependencies for HN project" \
   --zip-file fileb://terraform/shared_layer/nltk_layer.zip \
-  --compatible-runtimes python3.11 python3.12 \
+  --compatible-runtimes python3.11 \
   --region us-east-1
 aws lambda publish-layer-version \
   --layer-name hn-other-layer \
   --description "TextBlob, Requests, Boto3 dependencies for HN project" \
   --zip-file fileb://terraform/shared_layer/other_layer.zip \
-  --compatible-runtimes python3.11 python3.12 \
+  --compatible-runtimes python3.11 \
   --region us-east-1
 
 # get the LayerVersionArn returned 
