@@ -36,18 +36,18 @@ resource "aws_s3_object" "lambda_code" {
   etag   = filemd5(var.source_path)
 }
 
-# === Auto-fetch latest version of hn-nltk_layer ===
+# === Auto-fetch latest version of hn-nltk-layer ===
 data "aws_lambda_layer_version" "hn_nltk_layer" {
-  layer_name = "hn-nltk_layer"
+  layer_name = "hn-nltk-layer"
 }
 
-# === Auto-fetch latest version of hn-spacy_layer ===
+# === Auto-fetch latest version of hn-spacy-layer ===
 data "aws_lambda_layer_version" "hn_spacy_layer" {
-  layer_name = "hn-spacy_layer"
+  layer_name = "hn-spacy-layer"
 }
-# === Auto-fetch latest version of hn-other_layer ===
+# === Auto-fetch latest version of hn-other-layer ===
 data "aws_lambda_layer_version" "hn_other_layer" {
-  layer_name = "hn-other_layer"
+  layer_name = "hn-other-layer"
 }
 
 
