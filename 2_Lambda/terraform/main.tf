@@ -163,3 +163,33 @@ resource "aws_s3_bucket_notification" "trigger_process_lambda" {
 
   depends_on = [aws_lambda_permission.allow_s3_to_invoke_process]
 }
+
+
+resource "aws_iam_role_policy" "lambda_s3_access" {
+  name = "lambda-s3-access"
+  role = aws_iam_role.lambda_exec.id
+
+  policy = jsonencode({
+    Version = "2012-10-17",
+    Statement = [
+      {
+        Effect = "Allow"
+        Action = [
+          "s3:GetObject",
+          "s3:PutObject",
+          "s3:ListBucket"
+        ]
+        Resource = [
+          "arn:aws:s3:::${var.raw_bucket}",
+          "arn:aws:s3:::${var.raw_bucket}/*",
+          "arn:aws:s3:::${var.cleaned_bucket}",
+          "arn:aws:s3:::${var.cleaned_bucket}/*",
+          "arn:aws:s3:::${var.processed_bucket}",
+          "arn:aws:s3:::${var.processed_bucket}/*",
+          "arn:aws:s3:::${var.state_bucket}",
+          "arn:aws:s3:::${var.state_bucket}/*"
+        ]
+      }
+    ]
+  })
+}

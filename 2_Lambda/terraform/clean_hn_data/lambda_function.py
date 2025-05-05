@@ -72,8 +72,14 @@ def lambda_handler(event, context):
     unique_stories = load_json_from_s3(unique_stories_file) or []
 
     # Read new raw HN dump file (use event to get the key)
-    record = event['Records'][0]
-    key = record['s3']['object']['key']
+    if 'Records' in event:
+        record = event['Records'][0]
+        key = record['s3']['object']['key']
+    else:
+        print("🔹 Triggered by non-S3 event (e.g., CloudWatch schedule)")
+        return {
+            'statusCode': 200,
+            'body': '🔹 Triggered by non-S3 event (e.g., CloudWatch schedule)'}
     postfix = re.sub(raw_key_prefix + "_", "", key)
     timestamp = re.sub(".json", "", postfix)
     raw_data = s3.get_object(Bucket=raw_bucket, Key=key)

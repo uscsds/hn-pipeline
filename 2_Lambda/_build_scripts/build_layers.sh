@@ -7,9 +7,9 @@ BASE_DIR="../terraform/shared_layer"
 # Helper function to zip layer
 zip_layer() {
   local layer_name="$1"
-  cd "$BASE_DIR"
+  cd "${BASE_DIR}/${layer_name}"
   echo "🗜️ Zipping $layer_name layer..."
-  zip -r9 "${layer_name}.zip" "${layer_name}" > /dev/null
+  zip -r9 "${layer_name}.zip" "python" > /dev/null
   cd -
 }
 

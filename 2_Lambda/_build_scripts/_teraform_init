@@ -22,9 +22,9 @@ sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip3.11 1
 ###########################################################################################
 
 # copy keys from local machine to EC2 - change EC2 domain name appropriately
-cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-44-198-57-54.compute-1.amazonaws.com "cat >> .ssh/identity"
-scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-44-198-57-54.compute-1.amazonaws.com:~/.ssh/id_rsa
-ssh -i "ec2-key.pem"  ubuntu@ec2-44-198-57-54.compute-1.amazonaws.com
+cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-3-233-238-28.compute-1.amazonaws.com "cat >> .ssh/identity"
+scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-3-233-238-28.compute-1.amazonaws.com:~/.ssh/id_rsa
+ssh -i "ec2-key.pem"  ubuntu@ec2-3-233-238-28.compute-1.amazonaws.com
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 #eval "$(ssh-agent -s)"
@@ -127,19 +127,19 @@ ls terraform/shared_layer/*.zip
 aws lambda publish-layer-version \
   --layer-name hn-spacy-layer \
   --description "spaCy with en_core_web_sm model (cleaned) for HN project" \
-  --zip-file fileb://terraform/shared_layer/spacy_layer.zip \
+  --zip-file fileb://terraform/shared_layer/spacy_layer/spacy_layer.zip \
   --compatible-runtimes python3.11 \
   --region us-east-1
 aws lambda publish-layer-version \
   --layer-name hn-nltk-layer \
   --description "NLTK dependencies for HN project" \
-  --zip-file fileb://terraform/shared_layer/nltk_layer.zip \
+  --zip-file fileb://terraform/shared_layer/nltk_layer/nltk_layer.zip \
   --compatible-runtimes python3.11 \
   --region us-east-1
 aws lambda publish-layer-version \
   --layer-name hn-other-layer \
   --description "TextBlob, Requests, Boto3 dependencies for HN project" \
-  --zip-file fileb://terraform/shared_layer/other_layer.zip \
+  --zip-file fileb://terraform/shared_layer/other_layer/other_layer.zip \
   --compatible-runtimes python3.11 \
   --region us-east-1
 

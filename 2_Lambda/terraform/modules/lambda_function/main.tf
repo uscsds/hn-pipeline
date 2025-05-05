@@ -36,6 +36,21 @@ resource "aws_s3_object" "lambda_code" {
   etag   = filemd5(var.source_path)
 }
 
+# === Auto-fetch latest version of hn-nltk_layer ===
+data "aws_lambda_layer_version" "hn_nltk_layer" {
+  layer_name = "hn-nltk_layer"
+}
+
+# === Auto-fetch latest version of hn-spacy_layer ===
+data "aws_lambda_layer_version" "hn_spacy_layer" {
+  layer_name = "hn-spacy_layer"
+}
+# === Auto-fetch latest version of hn-other_layer ===
+data "aws_lambda_layer_version" "hn_other_layer" {
+  layer_name = "hn-other_layer"
+}
+
+
 # ---------------------
 # Lambda Function
 # ---------------------
@@ -44,6 +59,7 @@ resource "aws_lambda_function" "this" {
   handler       = var.handler
   runtime       = "python3.11"
   role          = var.lambda_role_arn
+  timeout = 30  # in seconds (default is 3)
 
   s3_bucket        = var.lambda_artifacts_bucket
   s3_key           = aws_s3_object.lambda_code.key
@@ -54,9 +70,9 @@ resource "aws_lambda_function" "this" {
   }
 
   layers = [
-    "arn:aws:lambda:us-east-1:502435263495:layer:hn-nltk_layer:1",
-    "arn:aws:lambda:us-east-1:502435263495:layer:hn-spacy-layer:1",
-    "arn:aws:lambda:us-east-1:502435263495:layer:hn-other-layer:1"
+    data.aws_lambda_layer_version.hn_nltk_layer.arn,
+    data.aws_lambda_layer_version.hn_spacy_layer.arn,
+    data.aws_lambda_layer_version.hn_other_layer.arn
   ]
 }
 
