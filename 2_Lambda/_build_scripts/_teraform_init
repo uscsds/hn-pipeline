@@ -22,9 +22,9 @@ sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip3.11 1
 ###########################################################################################
 
 # copy keys from local machine to EC2 - change EC2 domain name appropriately
-cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-3-235-88-181.compute-1.amazonaws.com "cat >> .ssh/identity"
-scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-3-235-88-181.compute-1.amazonaws.com:~/.ssh/id_rsa
-ssh -i "ec2-key.pem"  ubuntu@ec2-3-235-88-181.compute-1.amazonaws.com
+cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-44-198-57-54.compute-1.amazonaws.com "cat >> .ssh/identity"
+scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-44-198-57-54.compute-1.amazonaws.com:~/.ssh/id_rsa
+ssh -i "ec2-key.pem"  ubuntu@ec2-44-198-57-54.compute-1.amazonaws.com
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 #eval "$(ssh-agent -s)"
@@ -92,3 +92,78 @@ chmod +x _deploy.sh
 #ssh-keygen -t rsa -b 4096 -C git_acount_email_address_to_clone_source_code
 #chmod 600 ~/.ssh/id_rsa
 #ssh-add -k ~/.ssh/id_rsa
+
+
+# Run Docker on local PC to build layers and upload to AWS via AWS CLI
+docker pull amazonlinux:2023
+# Run docker and mount required files to docker running directory (current PC's python version is 3.12)
+docker run --rm -it \
+  -v "$(pwd)/terraform/shared_layer:/app/terraform/shared_layer" \
+  -v "$(pwd)/_build_scripts/build_layers.sh:/app/_build_scripts/build_layers.sh" \
+  -v "$(pwd)/terraform/shared_layer/nltk_requirements.txt:/app/_build_scripts/nltk_requirements.txt" \
+  -v "$(pwd)/terraform/shared_layer/spacy_requirements.txt:/app/_build_scripts/spacy_requirements.txt" \
+  -v "$(pwd)/terraform/shared_layer/other_requirements.txt:/app/_build_scripts/other_requirements.txt" \
+  -v "$(pwd)/_build_scripts/output:/app/output" \
+  python:3.11-slim bash
+# Inside Docker container now:
+apt update && apt install -y zip gcc g++ build-essential binutils
+
+# Confirm version
+python3.11 --version
+pip install nltk
+pip install spacy
+
+# Run build scripts inside docker
+ls /app/terraform/shared_layer
+ls /app/_build_scripts/build_layers.sh
+cd /app/_build_scripts
+bash build_layers.sh
+# Exit Docker
+exit
+# Check output files
+ls terraform/shared_layer/*.zip
+# Run AWS CLI to upload layer zip files: Move to the folder where has the layer zip files. 
+# run and get the ARN of layer to update Terraform script
+aws lambda publish-layer-version \
+  --layer-name hn-spacy-layer \
+  --description "spaCy with en_core_web_sm model (cleaned) for HN project" \
+  --zip-file fileb://terraform/shared_layer/spacy_layer.zip \
+  --compatible-runtimes python3.11 python3.12 \
+  --region us-east-1
+aws lambda publish-layer-version \
+  --layer-name hn-nltk-layer \
+  --description "NLTK dependencies for HN project" \
+  --zip-file fileb://terraform/shared_layer/nltk_layer.zip \
+  --compatible-runtimes python3.11 python3.12 \
+  --region us-east-1
+aws lambda publish-layer-version \
+  --layer-name hn-other-layer \
+  --description "TextBlob, Requests, Boto3 dependencies for HN project" \
+  --zip-file fileb://terraform/shared_layer/other_layer.zip \
+  --compatible-runtimes python3.11 python3.12 \
+  --region us-east-1
+
+# get the LayerVersionArn returned 
+
+# To list all update layer versions
+aws lambda list-layer-versions --layer-name hn-spacy-layer --region us-east-1
+
+
+# Get access key for using AWS CLI from local machine
+#AWS Access Key ID
+#AWS Secret Access Key
+#Region
+#Output format
+#Log in to AWS Console
+#Go to IAM → Users → Select your user → Security credentials tab → Create Access key
+# Set these values using config cmd
+aws configure
+
+#Option 1: AWS CloudShell (Browser-based)
+#Access AWS CloudShell:
+#Go to the AWS Management Console.
+#In the top-right search bar, type CloudShell and select it from the dropdown.
+#Upload Files to CloudShell:
+#You can drag and drop the .zip files from your local machine into CloudShell.
+#Run the AWS CLI commands:
+#Once the files are uploaded, use the aws lambda publish-layer-version commands to upload layers, just like you'd do on your local machine.

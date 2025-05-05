@@ -105,6 +105,9 @@ rm -rf $LAYER2_DIR/spacy/tests
 rm -rf $LAYER2_DIR/spacy/schemas
 rm -rf $LAYER2_DIR/spacy/training
 rm -rf $LAYER2_DIR/spacy/pipeline/trainable_pipe.pyc # if it exists
+echo "🧹 Removing numpy docs and tests (huge)..."
+rm -rf "$LAYER2_DIR/numpy/tests"
+rm -rf "$LAYER2_DIR/numpy/doc"
 
 echo "🧹 Removing tokenizer exceptions for unused languages..."
 #rm -rf $LAYER2_DIR/spacy/lang/*/lemmatizer
