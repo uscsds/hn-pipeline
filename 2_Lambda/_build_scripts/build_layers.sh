@@ -53,55 +53,66 @@ echo "🔄 Cleaning spaCy layer..."
 rm -rf "$LAYER2_DIR" "$ZIP2_FILE"
 mkdir -p "$LAYER2_DIR"
 
-echo "📦 Installing spaCy dependencies from $REQ2_FILE..."
-# Install spaCy and only core dependencies
-pip install \
-    -r "$REQ2_FILE" \
-    --target $LAYER2_DIR \
-    --no-cache-dir \
-    --no-deps
+echo "🚀 Installing spaCy + minimal dependencies into layer..."
+pip install spacy==3.8.5 --target "$LAYER2_DIR" --no-cache-dir
 
-#echo "📚 Downloading spaCy language model (en_core_web_sm)..."
-#pip install https://github.com/explosion/spacy-models/releases/download/   -3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl --target "$LAYER2_DIR"
+echo "🗣️ Downloading en_core_web_sm model (globally)..."
+python3 -m spacy download en_core_web_sm
 
-# Install minimal required deps explicitly (to avoid extra junk)
-pip install \
-    cymem \
-    murmurhash \
-    preshed \
-    blis \
-    thinc \
-    numpy \
-    wasabi \
-    srsly \
-    tqdm \
-    catalogue \
-    typer \
-    langcodes \
-    spacy-legacy \
-    pydantic \
-    requests \
-    --target $LAYER2_DIR \
-    --no-cache-dir
+echo "📂 Locating model path..."
+MODEL_PATH=$(python3 -c "import en_core_web_sm; print(en_core_web_sm.__path__[0])")
+echo "   Found model path at: $MODEL_PATH"
 
-echo "🗣️ Downloading en_core_web_sm model..."
-# Download and install model directly into the same target dir
-python3 -m spacy download en_core_web_sm --direct --target $LAYER2_DIR
+echo "📂 Copying model into Lambda layer directory..."
+cp -r "$MODEL_PATH" "$LAYER2_DIR/"
 
+echo "🧹 Cleaning unnecessary files inside the model (optional)..."
+find "$LAYER2_DIR/en_core_web_sm" -type d -name "__pycache__" -exec rm -rf {} +
+find "$LAYER2_DIR/en_core_web_sm" -type f -name "*.pyc" -delete
 
-echo "🧹 Cleaning unnecessary files..."
-# Remove tests, examples, .pyc, __pycache__, dist-info metadata (optional)
-find $LAYER2_DIR -type d -name "tests" -exec rm -rf {} +
-find $LAYER2_DIR -type d -name "__pycache__" -exec rm -rf {} +
-find $LAYER2_DIR -type f -name "*.pyc" -delete
-find $LAYER2_DIR -type d -name "examples" -exec rm -rf {} +
-find $LAYER2_DIR -type d -name "demo*" -exec rm -rf {} +
+echo "🧽 Cleaning up global installation of model (optional)..."
+python3 -m spacy validate
+pip uninstall en-core-web-sm
+rm -rf "$MODEL_PATH"
 
-# (Optional but recommended) Remove *.dist-info METADATA junk (~reduces 5-10MB)
-find $LAYER2_DIR -type d -name "*.dist-info" -exec rm -rf {} +
+echo "✅ Model copied and global clutter removed!"
 
-# Remove unnecessary compiled binaries (like .libs)
-find $LAYER2_DIR -type d -name "*.libs" -exec rm -rf {} +
+echo "🧹 Cleaning unnecessary files to reduce size..."
+find "$LAYER2_DIR" -type d -name "tests" -exec rm -rf {} + || true
+find "$LAYER2_DIR" -type d -name "__pycache__" -exec rm -rf {} + || true
+find "$LAYER2_DIR" -type f -name "*.pyc" -delete || true
+find "$LAYER2_DIR" -type d -name "examples" -exec rm -rf {} + || true
+find "$LAYER2_DIR" -type d -name "demo*" -exec rm -rf {} + || true
+
+# Remove .dist-info and .egg-info (reduces 10–20MB safely)
+find "$LAYER2_DIR" -type d -name "*.dist-info" -exec rm -rf {} + || true
+find "$LAYER2_DIR" -type d -name "*.egg-info" -exec rm -rf {} + || true
+
+# Optional: Remove unused binaries (like BLAS/OpenMP libs spaCy won’t use in Lambda)
+find "$LAYER2_DIR" -type d -name ".libs" -exec rm -rf {} + || true
+
+# Strip large binaries (removes debug symbols; safe for Lambda)
+find "$LAYER2_DIR" -type f -name "*.so" -exec strip --strip-unneeded {} + || true
+
+echo "🧹 Removing .py source files (optional)..."
+find $LAYER2_DIR -type f -name "*.py" -delete
+
+echo "🧹 Removing all languages except English..."
+find $LAYER2_DIR/spacy/lang/ -mindepth 1 ! -name "en" -exec rm -rf {} +
+
+echo "🧹 Removing training/config files..."
+rm -rf $LAYER2_DIR/spacy/tests
+rm -rf $LAYER2_DIR/spacy/schemas
+rm -rf $LAYER2_DIR/spacy/training
+rm -rf $LAYER2_DIR/spacy/pipeline/trainable_pipe.pyc # if it exists
+
+echo "🧹 Removing tokenizer exceptions for unused languages..."
+#rm -rf $LAYER2_DIR/spacy/lang/*/lemmatizer
+#rm -rf $LAYER2_DIR/spacy/lang/*/tokenizer_exceptions.pyc
+
+echo "🧹 Removing additional non-essential metadata files..."
+#find $LAYER2_DIR -type d -name "*.egg-info" -exec rm -rf {} +
+find $LAYER2_DIR -type f -name "*.so.debug" -delete
 
 zip_layer "$LAYER2_NAME"
 

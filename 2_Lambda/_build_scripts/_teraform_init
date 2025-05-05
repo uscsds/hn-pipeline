@@ -22,9 +22,9 @@ sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip3.11 1
 ###########################################################################################
 
 # copy keys from local machine to EC2 - change EC2 domain name appropriately
-cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-3-88-58-70.compute-1.amazonaws.com "cat >> .ssh/identity"
-scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-3-88-58-70.compute-1.amazonaws.com:~/.ssh/id_rsa
-ssh -i "ec2-key.pem"  ubuntu@ec2-3-88-58-70.compute-1.amazonaws.com
+cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-3-235-88-181.compute-1.amazonaws.com "cat >> .ssh/identity"
+scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-3-235-88-181.compute-1.amazonaws.com:~/.ssh/id_rsa
+ssh -i "ec2-key.pem"  ubuntu@ec2-3-235-88-181.compute-1.amazonaws.com
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 #eval "$(ssh-agent -s)"
