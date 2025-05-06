@@ -114,14 +114,16 @@ pip install nltk
 pip install spacy
 
 # Run build scripts inside docker
-ls /app/terraform/shared_layer
-ls /app/_build_scripts/build_layers.sh
-cd /app/_build_scripts
-bash build_layers.sh
+#ls /app/terraform/shared_layer
+#ls /app/_build_scripts/build_layers.sh
+#cd /app/_build_scripts
+#bash build_layers.sh
 # Exit Docker
-exit
+#exit
 # Check output files
-ls terraform/shared_layer/*.zip
+#ls terraform/shared_layer/*.zip
+
+# layers built in docker are not compatible with AWS to run. So build layers in side EC2 instance and upload via AWS CLI
 # Run AWS CLI to upload layer zip files: Move to the folder where has the layer zip files. 
 # run and get the ARN of layer to update Terraform script
 aws lambda publish-layer-version \
@@ -132,13 +134,13 @@ aws lambda publish-layer-version \
   --region us-east-1
 aws lambda publish-layer-version \
   --layer-name hn-nltk-layer \
-  --description "NLTK dependencies for HN project" \
+  --description "NLTK, TextBlob dependencies for HN project" \
   --zip-file fileb://terraform/shared_layer/nltk_layer/nltk_layer.zip \
   --compatible-runtimes python3.11 \
   --region us-east-1
 aws lambda publish-layer-version \
   --layer-name hn-other-layer \
-  --description "TextBlob, Requests, Boto3 dependencies for HN project" \
+  --description "Requests, Boto3 dependencies for HN project" \
   --zip-file fileb://terraform/shared_layer/other_layer/other_layer.zip \
   --compatible-runtimes python3.11 \
   --region us-east-1
@@ -146,12 +148,39 @@ aws lambda publish-layer-version \
 # get the LayerVersionArn returned 
 
 # Add layer for regex
-docker run -it amazon/aws-lambda-python:3.11 bash
-docker ps -a 
-docker cp c87f5cec3d66:/opt/regex_layer.zip ./regex_layer.zip
+#docker run -it amazon/aws-lambda-python:3.11 bash
+#docker ps -a 
+#docker cp c87f5cec3d66:/opt/regex_layer.zip ./regex_layer.zip
 
 # To list all update layer versions
 aws lambda list-layer-versions --layer-name hn-spacy-layer --region us-east-1
+
+
+
+
+
+
+
+# Build spacy layer in docker file for faster
+mkdir spacy_lambda_layer
+cd spacy_lambda_layer
+nano Dockerfile
+# Build docker image
+docker rmi spacy-layer
+docker build -t spacy-layer .
+docker images
+# Run Docker container
+docker rm spacylayercontainer
+docker run --name spacylayercontainer --entrypoint bash spacy-layer
+# Copy the built layer.zip to your local machine
+# In a separate terminal (do NOT exit container!)
+docker cp spacylayercontainer:/lambda_layer/spacy-layer.zip ./spacy-layer.zip
+
+# Clean up Docker container
+docker rm spacylayercontainer
+
+ls -lh spacy_layer.zip
+
 
 
 # Get access key for using AWS CLI from local machine
@@ -162,7 +191,7 @@ aws lambda list-layer-versions --layer-name hn-spacy-layer --region us-east-1
 #Log in to AWS Console
 #Go to IAM → Users → Select your user → Security credentials tab → Create Access key
 # Set these values using config cmd
-aws configure
+#aws configure
 
 #Option 1: AWS CloudShell (Browser-based)
 #Access AWS CloudShell:
@@ -172,3 +201,35 @@ aws configure
 #You can drag and drop the .zip files from your local machine into CloudShell.
 #Run the AWS CLI commands:
 #Once the files are uploaded, use the aws lambda publish-layer-version commands to upload layers, just like you'd do on your local machine.
+
+# Build spacy layer in Amazone Linux for compatible
+# Install Python and pip
+sudo yum update -y
+sudo yum install python3 python3-pip gcc gcc-c++ -y
+
+# Optional (good practice)
+python3 --version
+pip3 --version
+
+# Update to python 3.11 to compatible with other layers
+sudo dnf install python3.11 python3.11-devel python3.11-pip -y
+
+
+# Run your layer build script now
+bash build_spacy_layer.sh
+
+
+# Install unzip and curl (if not installed)
+sudo yum install unzip curl -y
+
+# Download the AWS CLI v2 installer (latest stable)
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+# Unzip installer
+unzip awscliv2.zip
+
+# Run installer
+sudo ./aws/install
+
+# Verify install
+aws --version

@@ -53,18 +53,14 @@ echo "🔄 Cleaning spaCy layer..."
 rm -rf "$LAYER2_DIR" "$ZIP2_FILE"
 mkdir -p "$LAYER2_DIR"
 
-echo "🚀 Installing spaCy + minimal dependencies into layer..."
+echo "🚀 Installing spaCy into layer..."
+pip install --upgrade pip
 pip install spacy==3.8.5 --target "$LAYER2_DIR" --no-cache-dir
 
-echo "🗣️ Downloading en_core_web_sm model (globally)..."
-python3 -m spacy download en_core_web_sm
+echo "🗣️ Installing en_core_web_sm model into layer directly..."
+python3 -m pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl --target "$LAYER2_DIR"
 
-echo "📂 Locating model path..."
-MODEL_PATH=$(python3 -c "import en_core_web_sm; print(en_core_web_sm.__path__[0])")
-echo "   Found model path at: $MODEL_PATH"
-
-echo "📂 Copying model into Lambda layer directory..."
-cp -r "$MODEL_PATH" "$LAYER2_DIR/"
+echo "✅ spaCy + model installed directly into layer!"
 
 echo "🧹 Cleaning unnecessary files inside the model (optional)..."
 find "$LAYER2_DIR/en_core_web_sm" -type d -name "__pycache__" -exec rm -rf {} +
