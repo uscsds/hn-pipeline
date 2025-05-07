@@ -22,9 +22,9 @@ sudo update-alternatives --install /usr/bin/pip pip /usr/local/bin/pip3.11 1
 ###########################################################################################
 
 # copy keys from local machine to EC2 - change EC2 domain name appropriately
-cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-3-236-186-216.compute-1.amazonaws.com "cat >> .ssh/identity"
-scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-3-236-186-216.compute-1.amazonaws.com:~/.ssh/id_rsa
-ssh -i "ec2-key.pem"  ubuntu@ec2-3-236-186-216.compute-1.amazonaws.com
+cat ~/.ssh/gitaccess.pub | ssh -i ec2-key.pem  ubuntu@ec2-3-230-119-81.compute-1.amazonaws.com "cat >> .ssh/identity"
+scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i ec2-key.pem ~/.ssh/gitaccess  ubuntu@ec2-3-230-119-81.compute-1.amazonaws.com:~/.ssh/id_rsa
+ssh -i "ec2-key.pem"  ubuntu@ec2-3-230-119-81.compute-1.amazonaws.com
 chmod 700 ~/.ssh
 chmod 600 ~/.ssh/id_rsa
 #eval "$(ssh-agent -s)"
@@ -95,23 +95,23 @@ chmod +x _deploy.sh
 
 
 # Run Docker on local PC to build layers and upload to AWS via AWS CLI
-docker pull amazonlinux:2023
+#docker pull amazonlinux:2023
 # Run docker and mount required files to docker running directory (current PC's python version is 3.12)
-docker run --rm -it \
-  -v "$(pwd)/terraform/shared_layer:/app/terraform/shared_layer" \
-  -v "$(pwd)/_build_scripts/build_layers.sh:/app/_build_scripts/build_layers.sh" \
-  -v "$(pwd)/terraform/shared_layer/nltk_requirements.txt:/app/_build_scripts/nltk_requirements.txt" \
-  -v "$(pwd)/terraform/shared_layer/spacy_requirements.txt:/app/_build_scripts/spacy_requirements.txt" \
-  -v "$(pwd)/terraform/shared_layer/other_requirements.txt:/app/_build_scripts/other_requirements.txt" \
-  -v "$(pwd)/_build_scripts/output:/app/output" \
-  python:3.11-slim bash
+#docker run --rm -it \
+#  -v "$(pwd)/terraform/shared_layer:/app/terraform/shared_layer" \
+#  -v "$(pwd)/_build_scripts/build_layers.sh:/app/_build_scripts/build_layers.sh" \
+#  -v "$(pwd)/terraform/shared_layer/nltk_requirements.txt:/app/_build_scripts/nltk_requirements.txt" \
+#  -v "$(pwd)/terraform/shared_layer/spacy_requirements.txt:/app/_build_scripts/spacy_requirements.txt" \
+#  -v "$(pwd)/terraform/shared_layer/other_requirements.txt:/app/_build_scripts/other_requirements.txt" \
+#  -v "$(pwd)/_build_scripts/output:/app/output" \
+#  python:3.11-slim bash
 # Inside Docker container now:
-apt update && apt install -y zip gcc g++ build-essential binutils
+#apt update && apt install -y zip gcc g++ build-essential binutils
 
 # Confirm version
-python3.11 --version
-pip install nltk
-pip install spacy
+#python3.11 --version
+#pip install nltk
+#pip install spacy
 
 # Run build scripts inside docker
 #ls /app/terraform/shared_layer
@@ -174,7 +174,7 @@ docker rm spacylayercontainer
 docker run --name spacylayercontainer --entrypoint bash spacy-layer
 # Copy the built layer.zip to your local machine
 # In a separate terminal (do NOT exit container!)
-docker cp spacylayercontainer:/lambda_layer/spacy-layer.zip ./spacy-layer.zip
+docker cp spacylayercontainer:/build/layer.zip ./spacy-layer.zip
 
 # Clean up Docker container
 docker rm spacylayercontainer
