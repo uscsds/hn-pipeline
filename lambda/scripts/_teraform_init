@@ -36,7 +36,7 @@ cd hn-pipeline/
 
 # Run S3 bucket creating script
 # Cd to the folder where have Terraform script and run
-cd 1_S3
+cd infrastructure
 terraform -v
 terraform init
 terraform validate
@@ -63,7 +63,7 @@ sudo ./aws/install
 
 ##############################################################################################
 ####### This is by passed for now => (CREARE S3 BUCKET "my-hn-lambda-artifacts-123456" BEFORE BELOW STEP) ###################
-cd 2_Lambda/_build_sctipts
+cd lambda/_build_sctipts
 chmod +x build_layers.sh
 chmod +x build_lambda.sh
 pip install nltk
@@ -83,7 +83,7 @@ terraform apply tfplan
 
 
 # Deploy dashboard
-cd ../3_dashboard
+cd ../dashboard
 chmod +x _deploy.sh
 ./_deploy.sh
 
@@ -99,11 +99,11 @@ chmod +x _deploy.sh
 # Run docker and mount required files to docker running directory (current PC's python version is 3.12)
 #docker run --rm -it \
 #  -v "$(pwd)/terraform/shared_layer:/app/terraform/shared_layer" \
-#  -v "$(pwd)/_build_scripts/build_layers.sh:/app/_build_scripts/build_layers.sh" \
-#  -v "$(pwd)/terraform/shared_layer/nltk_requirements.txt:/app/_build_scripts/nltk_requirements.txt" \
-#  -v "$(pwd)/terraform/shared_layer/spacy_requirements.txt:/app/_build_scripts/spacy_requirements.txt" \
-#  -v "$(pwd)/terraform/shared_layer/other_requirements.txt:/app/_build_scripts/other_requirements.txt" \
-#  -v "$(pwd)/_build_scripts/output:/app/output" \
+#  -v "$(pwd)/scripts/build_layers.sh:/app/scripts/build_layers.sh" \
+#  -v "$(pwd)/terraform/shared_layer/nltk_requirements.txt:/app/scripts/nltk_requirements.txt" \
+#  -v "$(pwd)/terraform/shared_layer/spacy_requirements.txt:/app/scripts/spacy_requirements.txt" \
+#  -v "$(pwd)/terraform/shared_layer/other_requirements.txt:/app/scripts/other_requirements.txt" \
+#  -v "$(pwd)/scripts/output:/app/output" \
 #  python:3.11-slim bash
 # Inside Docker container now:
 #apt update && apt install -y zip gcc g++ build-essential binutils
@@ -115,8 +115,8 @@ chmod +x _deploy.sh
 
 # Run build scripts inside docker
 #ls /app/terraform/shared_layer
-#ls /app/_build_scripts/build_layers.sh
-#cd /app/_build_scripts
+#ls /app/scripts/build_layers.sh
+#cd /app/scripts
 #bash build_layers.sh
 # Exit Docker
 #exit
