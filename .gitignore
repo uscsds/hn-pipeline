@@ -1,0 +1,161 @@
+# ==========================================
+# Operating System
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+*.pyd
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# IDE
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Terraform
+# ==========================================
+
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore local Terraform variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Keep if using provider version locking
+# !.terraform.lock.hcl
+
+# ==========================================
+# AWS Credentials
+# ==========================================
+
+.aws/
+.aws-sam/
+
+# ==========================================
+# Lambda Packages
+# ==========================================
+
+*.zip
+
+# Uncomment if you want to keep release packages
+#!release/*.zip
+
+# ==========================================
+# Docker
+# ==========================================
+
+*.tar
+docker-compose.override.yml
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+log/
+
+# ==========================================
+# Build
+# ==========================================
+
+build/
+dist/
+tmp/
+temp/
+
+# ==========================================
+# macOS
+# ==========================================
+
+.AppleDouble
+.LSOverride
+
+# ==========================================
+# Windows
+# ==========================================
+
+ehthumbs.db
+Icon?
+
+# ==========================================
+# Secrets
+# ==========================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Generated Layer Files
+# ==========================================
+
+nltk_layer/
+spacy_layer/
+other_layer/
+
+# ==========================================
+# Python Wheels
+# ==========================================
+
+*.whl
+
+# ==========================================
+# Local Test Data
+# ==========================================
+
+local_output/
+local_cache/
+
+# ==========================================
+# Misc
+# ==========================================
+
+*.bak
+*.tmp
+*.orig

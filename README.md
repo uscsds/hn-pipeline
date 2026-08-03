@@ -1,6 +1,17 @@
 # HN Pipeline
 
 > **Serverless Event-Driven Data Engineering Pipeline on AWS**
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+
+![AWS Lambda](https://img.shields.io/badge/AWS-Lambda-orange)
+
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+
+![Docker](https://img.shields.io/badge/Docker-Build-blue)
+
+![License](https://img.shields.io/badge/License-MIT-green)
+
+![Pipeline Architecture](docs/images/pipeline-architecture.png)
 
 HN Pipeline is a cloud-native, serverless data engineering project that automatically collects, cleans, processes, and prepares Hacker News data for downstream analytics and visualization.
 
@@ -366,18 +377,41 @@ This project demonstrates practical cloud engineering and modern software develo
 
 # Current Project Status
 
-Current implementation includes:
+**Status:** Active Development
 
-- ✅ Automated Hacker News data ingestion
-- ✅ Event-driven serverless ETL pipeline
-- ✅ Infrastructure deployment using Terraform
-- ✅ Modular Lambda functions
-- ✅ Shared Lambda Layers
-- ✅ NLP preprocessing pipeline
-- ✅ Dashboard integration
-- ✅ Docker-based build automation
+HN Pipeline is an active portfolio and learning project demonstrating serverless cloud-native data engineering on AWS.
 
-The project is under active development, with additional features planned to improve automation, monitoring, and analytics.
+The core architecture, data processing workflow, and infrastructure have been implemented. Current development focuses on deployment refinement, infrastructure validation, and expanding automated testing.
+
+Contributions and feedback are welcome.
+
+## AWS Deployment
+![Three Amazon S3 buckets store raw, cleaned, and processed datasets throughout the ETL pipeline.](docs/images/s3-buckets.png)
+
+![AWS Lambda function executing the data ingestion stage.](docs/images/lambda-function.png)
+
+![CloudWatch execution logs showing successful Lambda execution.](docs/images/cloudwatch-logs.png)
+
+## Dashboard
+![Interactive dashboard summarizing sentiment distribution, top keywords, and Hacker News story rankings.](docs/images/dashboard-overview.png)
+
+![Select new timestamp to view analysis.](docs/images/dashboard-analysis.png)
+
+![Metrics and Score analytics](docs/images/dashboard-metrics.png)
+
+
+## Current Limitations
+
+This project is under active development.
+
+Some infrastructure deployment steps and operational refinements are still being validated.
+
+Future work includes:
+
+- CI/CD automation
+- Infrastructure validation
+- Enhanced monitoring
+- Additional automated testing
 
 ---
 
@@ -483,6 +517,12 @@ Special thanks to the open-source community and the maintainers of:
 - SpaCy
 - NLTK
 - Docker
+
+---
+
+## Disclaimer
+
+This repository was developed as a portfolio and learning project to demonstrate cloud engineering, serverless architecture, and data engineering practices. It is not intended to be a production-ready system and continues to evolve through ongoing development and refinement.
 
 ---
 

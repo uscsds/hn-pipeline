@@ -32,6 +32,7 @@ Deployment consists of the following stages:
   - CloudWatch
   - Lambda Layers
 
+
 ---
 
 ## Local Software
@@ -168,6 +169,8 @@ Update the corresponding Terraform variables or configuration files before deplo
 ---
 
 # Deploy Infrastructure
+
+Copy terraform.tfvars.example to lambda/terraform/terraform.tfvars and update the values for your AWS environment.
 
 Navigate to the Terraform directory.
 
